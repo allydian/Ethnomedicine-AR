@@ -85,7 +85,7 @@ public class QuizManager : MonoBehaviour
         if (answered == selectedQuestion.correctAns)
         {
             correctAns = true;
-            scoreCount += 25;
+            scoreCount += (int)Time.time;
             quizUI.ScoreText.text = "Score:" + scoreCount;
         }
         else
