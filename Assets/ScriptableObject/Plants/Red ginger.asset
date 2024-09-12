@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 882f6a8eab5500649bcb46e4cb9cc616, type: 3}
+  m_Name: Red ginger
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Red ginger
+  <Description>k__BackingField: 'Also known as <b>halia merah</b>, and <b>lia bala</b>.
+
+    Features
+    tall, slender stems with lush, dark green leaves and striking, cone-shaped red
+    flower bracts. The rhizome is also strikingly red.
+
+    <b><i>For aiding digestion,
+    boosting the immune system, providing relief from various ailments</i></b> Add
+    ginger slices and tea bags in water, and bring to a boil, then simmer for 10-20
+    minutes. Remove from heat, then add honey to taste, if desired.'
+  <Image>k__BackingField: {fileID: 21300000, guid: 1db53d1d0dc569c448042582b9af617e,
+    type: 3}
+  <Model>k__BackingField: {fileID: 919132149155446097, guid: 11b6e48d09a001549b9b5c5f4f3672f7,
+    type: 3}

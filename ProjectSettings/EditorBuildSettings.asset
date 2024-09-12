@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainPanels.unity
+    guid: 1a85f273fe16c6d40a27decf68ee9bab
+  - enabled: 1
+    path: Assets/Scenes/MedicinalPlantsQuiz.unity
+    guid: 59944372e9e3fd6468efb2f3a0023ddc
+  - enabled: 1
+    path: Assets/Scenes/ViewPlantinAR.unity
+    guid: c0c3ce1f382098f45929144efd696b9b
+  - enabled: 1
+    path: Assets/Scenes/ARcamera.unity
+    guid: a44f2e02cc0f7e64b9581597b5bc2aa3
+  - enabled: 1
+    path: Assets/Scenes/ARquiz.unity
+    guid: b31c8ccf0e2852e48866a18470b0347f
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 04e372ad1a53e4e48940b998e96d890c,
+      type: 2}
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000,
+      guid: 6dfae721db9ad7a4780fe3ee51c9b2c7, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 0554becddcf4c4c45af78b2d47be554a,
+      type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000,
+      guid: 74ac13f7518f35d4d805fd8e5621f7e5, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: 0a19e81693987a24683dcf72517a5184, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 96476b1b693b0094281530577e176c2e,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 21697fdb79bd0394dafd31805e1f353f,
+      type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9d1289726cfb994ab2868c821577815, type: 3}
+  m_Name: PlantCatalogue
+  m_EditorClassIdentifier: 
+  catalogueItems:
+  - plant: {fileID: 11400000, guid: 22dcc358f9a3381438306ae988dd30e7, type: 2}
+    plantName: Black pepper
+  - plant: {fileID: 11400000, guid: 33ebfc8a9e4a64c448b77ec095fa3f93, type: 2}
+    plantName: Vegetable fern
+  - plant: {fileID: 11400000, guid: 995cec2e6daa2c64f95b4d8483ee2793, type: 2}
+    plantName: Red ginger
+  - plant: {fileID: 11400000, guid: 71238fbb4a9812c42a0d19f6943e6737, type: 2}
+    plantName: Heart-shaped homalomena
+  - plant: {fileID: 11400000, guid: 48aa9ea722195cc47bbf5e7e1cd001a8, type: 2}
+    plantName: Cultivated tobacco
+  <Size>k__BackingField: 5
