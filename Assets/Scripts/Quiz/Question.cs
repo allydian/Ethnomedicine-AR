@@ -7,7 +7,7 @@ public class Question
 {      
     public string questionInfo;
     public List<string> options;
-    public string correctAns;
+    public int correctAns;
     public QuestionType questionType;
     public Sprite questionImg;
 }

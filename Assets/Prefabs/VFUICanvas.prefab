@@ -541,6 +541,51 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8918211134045557142}
     m_Modifications:
+    - target: {fileID: 1809499966302645430, guid: 91058310f057e1d4ab5095725c7baf15,
+        type: 3}
+      propertyPath: m_Size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809499966302645430, guid: 91058310f057e1d4ab5095725c7baf15,
+        type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840481954194386286, guid: 91058310f057e1d4ab5095725c7baf15,
+        type: 3}
+      propertyPath: m_text
+      value: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at elit
+        non magna dapibus pharetra. Cras quis lacus eu lectus pretium ultrices quis
+        vitae augue. Donec elementum rhoncus ante, in condimentum lectus efficitur
+        et. Suspendisse finibus, mauris sed mollis lacinia, quam nisl eleifend quam,
+        in mattis enim nulla ut elit. Maecenas sed rhoncus dolor. Etiam ullamcorper
+        libero eu vulputate imperdiet. Nulla eu nibh mi.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7218172257180528705, guid: 91058310f057e1d4ab5095725c7baf15,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7218172257180528705, guid: 91058310f057e1d4ab5095725c7baf15,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235006351667235395, guid: 91058310f057e1d4ab5095725c7baf15,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235006351667235395, guid: 91058310f057e1d4ab5095725c7baf15,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235006351667235395, guid: 91058310f057e1d4ab5095725c7baf15,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7435819189730671109, guid: 91058310f057e1d4ab5095725c7baf15,
         type: 3}
       propertyPath: m_Pivot.x

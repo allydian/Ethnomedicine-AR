@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainPanels.unity
     guid: 1a85f273fe16c6d40a27decf68ee9bab
   - enabled: 1
-    path: Assets/Scenes/MedicinalPlantsQuiz.unity
+    path: Assets/Scenes/Quiz/MedicinalPlantsQuiz.unity
     guid: 59944372e9e3fd6468efb2f3a0023ddc
   - enabled: 1
     path: Assets/Scenes/ViewPlantinAR.unity
@@ -18,8 +18,17 @@ EditorBuildSettings:
     path: Assets/Scenes/ARcamera.unity
     guid: a44f2e02cc0f7e64b9581597b5bc2aa3
   - enabled: 1
-    path: Assets/Scenes/ARquiz.unity
+    path: Assets/Scenes/Quiz/ARquiz.unity
     guid: b31c8ccf0e2852e48866a18470b0347f
+  - enabled: 1
+    path: Assets/Scenes/Virtual Forest/Bako National Park I.unity
+    guid: c60708487cbda084693f2c1af8019086
+  - enabled: 1
+    path: Assets/Scenes/Virtual Forest/Bako National Park II.unity
+    guid: 5500fc80a9227c1409fcedc301eaaff5
+  - enabled: 1
+    path: Assets/Scenes/Virtual Forest/Bako National Park III.unity
+    guid: 3da2b36b08bb2684f8f5eb67d5281e77
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 04e372ad1a53e4e48940b998e96d890c,
       type: 2}

@@ -19,7 +19,7 @@ MonoBehaviour:
     - Boil pepper seeds in water, then consume.
     - Boil ferns in water, then consume.
     - Boil tobacco in water, then consume.
-    correctAns: Boil ginger slices in water, then consume.
+    correctAns: 0
     questionType: 1
     questionImg: {fileID: 21300000, guid: 3cea6880d111bcf4f85e149896a9608e, type: 3}
   - questionInfo: I feel like I have a fever.
@@ -28,8 +28,7 @@ MonoBehaviour:
     - Pound fern, then boil in water.
     - Slice dried homalemona roots, boil it in water, then consume the water.
     - Chew tobacco.
-    correctAns: Slice dried homalemona roots, boil it in water, then consume the
-      water.
+    correctAns: 2
     questionType: 1
     questionImg: {fileID: 21300000, guid: 4ba844a4d711ddb40b0cfa44606a35da, type: 3}
   - questionInfo: My chest hurts while coughing.
@@ -38,6 +37,6 @@ MonoBehaviour:
     - Eat fern.
     - Consume pepper.
     - Avoid tobacco.
-    correctAns: Avoid tobacco.
+    correctAns: 3
     questionType: 1
     questionImg: {fileID: 21300000, guid: d4affbfcf1678524697f8b7e8a3cc5d9, type: 3}
