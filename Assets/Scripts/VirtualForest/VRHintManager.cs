@@ -3,114 +3,59 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-//using UnityEngine.Video;
-/*
-This script is specifically for calling methods when the GameObject it is attached to is pressed on the screen.
-1. Using enum and switch case, does SetInt to its respective declared key in the PlayerPrefs.
-2. Updates the appearance of its respective hint sprite in the hint counter according to ScriptableObject.
-3. Updates the content of its respective hint info panel according to ScriptableObject.
-4. Updates and saves the hint counter with PlayerPrefs so that it will be persistent across scenes and sessions.
-*/
 
+/// <summary>
+/// VRHintManager is responsible for displaying plant information in a VR environment when the user interacts with specific points of interest.
+/// It updates a UI panel with plant details (image, name, and description) and shows the panel on pointer interaction.
+/// </summary>
 [Serializable]
 public class VRHintManager : MonoBehaviour, IPointerDownHandler
 {
-    public enum VRLocation{
-        BNPI, BNPII, BNPIII
+    /// <summary>
+    /// Enum to represent different virtual reality locations where hints may be shown.
+    /// </summary>
+    public enum VRLocation
+    {
+        BNPI,   // Bako National Park I
+        BNPII,  // Bako National Park II
+        BNPIII  // Bako National Park III
     }
 
-    public VRLocation location;
+    public VRLocation location; // The current location in the VR environment where this hint manager is active.
+    public GameObject plantInfoPanel; // The UI panel that displays the plant information.
+    public Image plantImage; // The image component used to display the plant's image.
+    public TMP_Text plantName; // The text component used to display the plant's name.
+    public TMP_Text plantDesc; // The text component used to display the plant's description.
 
-    //UI Elements of the panel
-    public GameObject plantInfoPanel;
-    public Image plantImage;
-    public TMP_Text plantName;
-    public TMP_Text plantDesc;
-    //public VideoClip hintVideo;
+    public PlantSO plantSO; // The scriptable object containing data for the plant (image, name, description).
 
-    //ScriptableObject
-    public PlantSO plantSO;
-
-    void Start(){
-        //CheckHintStatus();
+    /// <summary>
+    /// Initializes the VRHintManager by updating the UI with plant information and hiding the info panel on start.
+    /// </summary>
+    void Start()
+    {
         UpdateHintInfoPanel();
         plantInfoPanel.SetActive(false);
     }
 
-    public void OnPointerDown(PointerEventData pointerEventData){
-        /*switch(location){
-            case VRLocation.KCHWaterfront:
-                //PlayerPrefs.SetInt("KCHWaterfront1",1);
-                plantIcon.sprite = plantSO.plantFound;
-                break;
-            case VRLocation.KCHWaterfront2:
-                PlayerPrefs.SetInt("KCHWaterfront2",1);
-                hintIcon.sprite = hintSO.hintFound;
-                break;
-            case VRLocation.TamanPerpaduan1:
-                PlayerPrefs.SetInt("TamanPerpaduan1",1);
-                hintIcon.sprite = hintSO.hintFound;
-                break;
-            case VRLocation.TamanPerpaduan2:
-                PlayerPrefs.SetInt("TamanPerpaduan2",1);
-                hintIcon.sprite = hintSO.hintFound;
-                break;
-        }*/
+    /// <summary>
+    /// Handles pointer down events to show the plant information panel and update its content.
+    /// </summary>
+    /// <param name="pointerEventData">Data related to the pointer event (e.g., click).</param>
+    public void OnPointerDown(PointerEventData pointerEventData)
+    {
         plantInfoPanel.SetActive(true);
-        //PlayerPrefs.Save();
         UpdateHintInfoPanel();
         Debug.Log("Pressed");
     }
 
-    public void UpdateHintInfoPanel(){
+    /// <summary>
+    /// Updates the hint panel UI elements with the selected plant's image, name, and description.
+    /// </summary>
+    public void UpdateHintInfoPanel()
+    {
         plantImage.sprite = plantSO.Image;
         plantName.text = plantSO.Name;
         plantDesc.text = plantSO.Description;
     }
-/*
-    void CheckHintStatus(){
-        int kchWaterfrontCounter = PlayerPrefs.GetInt("KCHWaterfrontCounter");
-        int tmnPerpaduanCounter = PlayerPrefs.GetInt("TamanPerpaduanCounter");
-        int kchWaterfront1S = PlayerPrefs.GetInt("KCHWaterfront1");
-        int kchWaterfront2S = PlayerPrefs.GetInt("KCHWaterfront2");
-        int tmnPerpaduan1S = PlayerPrefs.GetInt("TamanPerpaduan1");
-        int tmnPerpaduan2S = PlayerPrefs.GetInt("TamanPerpaduan2");
-
-        switch(location){
-            case VRLocation.KCHWaterfront1:
-                if(kchWaterfront1S == 1){
-                    hintIcon.sprite = hintSO.hintFound;
-                    PlayerPrefs.SetInt("KCHWaterfrontCounter", PlayerPrefs.GetInt("KCHWaterfrontCounter") + 1);
-                }else{
-                    hintIcon.sprite = hintSO.hintNotFound;
-                }
-                break;
-            case VRLocation.KCHWaterfront2:
-                if(kchWaterfront2S == 1){
-                    hintIcon.sprite = hintSO.hintFound;
-                    PlayerPrefs.SetInt("KCHWaterfrontCounter", PlayerPrefs.GetInt("KCHWaterfrontCounter") + 1);
-                }else{
-                    hintIcon.sprite = hintSO.hintNotFound;
-                }
-                break;
-            case VRLocation.TamanPerpaduan1:
-                if(tmnPerpaduan1S == 1){
-                    hintIcon.sprite = hintSO.hintFound;
-                    PlayerPrefs.SetInt("TamanPerpaduanCounter", PlayerPrefs.GetInt("TamanPerpaduanCounter") + 1);
-                }else{
-                    hintIcon.sprite = hintSO.hintNotFound;
-                }
-                break;
-            case VRLocation.TamanPerpaduan2:
-                if(tmnPerpaduan2S == 1){
-                    hintIcon.sprite = hintSO.hintFound;
-                    PlayerPrefs.SetInt("TamanPerpaduanCounter", PlayerPrefs.GetInt("TamanPerpaduanCounter") + 1);
-                }else{
-                    hintIcon.sprite = hintSO.hintNotFound;
-                }
-                break;
-        }
-
-        PlayerPrefs.Save();
-    }*/
 }
