@@ -52,5 +52,6 @@
         "Temp/": true
     },
     "dotnet.defaultSolution": "Ethnomedicine-AR.sln",
-    "dotnet.codeLens.enableReferencesCodeLens": false
+    "dotnet.codeLens.enableReferencesCodeLens": false,
+    "diffEditor.codeLens": true
 }
