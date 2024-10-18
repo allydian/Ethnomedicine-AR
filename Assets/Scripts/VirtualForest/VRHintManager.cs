@@ -28,6 +28,7 @@ public class VRHintManager : MonoBehaviour, IPointerDownHandler
     public TMP_Text plantDesc; // The text component used to display the plant's description.
 
     public PlantSO plantSO; // The scriptable object containing data for the plant (image, name, description).
+    private CheckAchievements checkAchievements;  // Reference to CheckAchievements
 
     /// <summary>
     /// Initializes the VRHintManager by updating the UI with plant information and hiding the info panel on start.
@@ -36,6 +37,13 @@ public class VRHintManager : MonoBehaviour, IPointerDownHandler
     {
         UpdateHintInfoPanel();
         plantInfoPanel.SetActive(false);
+
+        // Initialize the CheckAchievements script
+        checkAchievements = FindObjectOfType<CheckAchievements>();
+        if (checkAchievements == null)
+        {
+            Debug.LogError("CheckAchievements script not found!");
+        }
     }
 
     /// <summary>
@@ -47,6 +55,11 @@ public class VRHintManager : MonoBehaviour, IPointerDownHandler
         plantInfoPanel.SetActive(true);
         UpdateHintInfoPanel();
         Debug.Log("Pressed");
+        
+        if (checkAchievements != null)
+        {
+            checkAchievements.CheckForestForager();
+        }
     }
 
     /// <summary>

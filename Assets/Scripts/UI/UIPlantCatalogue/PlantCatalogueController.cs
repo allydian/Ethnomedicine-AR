@@ -11,6 +11,7 @@ public class PlantCatalogueController : MonoBehaviour
 {
     [SerializeField] private UIPlantCatalogue catalogueUI; // UI component responsible for displaying the plant catalog.
     [SerializeField] private CatalogueSO catalogueData; // ScriptableObject that contains the plant catalog data.
+    private CheckAchievements checkAchievements;  // Reference to CheckAchievements
 
     /// <summary>
     /// Called when the scene starts. Initializes the plant catalog UI and sets up event handlers.
@@ -18,6 +19,12 @@ public class PlantCatalogueController : MonoBehaviour
     private void Start()
     {
         PrepareUI();
+        
+        checkAchievements = FindObjectOfType<CheckAchievements>();
+        if (checkAchievements == null)
+        {
+            Debug.LogError("CheckAchievements script not found!");
+        }
     }
 
     /// <summary>
@@ -47,6 +54,11 @@ public class PlantCatalogueController : MonoBehaviour
         PlantSO plant = plantCatalogueItem.plant;
 
         catalogueUI.UpdateDescription(plantIndex, plant.Image, plant.Name, plant.Description); // Update the description panel in the UI with the selected plant's details
+
+        if (checkAchievements != null)
+        {
+            checkAchievements.CheckCatalogueBrowser();
+        }
     }
 
     /// <summary>

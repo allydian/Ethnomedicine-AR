@@ -47,10 +47,10 @@ public class AchievementManager : MonoBehaviour
        {
             instance = this;
        }
-       else if (instance != this)
-       {
-            Destroy(gameObject);
-       }
+       //else if (instance != this)
+       //{
+       //     Destroy(gameObject);
+       //}
         DontDestroyOnLoad(gameObject);
         AudioSource = gameObject.GetComponent<AudioSource>();
         Stack = GetComponentInChildren<AchievenmentStack>();

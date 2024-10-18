@@ -10,9 +10,13 @@ using UnityEngine.SceneManagement;
 public class ChangeScenes : MonoBehaviour
 {
     // Loads the main scene with panels (MainPanels scene).
-    public void ToMainScene()
+    public void ToMainScene(AppPanelManager.PanelType panelType)
     {
-        SceneManager.LoadScene("MainPanels");
+        // Set the desired panel in the PanelManager
+        AppPanelManager.instance.currentPanel = panelType;
+        
+        // Now load the main scene
+        SceneManager.LoadScene("MainPanels (Test)");
     }
 
     // Loads the AR camera scene.
@@ -21,12 +25,25 @@ public class ChangeScenes : MonoBehaviour
         SceneManager.LoadScene("ARcamera");
     }
 
+    /// <summary>
+    /// Quizzes
+    /// </summary>
+    /// 
+    // Loads the scene for the Medicinal Plants Quiz.
+    public void OpenMedicinalQuiz()
+    {
+        SceneManager.LoadScene("MedicinalPlantsQuiz");
+    }
+
     // Loads the AR quiz scene.
     public void ToARQuiz()
     {
         SceneManager.LoadScene("ARquiz");
     }
 
+    /// <summary>
+    /// List of virtual forests 
+    /// </summary>
     // Loads the first viewpoint of Bako National Park.
     public void ToVFBakoNationalParkI()
     {
@@ -43,11 +60,5 @@ public class ChangeScenes : MonoBehaviour
     public void ToVFBakoNationalParkIII()
     {
         SceneManager.LoadScene("Bako National Park III");
-    }
-
-    // Returns to the previous scene. (To be implemented)
-    public void ToPrevScene()
-    {
-        
     }
 }

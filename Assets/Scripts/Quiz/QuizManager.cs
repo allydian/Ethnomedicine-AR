@@ -28,6 +28,7 @@ public class QuizManager : MonoBehaviour
     public TMP_Text correctAnswersText;  // Reference to the correct answers text in the game over panel.
 
     private GameStatus gameStatus = GameStatus.Next;  // Tracks the current game state (Playing or Next).
+    private CheckAchievements checkAchievements;  // Reference to CheckAchievements
     
     // Property to expose the game status.
     public GameStatus GameStatus { get { return gameStatus;} }
@@ -53,11 +54,18 @@ public class QuizManager : MonoBehaviour
         }
 
         questions.AddRange(quizDataSO.questions);
-
+        
         if (questions.Count == 0)
         {
             Debug.LogError("No questions found in QuizDataSO!");
             return;
+        }
+
+        // Initialize the CheckAchievements script
+        checkAchievements = FindObjectOfType<CheckAchievements>();
+        if (checkAchievements == null)
+        {
+            Debug.LogError("CheckAchievements script not found!");
         }
 
         SelectQuestion();
@@ -70,6 +78,7 @@ public class QuizManager : MonoBehaviour
     /// </summary>
     void SelectQuestion()
     {
+        currentTime = timeLimit; // Resets the time limit each time a new question is loaded
         int questionIndex = UnityEngine.Random.Range(0, questions.Count);
         selectedQuestion = questions[questionIndex];
 
@@ -176,9 +185,37 @@ public class QuizManager : MonoBehaviour
 
         correctAnswersText.text = "Correct answers: " + correctAnswerCount + "/ N"; // Display the number of correct answers.
 
+        // Check for achievements at the end of the game
+        //CheckAchievements();
+        // Call the achievement check methods in CheckAchievements
+        if (checkAchievements != null)
+        {
+            checkAchievements.CheckSurvivalist(livesRemaining);  // Check for the Survivalist achievement
+            checkAchievements.CheckTimeKeeper(currentTime, livesRemaining);  // Check for the Time Keeper achievement
+        }
+
         quizUI.gameObject.SetActive(false); // Optionally, hide the quiz UI.
     }
 
+     /// <summary>
+    /// Checks if any achievements should be unlocked based on the game result.
+    /// </summary>
+    private void CheckAchievements()
+    {
+        // Check for the "Survivalist" achievement (complete without losing lives)
+        if (livesRemaining == 3)
+        {
+            AchievementManager.instance.Unlock("Survivalist");
+            Debug.Log("Survivalist achievement unlocked!");
+        }
+
+        // Check for the "Time Keeper" achievement (complete within time limit with at least one life left)
+        if (currentTime > 0f && livesRemaining >= 1)
+        {
+            AchievementManager.instance.Unlock("TimeKeeper");
+            Debug.Log("Time Keeper achievement unlocked!");
+        }
+    }
 }
 
 // The QuestionType enum defines the different types of questions 

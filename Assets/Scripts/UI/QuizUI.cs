@@ -111,6 +111,6 @@ public class QuizUI : MonoBehaviour
     // Return to the quiz list by loading the previous scene
     public void ReturnToQuizList()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1); // Go back to the previous scene
+        SceneManager.LoadScene("Quiz"); // Go back to the previous scene
     }
 }
