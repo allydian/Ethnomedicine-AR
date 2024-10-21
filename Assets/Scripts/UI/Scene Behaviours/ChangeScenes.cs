@@ -18,6 +18,10 @@ public class ChangeScenes : MonoBehaviour
         // Now load the main scene
         SceneManager.LoadScene("MainPanels (Test)");
     }
+    public void ToMainPanels()
+    {
+        SceneManager.LoadScene("MainPanels (Test)");
+    }
 
     // Loads the AR camera scene.
     public void ToARCamera()
@@ -60,5 +64,9 @@ public class ChangeScenes : MonoBehaviour
     public void ToVFBakoNationalParkIII()
     {
         SceneManager.LoadScene("Bako National Park III");
+    }
+    public void ToBakoGyro()
+    {
+        SceneManager.LoadScene("BakoGyro");
     }
 }
