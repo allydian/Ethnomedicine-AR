@@ -15,11 +15,13 @@ public class LeaderboardManager : MonoBehaviour
     [SerializeField] private GameObject leaderboardParent;
     [SerializeField] private Transform leaderboardContentParent;
     [SerializeField] private Transform leaderboardItemPrefab;
+    [SerializeField] private Color highlightColor = Color.yellow; //Newly added. Please remove if it doesn't work.
     //[SerializeField] private Sprite bronzeTierSprite, silverTierSprite, goldenTierSprite;
 
     private string leaderboardID = "Medicinal-Plants-Leaderboard";  // Your leaderboard ID
     
     private CloudSaveManager cloudSaveManager;  // Reference to CloudSaveManager
+    private string currentPlayerId;  // The PlayerId of the current user. //Newly added. Please remove if it doesn't work.
     
 
     private async void Start()
@@ -34,6 +36,8 @@ public class LeaderboardManager : MonoBehaviour
             Debug.LogError("CloudSaveManager not assigned in LeaderboardsManager!");
         }
 
+        // Get the current signed-in player's PlayerId. //Newly added. Please remove if it doesn't work.
+        currentPlayerId = AuthenticationService.Instance.PlayerId;//Newly added. Please remove if it doesn't work.
         //leaderboardParent.SetActive(false);
     }
 
@@ -108,7 +112,14 @@ public class LeaderboardManager : MonoBehaviour
                 //leaderboardItem.GetChild(1).GetComponent<TextMeshProUGUI>().text = playerName;       // PlayerID as Player Name
                 leaderboardItem.GetChild(1).GetComponent<TextMeshProUGUI>().text = entry.PlayerName;       // PlayerID as Player Name
                 leaderboardItem.GetChild(2).GetComponent<TextMeshProUGUI>().text = entry.Score.ToString();  // Player score
-                rank++;
+                
+                // Highlight the current player's entry. //Newly added. Please remove if it doesn't work.
+                if (entry.PlayerId == currentPlayerId)
+                {
+                    leaderboardItem.GetComponent<Image>().color = highlightColor;  // Change the background color
+                    leaderboardItem.GetChild(1).GetComponent<TextMeshProUGUI>().color = highlightColor;  // Optionally change text color
+                }
+                rank++;//Do not remove! This adds ranks as more users are added!
 
                 /*
                 Sprite tierSprite = null;
