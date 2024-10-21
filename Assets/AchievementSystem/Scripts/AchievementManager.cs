@@ -41,7 +41,7 @@ public class AchievementManager : MonoBehaviour
     public static AchievementManager instance = null; //Singleton Instance
     public AchievenmentStack Stack;
 
-    void Awake()
+    async void Awake()
     {
        if (instance == null)
        {
@@ -55,6 +55,8 @@ public class AchievementManager : MonoBehaviour
         AudioSource = gameObject.GetComponent<AudioSource>();
         Stack = GetComponentInChildren<AchievenmentStack>();
         LoadAchievementState();
+
+
     }
 
     private void PlaySound (AudioClip Sound)
@@ -112,16 +114,17 @@ public class AchievementManager : MonoBehaviour
     /// Fully unlocks a progression or goal achievement.
     /// </summary>
     /// <param name="Key">The Key of the achievement to be unlocked</param>
-    public void Unlock(string Key)
-    {
+    public async void Unlock(string Key)
+    {   
         Unlock(FindAchievementIndex(Key));
     }
+    
     /// <summary>
     /// Fully unlocks a progression or goal achievement.
     /// </summary>
     /// <param name="Index">The index of the achievement to be unlocked</param>
     public void Unlock(int Index)
-    {
+    {   
         if (!States[Index].Achieved)
         {
             States[Index].Progress = AchievementList[Index].ProgressGoal;
@@ -138,6 +141,7 @@ public class AchievementManager : MonoBehaviour
                     Unlock(FinalAchievementKey);
                 }
             }
+
         }
     }
     /// <summary>

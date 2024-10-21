@@ -29,7 +29,8 @@ public class QuizManager : MonoBehaviour
 
     private GameStatus gameStatus = GameStatus.Next;  // Tracks the current game state (Playing or Next).
     private CheckAchievements checkAchievements;  // Reference to CheckAchievements
-    
+    [SerializeField] private CloudSaveManager cloudSaveManager; // Reference to CloudSaveManager
+
     // Property to expose the game status.
     public GameStatus GameStatus { get { return gameStatus;} }
     
@@ -41,6 +42,14 @@ public class QuizManager : MonoBehaviour
     /// </summary>
     public void Start()
     {
+        // Initialize CloudSaveManager
+        cloudSaveManager = FindObjectOfType<CloudSaveManager>();
+
+        if (cloudSaveManager == null)
+        {
+            Debug.LogError("CloudSaveManager not found!");
+        }
+
         scoreCount = 0;
         currentTime = timeLimit;
         livesRemaining = 3;
@@ -63,6 +72,7 @@ public class QuizManager : MonoBehaviour
 
         // Initialize the CheckAchievements script
         checkAchievements = FindObjectOfType<CheckAchievements>();
+
         if (checkAchievements == null)
         {
             Debug.LogError("CheckAchievements script not found!");
@@ -176,14 +186,36 @@ public class QuizManager : MonoBehaviour
     /// <summary>
     /// Ends the quiz, displays the game over panel, and shows the final score and correct answers count.
     /// </summary>
-    private void GameEnd()
+    private async void GameEnd()
     {
         gameStatus = GameStatus.Next; // Set game state to Next
         quizUI.GameOverPanel.SetActive(true); // Show the game over panel.
 
         finalScoreText.text = "Total score: " + scoreCount; // Display the total score in the final score text field.
 
-        correctAnswersText.text = "Correct answers: " + correctAnswerCount + "/ N"; // Display the number of correct answers.
+        correctAnswersText.text = "Correct answers: " + correctAnswerCount + "/ 3"; // Display the number of correct answers.
+
+        /*
+        // Save score to Cloud Save and submit to leaderboard
+        if (cloudSaveManager != null)
+        {
+            await cloudSaveManager.SaveQuizScore(scoreCount);
+            await cloudSaveManager.SubmitScoreToLeaderboard(scoreCount);
+        }
+        */
+
+        // Retrieve the saved best score from CloudSaveManager
+        int savedBestScore = await cloudSaveManager.GetSavedBestScore();
+
+        // If the current score is higher than the saved best score, save the new best score
+        if (scoreCount > savedBestScore)
+        {
+            await cloudSaveManager.SaveQuizScore(scoreCount);
+            Debug.Log("New best score saved: " + scoreCount);
+        }
+
+        // Optionally, submit the new score to the leaderboard
+        await cloudSaveManager.SubmitScoreToLeaderboard(scoreCount);
 
         // Check for achievements at the end of the game
         //CheckAchievements();
