@@ -15,6 +15,8 @@ public class QtnHandler : MonoBehaviour
     private string correct = "Great! You got the right answer!";
     private string incorrect = "Sorry! You scanned the wrong answer. Try again!";
 
+    private CheckAchievements checkAchievements;  // Reference to CheckAchievements. Ally added this.
+
     //private Color32 turquoise = new Color32(62, 144, 180, 255);
 
     void Awake()
@@ -26,6 +28,15 @@ public class QtnHandler : MonoBehaviour
 
     void Start()
     {
+        //Ally added this.
+        checkAchievements = FindObjectOfType<CheckAchievements>();
+
+        if (checkAchievements == null)
+        {
+            Debug.LogError("CheckAchievements script not found!");
+        }
+        //Ally's addition ends here.
+
         UpdateQuestion();
     }
 
@@ -95,6 +106,10 @@ public class QtnHandler : MonoBehaviour
         {
             progressText.GetComponent<TMP_Text>().text = progress + "/5";
             questionText.GetComponent<TMP_Text>().text = "Well done! You have completed all questions.";
+
+            //Ally added the next two lines.
+            AchievementManager.instance.Unlock("ARHerbalist");
+            Debug.Log("AR Herbalist achievement unlocked!");
         }
     }
 
