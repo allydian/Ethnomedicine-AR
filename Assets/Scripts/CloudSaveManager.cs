@@ -6,6 +6,7 @@ using Unity.Services.Leaderboards;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System;
+using System.Linq;
 using Unity.VisualScripting;
 
 public class CloudSaveManager : MonoBehaviour
@@ -89,5 +90,38 @@ public class CloudSaveManager : MonoBehaviour
         {
             Debug.LogError("Failed to submit score to leaderboard: " + e.Message);
         }
+    }
+
+    public async Task SaveAchievementsData(Dictionary<string, object> achievementsData)
+    {
+        try
+        {
+            await CloudSaveService.Instance.Data.ForceSaveAsync(achievementsData);
+            Debug.Log("Achievements saved to Cloud Save.");
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Failed to save achievements: " + e.Message);
+        }
+    }
+
+    public async Task<Dictionary<string, bool>> LoadAchievementsData()
+    {
+        Dictionary<string, bool> loadedAchievements = new Dictionary<string, bool>();
+
+        try
+        {
+            var savedData = await CloudSaveService.Instance.Data.LoadAsync(new HashSet<string>(AchievementManager.instance.AchievementList.Select(a => a.Key)));
+            foreach (var key in savedData.Keys)
+            {
+                loadedAchievements[key] = savedData[key] != null && (savedData[key] as string).ToLower() == "true";
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Error retrieving achievements: " + e.Message);
+        }
+
+        return loadedAchievements;
     }
 }

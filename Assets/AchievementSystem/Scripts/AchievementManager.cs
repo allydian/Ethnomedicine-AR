@@ -2,6 +2,7 @@
 using UnityEngine;
 using System;
 using System.Linq;
+using System.Threading.Tasks;
 
 /// <summary>
 /// Controls interactions with the Achievement System
@@ -38,11 +39,14 @@ public class AchievementManager : MonoBehaviour
     [Tooltip("The key of the final achievement")]
     public string FinalAchievementKey;
 
+    private CloudSaveManager cloudSaveManager;
+
     public static AchievementManager instance = null; //Singleton Instance
     public AchievenmentStack Stack;
 
     async void Awake()
     {
+        
        if (instance == null)
        {
             instance = this;
@@ -52,11 +56,37 @@ public class AchievementManager : MonoBehaviour
        //     Destroy(gameObject);
        //}
         DontDestroyOnLoad(gameObject);
+
+        // Find CloudSaveManager instance
+        cloudSaveManager = FindObjectOfType<CloudSaveManager>();
+
+        // Check if CloudSaveManager is assigned
+        if (cloudSaveManager == null)
+        {
+            Debug.LogError("CloudSaveManager not found in scene!");
+        }
+
         AudioSource = gameObject.GetComponent<AudioSource>();
         Stack = GetComponentInChildren<AchievenmentStack>();
         LoadAchievementState();
 
+        //LoadAchievementState();
+        await LoadAndApplyAchievements();
+    }
 
+    private async Task LoadAndApplyAchievements()
+    {
+        var loadedAchievements = await cloudSaveManager.LoadAchievementsData();
+        
+        foreach (var key in loadedAchievements.Keys)
+        {
+            int index = FindAchievementIndex(key);
+            if (index != -1 && loadedAchievements[key])
+            {
+                States[index].Achieved = true;
+                // Optionally, set progress or any other state needed.
+            }
+        }
     }
 
     private void PlaySound (AudioClip Sound)
@@ -132,6 +162,9 @@ public class AchievementManager : MonoBehaviour
             DisplayUnlock(Index);
             AutoSaveStates();
 
+            // Save unlocked achievements to cloud
+            SaveAchievementsToCloud();
+
             if(UseFinalAchievement)
             {
                 int Find = States.FindIndex(x => !x.Achieved);
@@ -141,7 +174,6 @@ public class AchievementManager : MonoBehaviour
                     Unlock(FinalAchievementKey);
                 }
             }
-
         }
     }
     /// <summary>
@@ -218,6 +250,22 @@ public class AchievementManager : MonoBehaviour
         }
         PlayerPrefs.Save();
     }
+
+    public async void SaveAchievementsToCloud()
+{
+    Dictionary<string, object> achievementsData = new Dictionary<string, object>();
+
+    for (int i = 0; i < States.Count; i++)
+    {
+        if (States[i].Achieved)
+        {
+            achievementsData[AchievementList[i].Key] = States[i].Achieved;
+        }
+    }
+
+    await cloudSaveManager.SaveAchievementsData(achievementsData);
+}
+
     /// <summary>
     /// Loads all progress and achievement states from player prefs. This function is automatically called if the Auto Load setting is set to true.
     /// </summary>
