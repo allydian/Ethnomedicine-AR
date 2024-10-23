@@ -15,6 +15,8 @@ public class LeaderboardManager : MonoBehaviour
     [SerializeField] private GameObject leaderboardParent;
     [SerializeField] private Transform leaderboardContentParent;
     [SerializeField] private Transform leaderboardItemPrefab;
+
+    [SerializeField] private Color currentUserHighlightColor = Color.red;
     //[SerializeField] private Sprite bronzeTierSprite, silverTierSprite, goldenTierSprite;
 
     private string leaderboardID = "Medicinal-Plants-Leaderboard";  // Your leaderboard ID
@@ -99,6 +101,7 @@ public class LeaderboardManager : MonoBehaviour
             }
 
             int rank = 1;
+            string currentUserId = AuthenticationService.Instance.PlayerId;
 
             foreach (LeaderboardEntry entry in leaderboardScoresPage.Results)
             {
@@ -108,6 +111,15 @@ public class LeaderboardManager : MonoBehaviour
                 //leaderboardItem.GetChild(1).GetComponent<TextMeshProUGUI>().text = playerName;       // PlayerID as Player Name
                 leaderboardItem.GetChild(1).GetComponent<TextMeshProUGUI>().text = entry.PlayerName;       // PlayerID as Player Name
                 leaderboardItem.GetChild(2).GetComponent<TextMeshProUGUI>().text = entry.Score.ToString();  // Player score
+                
+                // If the entry belongs to the current signed-in player, apply the highlight color
+                if (entry.PlayerId == currentUserId)
+                {
+                    leaderboardItem.GetChild(0).GetComponent<TextMeshProUGUI>().color = currentUserHighlightColor;  // Highlight rank
+                    leaderboardItem.GetChild(1).GetComponent<TextMeshProUGUI>().color = currentUserHighlightColor;  // Highlight player name
+                    leaderboardItem.GetChild(2).GetComponent<TextMeshProUGUI>().color = currentUserHighlightColor;  // Highlight score
+                }
+
                 rank++;
 
                 /*
