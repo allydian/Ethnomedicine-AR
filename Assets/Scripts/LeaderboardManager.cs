@@ -36,7 +36,7 @@ public class LeaderboardManager : MonoBehaviour
             Debug.LogError("CloudSaveManager not assigned in LeaderboardsManager!");
         }
 
-        //leaderboardParent.SetActive(false);
+        leaderboardParent.SetActive(false);
     }
 
     // Method to show the leaderboard when triggered by a UI button
