@@ -12,12 +12,10 @@ public class UIPlantCatalogue : MonoBehaviour
     [SerializeField] private UIPlantCatalogueItem plantPrefab; // Prefab reference for the plant item UI element. This will be instantiated for each plant in the catalog.
     [SerializeField] private RectTransform contentPanel; // Parent container (content panel) that holds all the instantiated plant catalog items.
     [SerializeField] private GameObject descPanel; // Panel that displays the plant's detailed description.
+    [SerializeField] private GameObject cataloguePanel; // Panel that displays the plant's detailed description.
     [SerializeField] private UIPlantDescription plantDescription; // UI component that handles the display of the plant's image, name, and description.
 
     List<UIPlantCatalogueItem> listOfPlantItems = new List<UIPlantCatalogueItem>(); // List that stores all the UI plant items created in the catalog.
-
-
-
 
     public event Action<int> OnDescriptionRequested; // Event triggered when a plant's description is requested, passing the plant's index.
     public event Action<int> OnViewInARRequested; // Event triggered when a request to view the plant in AR is made, passing the plant's index.
@@ -70,6 +68,7 @@ public class UIPlantCatalogue : MonoBehaviour
     private void HandleItemSelection(UIPlantCatalogueItem obj)
     {
         descPanel.SetActive(true);
+        cataloguePanel.SetActive(false);
 
         int index = listOfPlantItems.IndexOf(obj);
         
