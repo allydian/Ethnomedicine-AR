@@ -8,9 +8,13 @@ using System.Threading.Tasks;
 using System;
 using System.Linq;
 using Unity.VisualScripting;
+using TMPro;
 
 public class CloudSaveManager : MonoBehaviour
 {
+    public TMP_Text userNameText;  // Assign this in the Inspector
+    public TMP_Text userIdText;    // Assign this in the Inspector
+
     private const string quizScoreKey = "MedicinalPlantsQuizScore"; // Key for saving the quiz score
 
     private async void Start()
@@ -18,6 +22,7 @@ public class CloudSaveManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
         await UnityServices.InitializeAsync();
         await SignIn();
+        DisplayUserInfo();
         //await AuthenticationService.Instance.SignInAnonymouslyAsync();
     }
 
@@ -31,6 +36,41 @@ public class CloudSaveManager : MonoBehaviour
             await AuthenticationService.Instance.SignInAnonymouslyAsync();
             Debug.Log("Signed in anonymously as: " + AuthenticationService.Instance.PlayerId);
         }
+    }
+
+    private void DisplayUserInfo()
+    {
+        string userId = AuthenticationService.Instance.PlayerId;
+        userIdText.text = $"ID: {userId}";
+    }
+
+    /// <summary>
+    /// Deletes the user account from Unity Gaming Services.
+    /// </summary>
+    public async Task DeleteAccount()
+    {
+        if (AuthenticationService.Instance.IsSignedIn)
+        {
+            try
+            {
+                await AuthenticationService.Instance.DeleteAccountAsync();
+                Debug.Log("User account deleted successfully.");
+            }
+            catch (Exception e)
+            {
+                Debug.LogError("Failed to delete account: " + e.Message);
+            }
+        }
+        else
+        {
+            Debug.LogError("User is not signed in.");
+        }
+    }
+
+    // Wrapper method to call from the Inspector
+    public void DeleteAccountButtonPressed()
+    {
+        _ = DeleteAccount();  // Using the async method without waiting for it
     }
 
     /// <summary>

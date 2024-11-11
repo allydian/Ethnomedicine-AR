@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/MainPanels.unity
-    guid: 1a85f273fe16c6d40a27decf68ee9bab
   - enabled: 1
     path: Assets/Scenes/MainPanels (Test).unity
     guid: dda03fad0e81ba74aa827d02918dbbf2
@@ -35,12 +32,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Virtual Forest/BakoGyro.unity
     guid: 2f442f73439b3074cb8cc20a6f614df8
-  - enabled: 0
-    path: Assets/AchievementSystem/Example/Example 1.unity
-    guid: 55391237ba58e8d4a8416e0430129f44
-  - enabled: 0
-    path: Assets/AchievementSystem/Example/Example 2.unity
-    guid: 536191fe713689346850e72802944e7f
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 04e372ad1a53e4e48940b998e96d890c,
       type: 2}

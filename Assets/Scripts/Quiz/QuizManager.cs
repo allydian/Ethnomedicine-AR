@@ -134,7 +134,7 @@ public class QuizManager : MonoBehaviour
     {
         bool correctAns = false;
 
-        int baseScoreMultiplier = 10; // The base multiplier for score calculation.
+        int baseScoreMultiplier = 1000; // The base multiplier for score calculation.
 
         // Check if the selected answer is correct.
         if(answered == selectedQuestion.options[selectedQuestion.correctAns])
@@ -148,7 +148,7 @@ public class QuizManager : MonoBehaviour
             float totalTimeInMilliseconds = 30f * 1000f;  // Assuming total time is 30 seconds, convert to milliseconds
 
             // Calculate time multiplier based on milliseconds
-            float timeMultiplier = currentTimeInMilliseconds / totalTimeInMilliseconds;
+            float timeMultiplier = (float)currentTimeInMilliseconds / totalTimeInMilliseconds;
 
 
             // Apply time multiplier to the score increment
