@@ -17,17 +17,14 @@ public class LeaderboardManager : MonoBehaviour
     [SerializeField] private Transform leaderboardItemPrefab;
 
     [SerializeField] private Color currentUserHighlightColor = Color.red;
-    //[SerializeField] private Sprite bronzeTierSprite, silverTierSprite, goldenTierSprite;
 
-    private string leaderboardID = "Medicinal-Plants-Leaderboard";  // Your leaderboard ID
+    private string leaderboardID = "Medicinal-Plants-Leaderboard";  // Leaderboard ID from Unity Dashboard
     
     private CloudSaveManager cloudSaveManager;  // Reference to CloudSaveManager
     
 
     private async void Start()
     {
-        //await UnityServices.InitializeAsync();
-        //await AuthenticationService.Instance.SignInAnonymouslyAsync();
         cloudSaveManager = FindObjectOfType<CloudSaveManager>();
 
         // Check if CloudSaveManager is assigned
@@ -54,41 +51,6 @@ public class LeaderboardManager : MonoBehaviour
         leaderboardParent.SetActive(false);  // Deactivate the leaderboard UI
     }
 
-    /*
-    private async void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            if (leaderboardParent.activeInHierarchy)
-            {
-                leaderboardParent.SetActive(false);
-            }
-            else
-            {
-                leaderboardParent.SetActive(true);
-                UpdateLeaderboard();
-
-                // Fetch the score from CloudSaveManager and submit it to the leaderboard
-                if (cloudSaveManager != null)
-                {
-                    int savedBestScore = await cloudSaveManager.GetSavedBestScore();  // Retrieve score from cloud save
-
-                    try
-                    {
-                        await LeaderboardsService.Instance.AddPlayerScoreAsync(leaderboardID, savedBestScore);
-                        Debug.Log("Score submitted to leaderboard: " + savedBestScore);
-                    }
-                    catch (LeaderboardsException e)
-                    {
-                        Debug.LogError("Failed to submit score: " + e.Reason);
-                    }
-                }
-            }
-        }
-    }
-    */
-
-    //    private async void UpdateLeaderboard()
     private async Task UpdateLeaderboard()
     {
         while (Application.isPlaying && leaderboardParent.activeInHierarchy)
@@ -106,9 +68,7 @@ public class LeaderboardManager : MonoBehaviour
             foreach (LeaderboardEntry entry in leaderboardScoresPage.Results)
             {
                 Transform leaderboardItem = Instantiate(leaderboardItemPrefab, leaderboardContentParent);
-                //string playerName = entry.PlayerId; // Use PlayerID as the "name"
                 leaderboardItem.GetChild(0).GetComponent<TextMeshProUGUI>().text = rank.ToString();  // Player rank
-                //leaderboardItem.GetChild(1).GetComponent<TextMeshProUGUI>().text = playerName;       // PlayerID as Player Name
                 leaderboardItem.GetChild(1).GetComponent<TextMeshProUGUI>().text = entry.PlayerName;       // PlayerID as Player Name
                 leaderboardItem.GetChild(2).GetComponent<TextMeshProUGUI>().text = entry.Score.ToString();  // Player score
                 
@@ -121,27 +81,53 @@ public class LeaderboardManager : MonoBehaviour
                 }
 
                 rank++;
-
-                /*
-                Sprite tierSprite = null;
-                switch (entry.Tier)
-                {
-                    case "Bronze_tier":
-                        tierSprite = bronzeTierSprite;
-                        break;
-                    case "Silver_tier":
-                        tierSprite = silverTierSprite;
-                        break;
-                    case "Golden_tier":
-                        tierSprite = goldenTierSprite;
-                        break;
-                }
-
-                leaderboardItem.GetChild(2).GetComponent<Image>().sprite = tierSprite;
-                */
             }
 
             await Task.Delay(500);
+        }
+    }
+
+
+    public async Task<string> GetDisplayName(string userId)
+    {
+        try
+        {
+            LeaderboardScoresPage leaderboardScoresPage = await LeaderboardsService.Instance.GetScoresAsync(leaderboardID);
+
+            foreach (LeaderboardEntry entry in leaderboardScoresPage.Results)
+            {
+                if (entry.PlayerId == userId)
+                {
+                    return entry.PlayerName;  // Return the player's display name
+                }
+            }
+            await SubmitDefaultScoreIfNeeded();
+        }
+        catch (LeaderboardsException e) when (e.Reason == LeaderboardsExceptionReason.ScoreSubmissionRequired)
+        {
+            // Handle the "Score submission required" error by submitting a default score
+            await SubmitDefaultScoreIfNeeded();
+            return await GetDisplayName(userId); // Retry after submitting default score
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Failed to retrieve display name from leaderboard: " + e.Message);
+        }
+
+        return null;  // Return null if name not found
+    }
+
+    private async Task SubmitDefaultScoreIfNeeded()
+    {
+        try
+        {
+            // Submit a score of 0 to allow the player to view the leaderboard. This 0 serves as teh default score.
+            await LeaderboardsService.Instance.AddPlayerScoreAsync(leaderboardID, 0);
+            Debug.Log("Default score submitted for new user to allow leaderboard access.");
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Failed to submit default score: " + e.Message);
         }
     }
 }

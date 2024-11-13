@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class ChangeScenes : MonoBehaviour
 {
-    // Loads the main scene with panels (MainPanels scene).
+    // Loads the main scene with panels (MainPanels scene) based on the previously opened scene.
     public void ToMainScene(AppPanelManager.PanelType panelType)
     {
         // Set the desired panel in the PanelManager
@@ -29,10 +29,6 @@ public class ChangeScenes : MonoBehaviour
         SceneManager.LoadScene("ARcamera");
     }
 
-    /// <summary>
-    /// Quizzes
-    /// </summary>
-    /// 
     // Loads the scene for the Medicinal Plants Quiz.
     public void OpenMedicinalQuiz()
     {
@@ -65,6 +61,8 @@ public class ChangeScenes : MonoBehaviour
     {
         SceneManager.LoadScene("Bako National Park III");
     }
+
+    // Loadsthe gyro version for all viewpoints in Bako.
     public void ToBakoGyro()
     {
         SceneManager.LoadScene("BakoGyro");

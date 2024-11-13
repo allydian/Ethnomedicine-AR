@@ -1,3 +1,4 @@
+//Optimise further by centralising all user authentication-dependent items on a separate script (UserAuthManager.cs)
 using Unity.Services.Authentication;
 using Unity.Services.CloudSave;
 using Unity.Services.Core;
@@ -9,22 +10,32 @@ using System;
 using System.Linq;
 using Unity.VisualScripting;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CloudSaveManager : MonoBehaviour
 {
     public TMP_Text userNameText;  // Assign this in the Inspector
     public TMP_Text userIdText;    // Assign this in the Inspector
 
+    private LeaderboardManager leaderboardManager;
+
     private const string quizScoreKey = "MedicinalPlantsQuizScore"; // Key for saving the quiz score
 
     private async void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
-        await UnityServices.InitializeAsync();
-        await SignIn();
-        DisplayUserInfo();
-        //await AuthenticationService.Instance.SignInAnonymouslyAsync();
-    }
+        DontDestroyOnLoad(this.gameObject); // Keeps the CloudSaveManager static throughout different scenes.
+        await UnityServices.InitializeAsync(); // Initializes Unity Services (e.g., Cloud Save, Authentication, etc.)
+        await SignIn(); // Signs the player in
+
+        // Finds the LeaderboardManager in the scene, which handles leaderboard functionality.
+        // This code can be modified later if account registration is implemented
+        leaderboardManager = FindObjectOfType<LeaderboardManager>();
+        
+        await DisplayUserInfo();  // Displays the user information (e.g., username, score, etc.)
+
+        var achievementsData = await LoadAchievementsData();  // Loads achievement data. May delete if redundant.
+        Debug.Log("Achievements loaded after initialization: " + achievementsData.Count); // Logs the number of achievements loaded after initialization to verify successful data load
+    } 
 
     /// <summary>
     /// Signs in the user anonymously.
@@ -38,10 +49,28 @@ public class CloudSaveManager : MonoBehaviour
         }
     }
 
-    private void DisplayUserInfo()
+    /// <summary>
+    /// This method asynchronously retrieves and displays user information. It first fetches the player's unique ID 
+    /// from the Authentication service and displays it in the `userIdText` UI element. Then, it uses the 
+    /// `LeaderboardManager` to get the player's display name based on the user ID. If the `LeaderboardManager` 
+    /// is available, the display name is shown in the `userNameText` UI element, or a fallback message ("Name not found") 
+    /// is shown if the name is empty. If the `LeaderboardManager` is not found, an error message is logged.
+    /// </summary>
+    private async Task DisplayUserInfo()
     {
         string userId = AuthenticationService.Instance.PlayerId;
         userIdText.text = $"ID: {userId}";
+
+         // Use LeaderboardManager to get the display name
+        if (leaderboardManager != null)
+        {
+            string displayName = await leaderboardManager.GetDisplayName(userId);
+            userNameText.text = !string.IsNullOrEmpty(displayName) ? displayName : "Name not found";
+        }
+        else
+        {
+            Debug.LogError("LeaderboardManager not found!");
+        }
     }
 
     /// <summary>
@@ -55,6 +84,7 @@ public class CloudSaveManager : MonoBehaviour
             {
                 await AuthenticationService.Instance.DeleteAccountAsync();
                 Debug.Log("User account deleted successfully.");
+                ReloadGame();
             }
             catch (Exception e)
             {
@@ -71,6 +101,11 @@ public class CloudSaveManager : MonoBehaviour
     public void DeleteAccountButtonPressed()
     {
         _ = DeleteAccount();  // Using the async method without waiting for it
+    }
+
+    public void ReloadGame()
+    {
+        SceneManager.LoadScene(0); // Load the initial scene (Scene 0 in the build settings)
     }
 
     /// <summary>
@@ -132,6 +167,12 @@ public class CloudSaveManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Asynchronously saves the provided achievements data to Cloud Save.
+    /// This method attempts to save the achievements data, and logs a success message if successful.
+    /// If the save operation fails, an error message is logged.
+    /// </summary>
+    /// <param name="achievementsData">A dictionary containing the achievements data to be saved, where keys are achievement identifiers, and values are the achievement data.</param>
     public async Task SaveAchievementsData(Dictionary<string, object> achievementsData)
     {
         try
@@ -145,6 +186,15 @@ public class CloudSaveManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Asynchronously loads the achievements data from Cloud Save.
+    /// This method attempts to load achievement data based on the achievement list from the AchievementManager.
+    /// It returns a dictionary where each key corresponds to an achievement ID, and the value indicates whether the achievement is unlocked (true/false).
+    /// If the load operation fails, an error message is logged.
+    /// </summary>
+    /// <returns>
+    /// A dictionary containing the loaded achievements data, with keys as achievement IDs and values as booleans indicating whether each achievement is unlocked.
+    /// </returns>
     public async Task<Dictionary<string, bool>> LoadAchievementsData()
     {
         Dictionary<string, bool> loadedAchievements = new Dictionary<string, bool>();
