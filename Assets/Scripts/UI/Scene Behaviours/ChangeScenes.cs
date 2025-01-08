@@ -45,7 +45,7 @@ public class ChangeScenes : MonoBehaviour
     /// List of virtual forests 
     /// </summary>
     // Loads the first viewpoint of Bako National Park.
-    public void ToVFBakoNationalParkI()
+    /*public void ToVFBakoNationalParkI()
     {
         SceneManager.LoadScene("Bako National Park I");
     }
@@ -66,5 +66,11 @@ public class ChangeScenes : MonoBehaviour
     public void ToBakoGyro()
     {
         SceneManager.LoadScene("BakoGyro");
+    }*/
+
+    public void ToBakoForest()
+    {
+        SceneManager.LoadScene("BakoForest");
     }
+
 }
