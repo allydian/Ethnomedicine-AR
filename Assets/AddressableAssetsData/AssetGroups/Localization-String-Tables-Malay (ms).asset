@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Malay (ms)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Malay (ms)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ff0c83ae313b03c469db25adf7a76ed3
+  m_SerializeEntries:
+  - m_GUID: 77f48c83a0cfcf343a48f9f229d584d8
+    m_Address: Home Panel Text_ms
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c8a6dd0e65e7c0449243ec76f3a46cd
+    m_Address: Activities Panel text_ms
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f63a823569a0ae94dbaea50026a86ad0
+    m_Address: Plant Catalogue & Details Panel Text_ms
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 054f575e6965bf14bad489787ade1b27
+    m_Address: Virtual Forests Panel_ms
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2548b5b4739cef54aa892e6324270105
+    m_Address: Quiz List Panel_ms
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 416701e43d458a54dabcbf73266d1966
+    m_Address: Settings Panel_ms
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c5ceb132b680d84f9a9ef535bda6d92
+    m_Address: Leaderboard Panel_ms
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1058a3fbb48601f4cbe0d6d50b0a0849
+    m_Address: Achievements Panel_ms
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 389819beb756eac4eba7c5e5edb5ab4b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b5836d857ee6c754c92d742d7842dcd5, type: 2}
+    - {fileID: 11400000, guid: a377fd264c2f0f341934fcbeb69b6ddf, type: 2}

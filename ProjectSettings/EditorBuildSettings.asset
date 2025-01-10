@@ -20,18 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Quiz/ARquiz.unity
     guid: b31c8ccf0e2852e48866a18470b0347f
-  - enabled: 0
-    path: Assets/Scenes/Virtual Forest/Bako National Park I.unity
-    guid: c60708487cbda084693f2c1af8019086
-  - enabled: 0
-    path: Assets/Scenes/Virtual Forest/Bako National Park II.unity
-    guid: 5500fc80a9227c1409fcedc301eaaff5
-  - enabled: 0
-    path: Assets/Scenes/Virtual Forest/Bako National Park III.unity
-    guid: 3da2b36b08bb2684f8f5eb67d5281e77
-  - enabled: 0
-    path: Assets/Scenes/Virtual Forest/BakoGyro.unity
-    guid: 2f442f73439b3074cb8cc20a6f614df8
   - enabled: 1
     path: Assets/Scenes/Virtual Forest/BakoForest.unity
     guid: 240ed91bebb7b2e478544238f99372be
@@ -46,6 +34,10 @@ EditorBuildSettings:
       guid: 74ac13f7518f35d4d805fd8e5621f7e5, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 0a19e81693987a24683dcf72517a5184, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 0f8903e3f7fdcd644a20953e36935ea7,
+      type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 831cb09ec8eec1e4886ef5b17512238b,
+      type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 96476b1b693b0094281530577e176c2e,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 21697fdb79bd0394dafd31805e1f353f,

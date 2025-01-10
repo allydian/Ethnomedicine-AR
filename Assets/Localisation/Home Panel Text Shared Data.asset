@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Home Panel Text Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Home Panel Text
+  m_TableCollectionNameGuidString: 04786a93b68457646b12cfd6a71d6126
+  m_Entries:
+  - m_Id: 21686579200
+    m_Key: Home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116976971776
+    m_Key: NaturesRemedies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148958539776
+    m_Key: DontHaveBook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 151370264576
+    m_Key: LookingForThings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155199664128
+    m_Key: LearningRedefined
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159222001664
+    m_Key: BrowseCatalogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166738194432
+    m_Key: ExploreInteractiveLearning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168415916032
+    m_Key: GetDIgitalCopy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17919402504192
+    m_Key: ChallengeOrExplore
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6291801565843685400
+  references:
+    version: 2
+    RefIds:
+    - rid: 6291801565843685400
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1736397939051

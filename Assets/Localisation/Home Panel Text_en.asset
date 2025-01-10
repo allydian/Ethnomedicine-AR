@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Home Panel Text_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 04786a93b68457646b12cfd6a71d6126, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 21686579200
+    m_Localized: Home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116976971776
+    m_Localized: Nature's remedies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148958539776
+    m_Localized: Don't have the book?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 151370264576
+    m_Localized: Looking for things to do?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155199664128
+    m_Localized: Learning, redefined
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159222001664
+    m_Localized: Browse through our catalogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166738194432
+    m_Localized: Explore interactive learning using Augmented Reality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168415916032
+    m_Localized: Get the digital copy of our book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17919402504192
+    m_Localized: Challenge yourself or explore our virtual forests
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Settings Panel Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Settings Panel
+  m_TableCollectionNameGuidString: c5663796a93b20c4eb6d79f21f8b27c1
+  m_Entries:
+  - m_Id: 8776511488
+    m_Key: Username
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13172142080
+    m_Key: UserMilestones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85179953152
+    m_Key: Achievements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103584559104
+    m_Key: Leaderboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139613630464
+    m_Key: About
+    m_Metadata:
+      m_Items: []
+  - m_Id: 161310765056
+    m_Key: AboutHH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202633048064
+    m_Key: PrivacyPolicy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260778684416
+    m_Key: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298690998272
+    m_Key: AccountManagement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 346933882880
+    m_Key: DeleteAcc
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6291801574750552068
+  references:
+    version: 2
+    RefIds:
+    - rid: 6291801574750552068
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1736430061462
