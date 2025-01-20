@@ -57,6 +57,26 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 578cf45fae862e74d90496fed141e78e
+    m_Address: Assets/Localisation/WarningText Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23febd9ca33e63d499b2aa4ed357d2c7
+    m_Address: Assets/Localisation/Question Bank Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27a139317a52a694c85cd1b38a684863
+    m_Address: Assets/Localisation/Plant Quiz Question Bank Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 787e12a537d433a4e8421f6683e2f0af
+    m_Address: Assets/Localisation/AR Quiz Feedback Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 389819beb756eac4eba7c5e5edb5ab4b, type: 2}
   m_SchemaSet:

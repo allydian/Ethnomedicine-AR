@@ -65,6 +65,30 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-ms
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f12c233c52ebd0e4088a86798ebbf51a
+    m_Address: Pop Up Modal Text_ms
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7022cbfd89fd36540b2b11ba39161eca
+    m_Address: AR Quiz Question Bank_ms
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 024eb923af142b14b852cab4673b037c
+    m_Address: Plant Quiz Question Bank_ms
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b67c6cc14315da5488727f34f5f8caf7
+    m_Address: AR Quiz Feedback_ms
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 389819beb756eac4eba7c5e5edb5ab4b, type: 2}
   m_SchemaSet:

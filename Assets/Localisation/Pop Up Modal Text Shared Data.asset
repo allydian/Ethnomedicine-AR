@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Pop Up Modal Text Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Pop Up Modal Text
+  m_TableCollectionNameGuidString: 578cf45fae862e74d90496fed141e78e
+  m_Entries:
+  - m_Id: 101508378624
+    m_Key: DeleteAccount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199025946624
+    m_Key: AllDataErased
+    m_Metadata:
+      m_Items: []
+  - m_Id: 309684269056
+    m_Key: YesDel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 349773426688
+    m_Key: NoDel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669006098432
+    m_Key: ExitQuiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 700194942976
+    m_Key: YourProgress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9963327909888
+    m_Key: QuizComplete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9990372782080
+    m_Key: CorrectAns
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10059515883520
+    m_Key: TotalScore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10114272522240
+    m_Key: Retry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10143741702144
+    m_Key: Leave
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6291801812427079680
+  references:
+    version: 2
+    RefIds:
+    - rid: 6291801812427079680
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1737335480530

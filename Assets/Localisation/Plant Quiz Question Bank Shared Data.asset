@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Plant Quiz Question Bank Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Plant Quiz Question Bank
+  m_TableCollectionNameGuidString: 27a139317a52a694c85cd1b38a684863
+  m_Entries:
+  - m_Id: 2311961112576
+    m_Key: Q1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2314641272832
+    m_Key: Q1A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2317644394496
+    m_Key: Q1B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2333763104768
+    m_Key: Q1C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2337147908096
+    m_Key: Q1D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2390566563840
+    m_Key: Q2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2420262236160
+    m_Key: Q2A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2438582956032
+    m_Key: Q2B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2453615341568
+    m_Key: Q2C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2463362904064
+    m_Key: Q2D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2477984247808
+    m_Key: Q3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2487845056512
+    m_Key: Q3A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2498439868416
+    m_Key: Q3B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2509814820864
+    m_Key: Q3C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2522469036032
+    m_Key: Q3D
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6291801812427079685
+  references:
+    version: 2
+    RefIds:
+    - rid: 6291801812427079685
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1737338165222
