@@ -17,7 +17,15 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: a819fbb0567aaed41b35142f2d16f318, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 60441948160
+    m_Localized: Pencapaian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96005451776
+    m_Localized: Selesai
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

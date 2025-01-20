@@ -17,7 +17,15 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 787e12a537d433a4e8421f6683e2f0af, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 41987010560
+    m_Localized: Hebat! Jawapan anda betul!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46172925952
+    m_Localized: Maaf! Anda mengimbas jawapan yang salah. Cuba lagi!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

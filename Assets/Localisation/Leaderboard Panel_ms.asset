@@ -17,7 +17,23 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 99d651d5f89521640ba3b2c3eb6eb686, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 1267873017856
+    m_Localized: Carta kedudukan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1290916524032
+    m_Localized: Pangkat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1307932815360
+    m_Localized: Pengguna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1353667506176
+    m_Localized: Markah
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

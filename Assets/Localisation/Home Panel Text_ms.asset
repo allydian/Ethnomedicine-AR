@@ -19,15 +19,39 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 21686579200
-    m_Localized: Utama
+    m_Localized: Halaman utama
     m_Metadata:
       m_Items: []
   - m_Id: 116976971776
-    m_Localized: 
+    m_Localized: Perubatan semula jadi
     m_Metadata:
       m_Items: []
   - m_Id: 148958539776
     m_Localized: Tidak mempunyai buku?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17919402504192
+    m_Localized: Cabar diri anda atau terokai hutan maya kami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168415916032
+    m_Localized: Dapatkan salinan digital buku kami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166738194432
+    m_Localized: Terokai pembelajaran interaktif menggunakan Augmented Reality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159222001664
+    m_Localized: Semak imbas katalog kami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155199664128
+    m_Localized: Pembelajaran, ditakrifkan semula
+    m_Metadata:
+      m_Items: []
+  - m_Id: 151370264576
+    m_Localized: Mencari perkara untuk dilakukan?
     m_Metadata:
       m_Items: []
   references:

@@ -17,7 +17,52 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 578cf45fae862e74d90496fed141e78e, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 101508378624
+    m_Localized: Padam akaun?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199025946624
+    m_Localized: Semua data yang berkaitan dengan akaun anda tidak boleh didapatkan
+      semula setelah dipadamkan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 309684269056
+    m_Localized: Ya, saya pasti.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 349773426688
+    m_Localized: Batal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669006098432
+    m_Localized: Keluar kuiz?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 700194942976
+    m_Localized: Kemajuan anda tidak akan disimpan jika anda keluar sekarang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9963327909888
+    m_Localized: Kuiz selesai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9990372782080
+    m_Localized: 'Jawapan betul:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10059515883520
+    m_Localized: 'Jumlah markah:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10114272522240
+    m_Localized: Cuba semula
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10143741702144
+    m_Localized: Keluar
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

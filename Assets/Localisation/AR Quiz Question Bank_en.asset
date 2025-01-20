@@ -19,13 +19,14 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 491771588608
-    m_Localized: the immune system, and provide relief from various ailments such
-      as nausea and arthritis.
+    m_Localized: The root of this plant is believed to aid digestion, boost the immune
+      system, and provide relief from various ailments such as nausea and arthritis.
     m_Metadata:
       m_Items: []
   - m_Id: 538710044672
-    m_Localized: s anti-inflammatory properties, digestive health support, and potential
-      to detoxify the body, particularly the liver.
+    m_Localized: Boiling and consuming this plant benefits us with its anti-inflammatory
+      properties, digestive health support, and potential to detoxify the body, particularly
+      the liver.
     m_Metadata:
       m_Items: []
   - m_Id: 596935372800

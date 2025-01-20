@@ -19,7 +19,43 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 260778684416
-    m_Localized: Kredit
+    m_Localized: Penghargaan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8776511488
+    m_Localized: Nama pengguna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13172142080
+    m_Localized: Pencapaian Pengguna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85179953152
+    m_Localized: Pencapaian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103584559104
+    m_Localized: Carta Kedudukan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139613630464
+    m_Localized: Tentang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 161310765056
+    m_Localized: Tentang Heritage Healer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202633048064
+    m_Localized: Dasar Privasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298690998272
+    m_Localized: Pengurusan Akaun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 346933882880
+    m_Localized: Padam akaun
     m_Metadata:
       m_Items: []
   references:
