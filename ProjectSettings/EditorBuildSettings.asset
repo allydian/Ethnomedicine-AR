@@ -15,14 +15,14 @@ EditorBuildSettings:
     path: Assets/Scenes/ViewPlantinAR.unity
     guid: c0c3ce1f382098f45929144efd696b9b
   - enabled: 1
-    path: Assets/Scenes/ARcamera.unity
-    guid: a44f2e02cc0f7e64b9581597b5bc2aa3
-  - enabled: 1
     path: Assets/Scenes/Quiz/ARquiz.unity
     guid: b31c8ccf0e2852e48866a18470b0347f
   - enabled: 1
     path: Assets/Scenes/Virtual Forest/BakoForest.unity
     guid: 240ed91bebb7b2e478544238f99372be
+  - enabled: 1
+    path: Assets/Scenes/ARcamera.unity
+    guid: ec4ff8f1a69f8b74f94c5b035b14e1bd
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 04e372ad1a53e4e48940b998e96d890c,
       type: 2}

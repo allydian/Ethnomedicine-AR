@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
+  m_Name: Tobacco flower
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Tobacco flower
+  <Description>k__BackingField: "<b>Color:</b> Typically pale pink, white, or light
+    purple.\n\n<b>Shape:</b> Tubular flowers with a flared, star-like opening at
+    the tip.\n\n<b>Size:</b> Flowers measure about 2\u20134 cm in length, with the
+    tubular part being slender.\n\n<b>Arrangement:</b> Clustered in terminal inflorescences
+    at the top of the plant.\n\n<b>Texture:</b> Delicate and soft petals with a slightly
+    waxy surface.\n\n<b>Structure:</b> The flowers are supported by a long, thin
+    calyx and emerge from a green, hairy stem."

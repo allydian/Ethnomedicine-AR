@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
+  m_Name: Ginger leaves
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Red ginger leaf
+  <Description>k__BackingField: "<b>Shape:</b> Lance-shaped (long and narrow with
+    pointed tips).\n\n<b>Size:</b> Large, typically ranging from 30\u201350 cm in
+    length and 5\u201315 cm in width.\n\n<b>Color:</b> Glossy green on the upper
+    surface; lighter green on the underside.\n\n<b>Texture:</b> Smooth and leathery,
+    with a slightly waxy feel.\n\n<b>Structure:</b> Arranged alternately along tall,
+    upright stems; leaves have prominent midribs and parallel veins.\n\n<b>Edge:</b>
+    Smooth (entire margins) without serrations."

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
+  m_Name: Ginger flower
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Red ginger flower
+  <Description>k__BackingField: "<b>Color:</b> Vibrant red, sometimes with shades
+    of pink, forming a striking inflorescence.\n\n<b>Shape:</b> The flowers are arranged
+    in dense, cone-shaped spikes (bracts), with true flowers often small and less
+    noticeable.\n\n<b>Size:</b> Flower spikes can grow up to 15\u201330 cm long,
+    with the entire plant reaching heights of 1\u20133 meters.\n\n<b>Texture:</b>
+    The bracts are smooth and waxy to the touch, giving a glossy appearance.\n\n<b>Leaves:</b>
+    Large, lance-shaped green leaves surround the base, enhancing the flower's visual
+    appeal.\n\n<b>Structure:</b> The flower emerges from a tall, upright stalk, making
+    it a standout in its environment."

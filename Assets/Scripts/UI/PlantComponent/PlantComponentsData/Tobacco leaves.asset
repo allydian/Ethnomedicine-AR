@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
+  m_Name: Tobacco leaves
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Tobacco leaf
+  <Description>k__BackingField: '<b>Shape:</b> Broad, oval to lance-shaped, with
+    a pointed tip and a rounded or tapered base.
+
+
+    <b>Size:</b> Large, ranging
+    from 30 to 60 cm in length and 15 to 25 cm in width, depending on the variety.
+
+
+    <b>Color:</b>
+    Bright green when fresh, with slight variations in shade; turns yellowish-brown
+    when dried.
+
+
+    <b>Texture:</b> Slightly leathery and smooth, with a waxy surface;
+    veins are prominent and coarse.
+
+
+    <b>Margin:</b> Smooth (entire), without
+    serrations or lobes.
+
+
+    <b>Structure:</b> Leaves are alternate and sessile
+    or short-stalked, emerging from a tall, upright stem.'
