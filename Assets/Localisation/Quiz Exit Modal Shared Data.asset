@@ -10,40 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: Virtual Forests Panel Shared Data
+  m_Name: Quiz Exit Modal Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: Virtual Forests Panel
-  m_TableCollectionNameGuidString: 8c3333166eca8544697f759481f9e22a
+  m_TableCollectionName: Quiz Exit Modal
+  m_TableCollectionNameGuidString: 54a3751ce203af843b84d6afdf1c3aad
   m_Entries:
-  - m_Id: 17299337216
-    m_Key: VirtualForests
+  - m_Id: 49717112832
+    m_Key: ExitQuiz
     m_Metadata:
       m_Items: []
-  - m_Id: 22189895680
-    m_Key: Bako
-    m_Metadata:
-      m_Items: []
-  - m_Id: 6862376718495744
-    m_Key: VFWarning
-    m_Metadata:
-      m_Items: []
-  - m_Id: 6862764259602432
-    m_Key: Close
-    m_Metadata:
-      m_Items: []
-  - m_Id: 6862801203032064
-    m_Key: Caution
+  - m_Id: 103437758464
+    m_Key: ProgressNotSaved
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 6291801574750552066
+    rid: 6291802003586678786
   references:
     version: 2
     RefIds:
-    - rid: 6291801574750552066
+    - rid: 6291802003586678786
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
         asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1736428964806
+        m_CustomEpoch: 1738065945268

@@ -26,6 +26,46 @@ MonoBehaviour:
     m_Localized: Bako National Park
     m_Metadata:
       m_Items: []
+  - m_Id: 6862376718495744
+    m_Localized: 'Children below the age of 13 is advised to be under the supervision
+      of a grown-up before using the <i>Herbal Heritage</i> app. Watch out out for
+      other people when using <i>Herbal Heritage</i> and be aware of your surroundings.
+
+
+      Parents
+      and guardians please note: whilst using Virtual Reality (VR), there is a tendency
+      for users to move around to view the virtual environment from different angles.
+
+
+      <b><u>Instructions</u></b>
+
+
+      1. 
+      <b>(For joystick mode)</b> Move the camera using the joystick and look around
+      for virtual medicinal plants.
+
+      <b>(For gyro mode)</b> Move your device
+      physically and look around for virtual medicinal plants.
+
+      2.  Click on
+      the plant to view the description.
+
+      3.  Look for <b>blue arrows</b> and
+      click on it to move to different locations.
+
+      4.  Click on the (?) icon
+      for <i>Help</i>, and the icon below to change between <b>gyro and joystick
+      mode</b>.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6862764259602432
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6862801203032064
+    m_Localized: Caution!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
