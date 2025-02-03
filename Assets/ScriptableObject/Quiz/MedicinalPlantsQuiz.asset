@@ -13,30 +13,141 @@ MonoBehaviour:
   m_Name: MedicinalPlantsQuiz
   m_EditorClassIdentifier: 
   questions:
-  - questionInfo: I'm experiencing nausea.
+  - questionInfo:
+      m_TableReference:
+        m_TableCollectionName: GUID:f560d47328b193e4cb17afff295ab6d5
+      m_TableEntryReference:
+        m_KeyId: 29408292864
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     options:
-    - Boil ginger slices in water, then consume.
-    - Boil pepper seeds in water, then consume.
-    - Boil ferns in water, then consume.
-    - Boil tobacco in water, then consume.
+    - m_TableReference:
+        m_TableCollectionName: GUID:002545ee857482b4abcfa1870f545d71
+      m_TableEntryReference:
+        m_KeyId: 12060651520
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:002545ee857482b4abcfa1870f545d71
+      m_TableEntryReference:
+        m_KeyId: 16062017536
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:002545ee857482b4abcfa1870f545d71
+      m_TableEntryReference:
+        m_KeyId: 18280804352
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:002545ee857482b4abcfa1870f545d71
+      m_TableEntryReference:
+        m_KeyId: 21577527296
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     correctAns: 0
     questionType: 1
     questionImg: {fileID: 21300000, guid: 3cea6880d111bcf4f85e149896a9608e, type: 3}
-  - questionInfo: I feel like I have a fever.
+  - questionInfo:
+      m_TableReference:
+        m_TableCollectionName: GUID:f560d47328b193e4cb17afff295ab6d5
+      m_TableEntryReference:
+        m_KeyId: 67744231424
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     options:
-    - Pound dried pepper seeds and consume.
-    - Pound fern, then boil in water.
-    - Slice dried homalemona roots, boil it in water, then consume the water.
-    - Chew tobacco.
+    - m_TableReference:
+        m_TableCollectionName: GUID:002545ee857482b4abcfa1870f545d71
+      m_TableEntryReference:
+        m_KeyId: 12060651520
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:002545ee857482b4abcfa1870f545d71
+      m_TableEntryReference:
+        m_KeyId: 16062017536
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:002545ee857482b4abcfa1870f545d71
+      m_TableEntryReference:
+        m_KeyId: 18280804352
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:002545ee857482b4abcfa1870f545d71
+      m_TableEntryReference:
+        m_KeyId: 21577527296
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     correctAns: 2
     questionType: 1
     questionImg: {fileID: 21300000, guid: 4ba844a4d711ddb40b0cfa44606a35da, type: 3}
-  - questionInfo: My chest hurts while coughing.
+  - questionInfo:
+      m_TableReference:
+        m_TableCollectionName: GUID:f560d47328b193e4cb17afff295ab6d5
+      m_TableEntryReference:
+        m_KeyId: 77311438848
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     options:
-    - Chew red ginger.
-    - Eat fern.
-    - Consume pepper.
-    - Avoid tobacco.
+    - m_TableReference:
+        m_TableCollectionName: GUID:002545ee857482b4abcfa1870f545d71
+      m_TableEntryReference:
+        m_KeyId: 12060651520
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:002545ee857482b4abcfa1870f545d71
+      m_TableEntryReference:
+        m_KeyId: 16062017536
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:002545ee857482b4abcfa1870f545d71
+      m_TableEntryReference:
+        m_KeyId: 18280804352
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:002545ee857482b4abcfa1870f545d71
+      m_TableEntryReference:
+        m_KeyId: 21577527296
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     correctAns: 3
     questionType: 1
     questionImg: {fileID: 21300000, guid: d4affbfcf1678524697f8b7e8a3cc5d9, type: 3}
+  references:
+    version: 2
+    RefIds: []

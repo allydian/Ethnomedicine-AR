@@ -16,7 +16,8 @@ MonoBehaviour:
     m_Code: ms
   m_SharedData: {fileID: 11400000, guid: 578cf45fae862e74d90496fed141e78e, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 6291802067170230287
   m_TableData:
   - m_Id: 101508378624
     m_Localized: Padam akaun?
@@ -48,13 +49,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 9990372782080
-    m_Localized: 'Jawapan betul:'
+    m_Localized: 'Jawapan betul: {0}'
     m_Metadata:
-      m_Items: []
+      m_Items:
+      - rid: 6291802067170230287
   - m_Id: 10059515883520
-    m_Localized: 'Jumlah markah:'
+    m_Localized: 'Markah: {0}'
     m_Metadata:
-      m_Items: []
+      m_Items:
+      - rid: 6291802067170230287
   - m_Id: 10114272522240
     m_Localized: Cuba semula
     m_Metadata:
@@ -63,6 +66,15 @@ MonoBehaviour:
     m_Localized: Keluar
     m_Metadata:
       m_Items: []
+  - m_Id: 4103261000757248
+    m_Localized: 'Masa: {0}'
+    m_Metadata:
+      m_Items:
+      - rid: 6291802067170230287
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 6291802067170230287
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00f0de292609000000f09e101609000000f05ee6e4930e00

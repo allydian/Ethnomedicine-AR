@@ -14,13 +14,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   catalogueItems:
   - plant: {fileID: 11400000, guid: 22dcc358f9a3381438306ae988dd30e7, type: 2}
-    plantName: Black pepper
+    plantName:
+      m_TableReference:
+        m_TableCollectionName: GUID:c956ee9963201eb41a7267c1e2d83059
+      m_TableEntryReference:
+        m_KeyId: 12870152192
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
   - plant: {fileID: 11400000, guid: 33ebfc8a9e4a64c448b77ec095fa3f93, type: 2}
-    plantName: Vegetable fern
+    plantName:
+      m_TableReference:
+        m_TableCollectionName: GUID:c956ee9963201eb41a7267c1e2d83059
+      m_TableEntryReference:
+        m_KeyId: 3435338330112
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
   - plant: {fileID: 11400000, guid: 995cec2e6daa2c64f95b4d8483ee2793, type: 2}
-    plantName: Red ginger
+    plantName:
+      m_TableReference:
+        m_TableCollectionName: GUID:c956ee9963201eb41a7267c1e2d83059
+      m_TableEntryReference:
+        m_KeyId: 3400752099328
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
   - plant: {fileID: 11400000, guid: 71238fbb4a9812c42a0d19f6943e6737, type: 2}
-    plantName: Heart-shaped homalomena
+    plantName:
+      m_TableReference:
+        m_TableCollectionName: GUID:c956ee9963201eb41a7267c1e2d83059
+      m_TableEntryReference:
+        m_KeyId: 1271463342080
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
   - plant: {fileID: 11400000, guid: 48aa9ea722195cc47bbf5e7e1cd001a8, type: 2}
-    plantName: Cultivated tobacco
+    plantName:
+      m_TableReference:
+        m_TableCollectionName: GUID:c956ee9963201eb41a7267c1e2d83059
+      m_TableEntryReference:
+        m_KeyId: 18775732224
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
   <Size>k__BackingField: 5
+  references:
+    version: 2
+    RefIds: []

@@ -52,7 +52,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plantImage: {fileID: 4481901714519075994}
   plantName: {fileID: 4920115777482348578}
-  plantDesc: {fileID: 0}
+  plantDesc: {fileID: 3129985640443601785}
 --- !u!1 &762901316887023937
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,6 +463,7 @@ GameObject:
   - component: {fileID: 9197033384982719800}
   - component: {fileID: 3129985640443601785}
   - component: {fileID: 3427399055180196561}
+  - component: {fileID: 3385831043544805567}
   m_Layer: 5
   m_Name: PlantDescContent
   m_TagString: Untagged
@@ -606,6 +607,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &3385831043544805567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4132329781813858940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3129985640443601785}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &4142634920065369487
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,6 +770,7 @@ GameObject:
   - component: {fileID: 2389258818160141125}
   - component: {fileID: 4920115777482348578}
   - component: {fileID: 3547448855862141209}
+  - component: {fileID: 6680388068032051812}
   m_Layer: 5
   m_Name: PlantName
   m_TagString: Untagged
@@ -873,6 +915,46 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &6680388068032051812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7446116253433591603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4920115777482348578}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &8165575158716631223
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,8 +1172,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 9026252817381161187}
   m_HandleRect: {fileID: 6340532293397442353}
   m_Direction: 2
-  m_Value: 1.0000026
-  m_Size: 0.9158624
+  m_Value: 1.0000005
+  m_Size: 0.9158622
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

@@ -3,6 +3,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 
 /// <summary>
 /// VRHintManager is responsible for displaying plant information in a VR environment when the user interacts with specific points of interest.
@@ -26,6 +28,7 @@ public class ARCameraManager : MonoBehaviour, IPointerDownHandler
     //public Image plantImage; // The image component used to display the plant's image.
     public TMP_Text compName; // The text component used to display the plant's name.
     public TMP_Text compDesc; // The text component used to display the plant's description.
+
 
     public ComponentSO componentSO; // The scriptable object containing data for the plant (image, name, description).
     //private CheckAchievements checkAchievements;  // Reference to CheckAchievements
@@ -67,7 +70,9 @@ public class ARCameraManager : MonoBehaviour, IPointerDownHandler
     /// </summary>
     public void UpdateHintInfoPanel()
     {
-        compName.text = componentSO.Name;
-        compDesc.text = componentSO.Description;
+        //compName.text = componentSO.Name;
+        //compDesc.text = componentSO.Description;
+        compName.text = componentSO.LocalizedName.GetLocalizedString();
+        compDesc.text = componentSO.LocalizedDescription.GetLocalizedString();
     }
 }

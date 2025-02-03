@@ -89,6 +89,24 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-ms
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94be6559f9477494b83c969dd50d647b
+    m_Address: Medicinal Plants Quiz Question Bank_ms
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 200566a6f370fd04082523891f8beaee
+    m_Address: Medicinal Plants Quiz Answer Key_ms
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f5e9304e016f3b449aeb41f91f6a9ba
+    m_Address: Plant Catalogue Entry_ms
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 389819beb756eac4eba7c5e5edb5ab4b, type: 2}
   m_SchemaSet:

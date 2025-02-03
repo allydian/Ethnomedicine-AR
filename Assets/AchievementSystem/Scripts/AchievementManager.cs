@@ -3,6 +3,8 @@ using UnityEngine;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using UnityEngine.Localization; // Add Localization namespace
+using UnityEngine.Localization.Settings; // Add Localization Settings namespace
 
 /// <summary>
 /// Controls interactions with the Achievement System
@@ -69,6 +71,9 @@ public class AchievementManager : MonoBehaviour
         AudioSource = gameObject.GetComponent<AudioSource>();
         Stack = GetComponentInChildren<AchievenmentStack>();
         LoadAchievementState();
+
+         // Initialize localization
+        await LocalizationSettings.InitializationOperation.Task;
 
         //LoadAchievementState();
         await LoadAndApplyAchievements();

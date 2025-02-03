@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Localization; // Add Localization namespace
+using UnityEngine.Localization.Components; // Add Localization Components namespace
 
 /// <summary>
 /// Defines the logic behind a single achievement on the UI
@@ -15,6 +17,10 @@ public class UIAchievement : MonoBehaviour
     public Text SpoilerText;
     [HideInInspector]public AchievenmentStack AS;
 
+    public LocalizedString localizedTitle;
+    public LocalizedString localizedDescription;
+    public LocalizedString localizedSpoilerMessage;
+
     /// <summary>
     /// Destroy object after a certain amount of time
     /// </summary>
@@ -22,7 +28,7 @@ public class UIAchievement : MonoBehaviour
     {
         StartCoroutine(Wait());
     }
-
+/*
     /// <summary>
     /// Add information  about an Achievement to the UI elements
     /// </summary>
@@ -71,6 +77,77 @@ public class UIAchievement : MonoBehaviour
                 Percent.text = State.Achieved ? "(Achieved)" : "(Locked)";
             }
         }
+    }*/
+
+    public void Set(AchievementInfromation Information, AchievementState State)
+    {
+        if (Information.Spoiler && !State.Achieved)
+        {
+            SpoilerOverlay.SetActive(true);
+            // Use localized spoiler message
+            localizedSpoilerMessage.StringChanged += UpdateSpoilerText;
+            localizedSpoilerMessage.TableEntryReference = "AchievementMessages"; // Set the table and entry
+        }
+        else
+        {
+            // Use localized title and description
+            localizedTitle.StringChanged += UpdateTitleText;
+            localizedDescription.StringChanged += UpdateDescriptionText;
+
+            localizedTitle.TableEntryReference = Information.LocalizedTitleKey; // Set the table and entry
+            localizedDescription.TableEntryReference = Information.LocalizedDescriptionKey; // Set the table and entry
+
+            if (Information.LockOverlay && !State.Achieved)
+            {
+                OverlayIcon.gameObject.SetActive(true);
+                OverlayIcon.sprite = Information.LockedIcon;
+                Icon.sprite = Information.AchievedIcon;
+            }
+            else
+            {
+                Icon.sprite = State.Achieved ? Information.AchievedIcon : Information.LockedIcon;
+            }
+
+            if (Information.Progression)
+            {
+                float CurrentProgress = AchievementManager.instance.ShowExactProgress ? State.Progress : (State.LastProgressUpdate * Information.NotificationFrequency);
+                float DisplayProgress = State.Achieved ? Information.ProgressGoal : CurrentProgress;
+
+                if (State.Achieved)
+                {
+                    Percent.text = Information.ProgressGoal + Information.ProgressSuffix + " / " + Information.ProgressGoal + Information.ProgressSuffix + " (Achieved)";
+                }
+                else
+                {
+                    Percent.text = DisplayProgress + Information.ProgressSuffix + " / " + Information.ProgressGoal + Information.ProgressSuffix;
+                }
+
+                ProgressBar.fillAmount = DisplayProgress / Information.ProgressGoal;
+            }
+            else // Single Time
+            {
+                ProgressBar.fillAmount = State.Achieved ? 1 : 0;
+                Percent.text = State.Achieved ? "(Achieved)" : "(Locked)";
+            }
+        }
+    }
+
+    // Update localized title text
+    private void UpdateTitleText(string value)
+    {
+        Title.text = value;
+    }
+
+    // Update localized description text
+    private void UpdateDescriptionText(string value)
+    {
+        Description.text = value;
+    }
+
+    // Update localized spoiler text
+    private void UpdateSpoilerText(string value)
+    {
+        SpoilerText.text = value;
     }
 
     private IEnumerator Wait ()

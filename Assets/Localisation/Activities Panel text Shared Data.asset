@@ -23,6 +23,10 @@ MonoBehaviour:
     m_Key: ExploreVirtualForests
     m_Metadata:
       m_Items: []
+  - m_Id: 8258289705873408
+    m_Key: Activities
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

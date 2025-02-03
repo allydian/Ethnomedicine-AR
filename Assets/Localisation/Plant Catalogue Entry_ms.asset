@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Plant Catalogue Entry_ms
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ms
+  m_SharedData: {fileID: 11400000, guid: c956ee9963201eb41a7267c1e2d83059, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 12870152192
+    m_Localized: Nama BP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15554506752
+    m_Localized: Butir-butir BP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18775732224
+    m_Localized: Nama tobacco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1187849891840
+    m_Localized: Butir-butir tobacco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1271463342080
+    m_Localized: Keladi kemoyang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3328626847744
+    m_Localized: Butir-butir keladi kemoyang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3400752099328
+    m_Localized: Halia merah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3435338330112
+    m_Localized: Paku
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3420419190784
+    m_Localized: Butir-butir halia merah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3456427290624
+    m_Localized: Butir-butir paku
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -4,6 +4,7 @@ using System;
 using UnityEngine;
 using System.Runtime.CompilerServices;
 using TMPro;
+using UnityEngine.Localization;
 
 /// <summary>
 /// Manages the overall quiz logic, including question selection, timing, score calculation,
@@ -14,6 +15,9 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private QuizUI quizUI;  // Reference to the UI manager for quiz display.
     [SerializeField] private QuizDataSO quizData;  // Reference to ScriptableObject holding quiz data.
     [SerializeField] private float timeLimit = 30f;  // Time limit for each quiz round.
+    // Localized strings for score and timer
+    [SerializeField] private LocalizedString scoreLocalizedString; // Localized string for score text
+    [SerializeField] private LocalizedString timerLocalizedString; // Localized string for timer text
 
     private List<Question> questions;  // List of questions available for the quiz.
     private Question selectedQuestion = new Question();  // The current question being displayed.
@@ -117,7 +121,11 @@ public class QuizManager : MonoBehaviour
     private void SetTimer(float value)
     {
         TimeSpan time = TimeSpan.FromSeconds(value);
-        quizUI.TimerText.text = "Time:" + time.ToString("ss' : 'fff");
+        //quizUI.TimerText.text = "Time:" + time.ToString("ss' : 'fff");
+        //quizUI.TimerText.text = time.ToString("ss' : 'fff");
+        string formattedTime = time.ToString("ss' : 'fff");
+        string localizedTimer = timerLocalizedString.GetLocalizedString(formattedTime);
+        quizUI.TimerText.text = localizedTimer;
 
         if (currentTime <= 0)
         {
@@ -137,7 +145,8 @@ public class QuizManager : MonoBehaviour
         int baseScoreMultiplier = 1000; // The base multiplier for score calculation.
 
         // Check if the selected answer is correct.
-        if(answered == selectedQuestion.options[selectedQuestion.correctAns])
+        //if(answered == selectedQuestion.options[selectedQuestion.correctAns])
+        if(answered == selectedQuestion.options[selectedQuestion.correctAns].GetLocalizedString())
         {
             correctAns = true;
 
@@ -155,7 +164,9 @@ public class QuizManager : MonoBehaviour
             int scoreIncrement = Mathf.CeilToInt(baseScoreMultiplier * timeMultiplier);  // Rounds up to nearest integer
             scoreCount += scoreIncrement;
 
-            quizUI.ScoreText.text = "Score:" + scoreCount;
+            //quizUI.ScoreText.text = "Score:" + scoreCount;
+            string localizedScore = scoreLocalizedString.GetLocalizedString(scoreCount);
+            quizUI.ScoreText.text = localizedScore;
         }
         else
         {
@@ -193,7 +204,9 @@ public class QuizManager : MonoBehaviour
 
         finalScoreText.text = "Total score: " + scoreCount; // Display the total score in the final score text field.
 
-        correctAnswersText.text = "Correct answers: " + correctAnswerCount + "/ 3"; // Display the number of correct answers.
+        int totalQuestions = quizDataSO.questions.Count;
+
+        correctAnswersText.text = "Correct answers: " + correctAnswerCount + "/" + totalQuestions; // Display the number of correct answers.
 
         /*
         // Save score to Cloud Save and submit to leaderboard

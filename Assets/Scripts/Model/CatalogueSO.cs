@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using JetBrains.Annotations;
 using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
+using UnityEngine.Localization;
 
 [CreateAssetMenu]
 /// <summary>
@@ -32,6 +33,7 @@ public class CatalogueSO : ScriptableObject
     /// </summary>
     /// <param name="plant">The PlantSO to add to the catalogue.</param>
     /// <param name="plantName">The name of the plant to display in the catalogue.</param>
+    /*
     public void AddPlant(PlantSO plant, string plantName)
     {
         for (int i = 0; i < catalogueItems.Count; i++)
@@ -46,7 +48,22 @@ public class CatalogueSO : ScriptableObject
             }
         }
     }
+    */
 
+    public void AddPlant(PlantSO plant, LocalizedString localizedPlantName)
+    {
+        for (int i = 0; i < catalogueItems.Count; i++)
+        {
+            if(catalogueItems[i].IsEmpty)
+            {
+                catalogueItems[i] = new PlantCatalogueItem
+                {
+                    plant = plant,
+                    plantName = localizedPlantName,
+                };
+            }
+        }
+    }
     /// <summary>
     /// Retrieves the current state of the catalogue, excluding any empty slots.
     /// </summary>
@@ -81,7 +98,8 @@ public class CatalogueSO : ScriptableObject
 public struct PlantCatalogueItem
 {
     public PlantSO plant; // The plant associated with this catalogue item.
-    public string plantName; // The name of the plant.
+    //public string plantName; // The name of the plant.
+    public LocalizedString plantName;
 
     public bool IsEmpty => plant == null; // Checks if this catalogue item is empty (i.e., the plant is null).
 
@@ -92,7 +110,8 @@ public struct PlantCatalogueItem
     public static PlantCatalogueItem GetEmptyPlantItem() => new PlantCatalogueItem 
     {
         plant = null,
-        plantName = "",
+        //localizedPlantName = "",
+        plantName = new LocalizedString(),
     };
 }
 

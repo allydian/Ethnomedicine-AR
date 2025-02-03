@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.Localization;
 
 /// <summary>
 /// VRHintManager is responsible for displaying plant information in a VR environment when the user interacts with specific points of interest.
@@ -65,10 +66,27 @@ public class VRHintManager : MonoBehaviour, IPointerDownHandler
     /// <summary>
     /// Updates the hint panel UI elements with the selected plant's image, name, and description.
     /// </summary>
+    /*
     public void UpdateHintInfoPanel()
     {
         plantImage.sprite = plantSO.Image;
         plantName.text = plantSO.Name;
         plantDesc.text = plantSO.Description;
+    }
+    */
+     public void UpdateHintInfoPanel()
+    {
+        plantImage.sprite = plantSO.Image;
+
+        // Fetch localized strings asynchronously
+        plantSO.LocalizedName.GetLocalizedStringAsync().Completed += (nameOperation) =>
+        {
+            plantName.text = nameOperation.Result;
+        };
+
+        plantSO.LocalizedDescription.GetLocalizedStringAsync().Completed += (descOperation) =>
+        {
+            plantDesc.text = descOperation.Result;
+        };
     }
 }

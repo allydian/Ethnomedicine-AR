@@ -4,6 +4,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 
 /// <summary>
 /// This class handles the display of a plant's description in the UI,
@@ -18,6 +20,13 @@ public class UIPanelHelp : MonoBehaviour
     //[SerializeField] private Image plantImage;
     //[SerializeField] private TMP_Text plantName;
     [SerializeField] private TMP_Text panelDesc;
+
+    /// <summary>
+    /// The localized description of the plant.
+    /// Serialized to be assigned via the Unity Editor.
+    /// </summary>
+    [SerializeField] private LocalizedString localizedDescription;
+
 
     /// <summary>
     /// The UI element used to display the plant's name.
@@ -43,11 +52,22 @@ public class UIPanelHelp : MonoBehaviour
     /// Resets the plant description UI elements.
     /// Hides the plant image and clears the name and description text fields.
     /// </summary>
+    /*
     public void SetDescription(string panelDesc)
     {
         //this.plantImage.gameObject.SetActive(true); // Enables UI element that displays plantImage
         //this.plantImage.sprite = sprite; // Sets the plant's image sprite
         //this.plantName.text = plantName; // Sets the plant's name
         this.panelDesc.text = panelDesc; // Sets the plant's description
+    }
+    */
+
+     public void SetDescription()
+    {
+        // Fetch localized description asynchronously
+        localizedDescription.GetLocalizedStringAsync().Completed += (operation) =>
+        {
+            this.panelDesc.text = operation.Result; // Sets the localized description
+        };
     }
 }

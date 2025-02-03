@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Plant Catalogue Entry Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Plant Catalogue Entry
+  m_TableCollectionNameGuidString: c956ee9963201eb41a7267c1e2d83059
+  m_Entries:
+  - m_Id: 12870152192
+    m_Key: Name_BlackPepper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15554506752
+    m_Key: Desc_BlackPepper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18775732224
+    m_Key: Name_CultivatedTobacco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1187849891840
+    m_Key: Desc_CultivatedTobacco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1271463342080
+    m_Key: Name_HeartshapedHomalomena
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3328626847744
+    m_Key: Desc_HeartshapedHomalomena
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3400752099328
+    m_Key: Name_RedGinger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3420419190784
+    m_Key: Desc_RedGinger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3435338330112
+    m_Key: Name_VegFern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3456427290624
+    m_Key: Desc_VegFern
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2724466698804527104
+  references:
+    version: 2
+    RefIds:
+    - rid: 2724466698804527104
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1738397864154

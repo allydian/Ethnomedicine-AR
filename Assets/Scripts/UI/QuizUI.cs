@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using UnityEngine.Localization;
 
 
 public class QuizUI : MonoBehaviour
@@ -52,10 +53,13 @@ public class QuizUI : MonoBehaviour
                 questionImage.sprite = question.questionImg; // Set the question image
                 break;
         }
-        questionText.text = question.questionInfo; // Set the question text
+
+        //questionText.text = question.questionInfo; // Set the question text
+        questionText.text = question.questionInfo.GetLocalizedString();
 
         // Randomise the answer options using a shuffle method
-        List<string> answerList = ShuffleList.ShuffleListItems<string>(question.options);
+        //List<string> answerList = ShuffleList.ShuffleListItems<string>(question.options);
+         List<string> answerList = ShuffleList.ShuffleListItems<string>(question.options.ConvertAll(option => option.GetLocalizedString()));
 
         // Set the text and reset colors for each answer button
         for (int i = 0; i < options.Count; i++)
