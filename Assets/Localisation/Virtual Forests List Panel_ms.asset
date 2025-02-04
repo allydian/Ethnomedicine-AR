@@ -10,24 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: AR Quiz Feedback_en
+  m_Name: Virtual Forests List Panel_ms
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: en
-  m_SharedData: {fileID: 11400000, guid: 787e12a537d433a4e8421f6683e2f0af, type: 2}
+    m_Code: ms
+  m_SharedData: {fileID: 11400000, guid: 8c3333166eca8544697f759481f9e22a, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 41987010560
-    m_Localized: Great! You got the right answer!
+  - m_Id: 17299337216
+    m_Localized: Hutan Maya
     m_Metadata:
       m_Items: []
-  - m_Id: 46172925952
-    m_Localized: Sorry! You scanned the wrong answer. Try again!
-    m_Metadata:
-      m_Items: []
-  - m_Id: 5455966612942848
-    m_Localized: Well done! You have completed all questions.
+  - m_Id: 22189895680
+    m_Localized: Taman Negara Bako
     m_Metadata:
       m_Items: []
   references:

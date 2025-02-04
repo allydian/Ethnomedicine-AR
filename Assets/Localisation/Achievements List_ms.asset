@@ -10,26 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Leaderboard Panel_en
+  m_Name: Achievements List_ms
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: en
-  m_SharedData: {fileID: 11400000, guid: 99d651d5f89521640ba3b2c3eb6eb686, type: 2}
+    m_Code: ms
+  m_SharedData: {fileID: 11400000, guid: a08991bc45d54b64f89c28321fc9fb8f, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData:
-  - m_Id: 1290916524032
-    m_Localized: Rank
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1307932815360
-    m_Localized: User
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1353667506176
-    m_Localized: Score
-    m_Metadata:
-      m_Items: []
+  m_TableData: []
   references:
     version: 2
     RefIds: []

@@ -77,18 +77,23 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f560d47328b193e4cb17afff295ab6d5
-    m_Address: Assets/Localisation/Medicinal Plants Quiz Question Bank Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 002545ee857482b4abcfa1870f545d71
-    m_Address: Assets/Localisation/Medicinal Plants Quiz Answer Key Shared Data.asset
+  - m_GUID: 72155b9cacec1a8409a98b9c140b96b6
+    m_Address: Assets/Localisation/Virtual Forest Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c956ee9963201eb41a7267c1e2d83059
     m_Address: Assets/Localisation/Plant Catalogue Entry Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a08991bc45d54b64f89c28321fc9fb8f
+    m_Address: Assets/Localisation/Achievements List Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e477aa30e61cf7346b8db5be8678b289
+    m_Address: Assets/Localisation/AR Camera Panel Text Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

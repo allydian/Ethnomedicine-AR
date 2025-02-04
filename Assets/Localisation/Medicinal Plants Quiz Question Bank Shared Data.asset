@@ -13,29 +13,77 @@ MonoBehaviour:
   m_Name: Medicinal Plants Quiz Question Bank Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: Medicinal Plants Quiz Question Bank
-  m_TableCollectionNameGuidString: f560d47328b193e4cb17afff295ab6d5
+  m_TableCollectionNameGuidString: 27a139317a52a694c85cd1b38a684863
   m_Entries:
-  - m_Id: 29408292864
-    m_Key: Q1
+  - m_Id: 2311961112576
+    m_Key: MQ1
     m_Metadata:
       m_Items: []
-  - m_Id: 67744231424
+  - m_Id: 2314641272832
+    m_Key: Q1A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2317644394496
+    m_Key: Q1B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2333763104768
+    m_Key: Q1C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2337147908096
+    m_Key: Q1D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2390566563840
     m_Key: Q2
     m_Metadata:
       m_Items: []
-  - m_Id: 77311438848
+  - m_Id: 2420262236160
+    m_Key: Q2A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2438582956032
+    m_Key: Q2B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2453615341568
+    m_Key: Q2C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2463362904064
+    m_Key: Q2D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2477984247808
     m_Key: Q3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2487845056512
+    m_Key: Q3A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2498439868416
+    m_Key: Q3B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2509814820864
+    m_Key: Q3C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2522469036032
+    m_Key: Q3D
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 6291802067170230274
+    rid: 6291801812427079685
   references:
     version: 2
     RefIds:
-    - rid: 6291802067170230274
+    - rid: 6291801812427079685
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
         asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1738310873513
+        m_CustomEpoch: 1737338165222

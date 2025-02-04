@@ -10,32 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: Leaderboard Panel Shared Data
+  m_Name: Plant Catalogue Details Panel Text Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: Leaderboard Panel
-  m_TableCollectionNameGuidString: 99d651d5f89521640ba3b2c3eb6eb686
+  m_TableCollectionName: Plant Catalogue Details Panel Text
+  m_TableCollectionNameGuidString: 6209139ab5929e940959e67f0a3238a1
   m_Entries:
-  - m_Id: 1290916524032
-    m_Key: Rank
+  - m_Id: 10617810944
+    m_Key: Catalogue
     m_Metadata:
       m_Items: []
-  - m_Id: 1307932815360
-    m_Key: User
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1353667506176
-    m_Key: Score
+  - m_Id: 13667069952
+    m_Key: Details
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 6291801574750552069
+    rid: 6291801574750552065
   references:
     version: 2
     RefIds:
-    - rid: 6291801574750552069
+    - rid: 6291801574750552065
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
         asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1736430162166
+        m_CustomEpoch: 1736428908143

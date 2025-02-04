@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Achievements List_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: a08991bc45d54b64f89c28321fc9fb8f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 14023585792
+    m_Localized: AR Herbalist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31501250560
+    m_Localized: Catalogue Browser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36857376768
+    m_Localized: Forest Forager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45459894272
+    m_Localized: Survivalist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50656636928
+    m_Localized: Time Keeper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18494713856
+    m_Localized: Complete the AR quiz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33996861440
+    m_Localized: View the details of one plant in the catalogue.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39998910464
+    m_Localized: Find a 3D plant moel in any of the virtual forests.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49205407744
+    m_Localized: Complete the medicinal plants quiz without losing any lives.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51852013568
+    m_Localized: Complete the medicinal plants qui within the time limit with at
+      least one life left.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

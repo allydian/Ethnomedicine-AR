@@ -23,6 +23,10 @@ MonoBehaviour:
     m_Key: WrongAns
     m_Metadata:
       m_Items: []
+  - m_Id: 5455966612942848
+    m_Key: Completed
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
