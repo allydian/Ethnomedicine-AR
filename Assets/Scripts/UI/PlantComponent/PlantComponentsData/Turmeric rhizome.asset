@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
+  m_Name: Turmeric rhizome
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Turmeric rhizome
+  <Description>k__BackingField: "<b>Shape:</b> Knobby, irregular, and cylindrical
+    with multiple finger-like branches.\n\n<b>Size:</b> Typically 2\u20135 cm (1\u20132
+    inches) thick and varies in length.\n\n<b>Color:\n- Outer skin:</b> Brownish
+    to yellowish with a rough, papery texture.\n<b>- Inner flesh:</b> Bright orange-yellow
+    or deep golden when cut.\n\n<b>Texture:</b> Firm, fibrous, and slightly rough
+    when fresh; hard and brittle when dried.\n\n<b>Fragrance:</b> Strong, earthy,
+    and slightly peppery with a warm, spicy scent.\n\n<b>Taste:</b> Bitter, slightly
+    pungent, and warm."

@@ -40,6 +40,22 @@ public class ImageCheck : MonoBehaviour
         //Trigger for pepper
         mAnimator.SetTrigger("PTrigger");
         mAnimator.ResetTrigger("PReverse");
+
+        //Trigger for aloe vera
+        mAnimator.SetTrigger("AVTrigger");
+        mAnimator.ResetTrigger("AVReverse");
+
+        //Trigger for turmeric
+        mAnimator.SetTrigger("TurTrigger");
+        mAnimator.ResetTrigger("TurReverse");
+
+        //Trigger for mahkota dewa
+        mAnimator.SetTrigger("MDTrigger");
+        mAnimator.ResetTrigger("MDReverse");
+
+        //Trigger for sirih
+        mAnimator.SetTrigger("SirTrigger");
+        mAnimator.ResetTrigger("SirReverse");
     }
     
     public void ArriveScaleDown()
@@ -59,5 +75,21 @@ public class ImageCheck : MonoBehaviour
         //Trigger for pepper
         mAnimator.SetTrigger("PReverse");
         mAnimator.ResetTrigger("PTrigger");
+
+        //Trigger for aloe vera
+        mAnimator.SetTrigger("AVReverse");
+        mAnimator.ResetTrigger("AVTrigger");
+
+        //Trigger for turmeric
+        mAnimator.SetTrigger("TurReverse");
+        mAnimator.ResetTrigger("TurTrigger");
+
+        //Trigger for mahkota dewa
+        mAnimator.SetTrigger("MDReverse");
+        mAnimator.ResetTrigger("MDTrigger");
+
+        //Trigger for sirih
+        mAnimator.SetTrigger("SirReverse");
+        mAnimator.ResetTrigger("SirTrigger");
     }
 }

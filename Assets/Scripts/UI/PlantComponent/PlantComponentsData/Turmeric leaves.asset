@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
+  m_Name: Turmeric leaves
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Turmeric leaves
+  <Description>k__BackingField: "<b>Shape:</b> Broad, elongated, and lance-shaped
+    (tapering at both ends).\n\n<b>Size:</b> Large, typically 30\u201360 cm (12\u201324
+    inches) long and 10\u201320 cm (4\u20138 inches) wide.\n\n<b>Color:</b> Bright
+    green with a smooth, glossy surface.\n\n<b>Texture:</b> Soft, flexible, and slightly
+    waxy.\n\n<b>Fragrance:</b> Mildly aromatic with an earthy, spicy scent."
