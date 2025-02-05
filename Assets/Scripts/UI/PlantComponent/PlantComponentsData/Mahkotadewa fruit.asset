@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
+  m_Name: Mahkotadewa fruit
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Mahkota dewa fruit
+  <Description>k__BackingField: "<b>Shape:</b> Round to oval, similar to a small
+    apple.\n\n<b>Size:</b> Typically 3\u20135 cm (1\u20132 inches) in diameter.\n\n<b>Color:</b>
+    Bright red when fully ripe, green when unripe.\n\n<b>Texture:</b> Smooth and
+    shiny outer skin.\n\n<b>Flesh:</b> Pale white, soft, and spongy inside.\n\n<b>Seed:</b>
+    Contains a single, hard, dark brown seed that is toxic if consumed raw.\n\n<b>Fragrance:</b>
+    Mild or slightly bitter aroma.\n\n<b>Taste:</b> Bitter when unprocessed."

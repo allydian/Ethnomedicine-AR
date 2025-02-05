@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
+  m_Name: Betel leaf
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Betel leaf
+  <Description>k__BackingField: "<b>Shape:</b> Heart-shaped with a pointed tip.\n\n<b>Size:</b>
+    Typically 5\u201312 cm (2\u20135 inches) long and 3\u20138 cm (1\u20133 inches)
+    wide.\n\n<b>Color:</b> Bright green when fresh, turning darker with age.\n\n<b>Texture:</b>
+    Smooth, glossy, and slightly leathery.\n\n<b>Fragrance:</b> Strong, spicy, and
+    slightly peppery aroma when crushed.\n\n<b>Taste:</b> Mildly bitter, slightly
+    astringent, and pungent.\n\n<b>Growth Pattern:</b> Grows as a climbing vine,
+    often wrapping around trees or supports."
