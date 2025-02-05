@@ -26,6 +26,20 @@ MonoBehaviour:
     m_Localized: Turmeric_Desc
     m_Metadata:
       m_Items: []
+  - m_Id: 9210531753984
+    m_Localized: Dried homalomena roots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9244077797376
+    m_Localized: "<b>Shape:</b> Irregular, fibrous pieces or thin slices, depending
+      on how they are cut.\r\n\n<b>Size:</b> Varies, but usually 3\u201310 cm (1\u20134
+      inches) in length and 0.5\u20132 cm (0.2\u20130.8 inches) thick.\r\n\n<b>Color:</b>
+      Light brown to dark brown, sometimes with a slightly reddish hue.\r\n\n<b>Texture:</b>\r\n-
+      Hard and woody when fully dried.\r\n- Slightly rough or fibrous on the surface.\r\n\n<b>Fragrance:</b>
+      Strong, earthy, and slightly spicy or camphor-like aroma.\r\n\n<b>Taste:</b>
+      Bitter or slightly pungent, depending on preparation."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

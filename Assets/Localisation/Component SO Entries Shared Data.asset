@@ -119,6 +119,14 @@ MonoBehaviour:
     m_Key: Desc_TurmericRhizome
     m_Metadata:
       m_Items: []
+  - m_Id: 9210531753984
+    m_Key: Name_DriedLong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9244077797376
+    m_Key: Desc_DriedLong
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
