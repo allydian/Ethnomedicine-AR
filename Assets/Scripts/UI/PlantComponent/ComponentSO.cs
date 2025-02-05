@@ -15,5 +15,5 @@ public class ComponentSO : ScriptableObject
     //[field: SerializeField] public string Name { get; set; } // The name of the plant.
     //[field: SerializeField][field: TextArea] public string Description { get; set; } // A detailed description of the plant, providing additional information or characteristics.
     [field: SerializeField] public LocalizedString LocalizedName { get; set; } // The name of the plant.
-    [field: SerializeField][field: TextArea] public LocalizedString LocalizedDescription { get; set; } // A detailed description of the plant, providing additional information or characteristics.
+    [field: SerializeField] public LocalizedString LocalizedDescription { get; set; } // A detailed description of the plant, providing additional information or characteristics.
 }

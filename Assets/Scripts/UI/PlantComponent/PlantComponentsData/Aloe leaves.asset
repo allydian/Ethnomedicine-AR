@@ -12,18 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
   m_Name: Aloe leaves
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Aloe vera leaves
-  <Description>k__BackingField: '<b>Shape:</b> Long, narrow, and lance-shaped (tapering
-    to a point).
-
-
-    <b>Color:</b> Green to grayish-green, sometimes with white
-    spots or streaks in younger plants.
-
-
-    <b>Texture:</b> Smooth and waxy on
-    the outer surface, with a slightly firm but flexible structure.
-
-
-    <b>Edges:</b>
-    Serrated (toothed) margins with small, soft, white spikes.'
+  <LocalizedName>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 1101813854208
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <LocalizedDescription>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 1140711829504
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
