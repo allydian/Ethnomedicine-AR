@@ -12,11 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
   m_Name: Ginger leaves
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Red ginger leaf
-  <Description>k__BackingField: "<b>Shape:</b> Lance-shaped (long and narrow with
-    pointed tips).\n\n<b>Size:</b> Large, typically ranging from 30\u201350 cm in
-    length and 5\u201315 cm in width.\n\n<b>Color:</b> Glossy green on the upper
-    surface; lighter green on the underside.\n\n<b>Texture:</b> Smooth and leathery,
-    with a slightly waxy feel.\n\n<b>Structure:</b> Arranged alternately along tall,
-    upright stems; leaves have prominent midribs and parallel veins.\n\n<b>Edge:</b>
-    Smooth (entire margins) without serrations."
+  <LocalizedName>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 2897592528896
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <LocalizedDescription>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 2936800882688
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

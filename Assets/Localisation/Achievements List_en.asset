@@ -47,7 +47,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 39998910464
-    m_Localized: Find a 3D plant moel in any of the virtual forests.
+    m_Localized: Find a 3D plant model in any of the virtual forests.
     m_Metadata:
       m_Items: []
   - m_Id: 49205407744
@@ -55,7 +55,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 51852013568
-    m_Localized: Complete the medicinal plants qui within the time limit with at
+    m_Localized: Complete the medicinal plants quiz within the time limit with at
       least one life left.
     m_Metadata:
       m_Items: []

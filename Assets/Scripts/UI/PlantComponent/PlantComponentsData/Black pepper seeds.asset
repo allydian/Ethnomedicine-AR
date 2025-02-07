@@ -12,10 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
   m_Name: Black pepper seeds
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Black pepper seeds
-  <Description>k__BackingField: "<b>Size:</b> Small and spherical, typically about
-    3\u20135 mm in diameter.\n\n<b>Color:</b> Dark brown to black when dried; green
-    or pale when fresh.\n\n<b>Texture:</b> Wrinkled and rough outer surface with
-    a hard, dry shell.\n\n<b>Shape:</b> Generally round, with slight variations depending
-    on the drying process.\n\n<b>Weight:</b> Lightweight, with a dense core beneath
-    the outer layer."
+  <LocalizedName>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 2537402478592
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <LocalizedDescription>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 2599507537920
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

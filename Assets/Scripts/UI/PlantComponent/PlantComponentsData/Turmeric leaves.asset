@@ -12,9 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
   m_Name: Turmeric leaves
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Turmeric leaves
-  <Description>k__BackingField: "<b>Shape:</b> Broad, elongated, and lance-shaped
-    (tapering at both ends).\n\n<b>Size:</b> Large, typically 30\u201360 cm (12\u201324
-    inches) long and 10\u201320 cm (4\u20138 inches) wide.\n\n<b>Color:</b> Bright
-    green with a smooth, glossy surface.\n\n<b>Texture:</b> Soft, flexible, and slightly
-    waxy.\n\n<b>Fragrance:</b> Mildly aromatic with an earthy, spicy scent."
+  <LocalizedName>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 3226832809984
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <LocalizedDescription>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 3289931919360
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

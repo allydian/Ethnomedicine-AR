@@ -17,7 +17,48 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: a08991bc45d54b64f89c28321fc9fb8f, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 14023585792
+    m_Localized: Pakar herba AR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18494713856
+    m_Localized: Lengkapkan kuiz AR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31501250560
+    m_Localized: Pelayar Katalog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33996861440
+    m_Localized: Lihat satu butiran tumbuhan di dalam katalog.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36857376768
+    m_Localized: Peneroka Hutan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39998910464
+    m_Localized: Cari model tumbuhan 3D di mana-mana hutan maya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45459894272
+    m_Localized: Pelangsung Hidup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49205407744
+    m_Localized: Lengkapkan kuiz tumbuhan perubatan tanpa kehilangan nyawa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50656636928
+    m_Localized: Penjaga Masa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51852013568
+    m_Localized: Lengkapkan kuiz tumbuhan perubatan dalam had masa dengan baki sekurang-kurangnya
+      satu nyawa.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

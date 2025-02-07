@@ -12,12 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
   m_Name: Turmeric rhizome
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Turmeric rhizome
-  <Description>k__BackingField: "<b>Shape:</b> Knobby, irregular, and cylindrical
-    with multiple finger-like branches.\n\n<b>Size:</b> Typically 2\u20135 cm (1\u20132
-    inches) thick and varies in length.\n\n<b>Color:\n- Outer skin:</b> Brownish
-    to yellowish with a rough, papery texture.\n<b>- Inner flesh:</b> Bright orange-yellow
-    or deep golden when cut.\n\n<b>Texture:</b> Firm, fibrous, and slightly rough
-    when fresh; hard and brittle when dried.\n\n<b>Fragrance:</b> Strong, earthy,
-    and slightly peppery with a warm, spicy scent.\n\n<b>Taste:</b> Bitter, slightly
-    pungent, and warm."
+  <LocalizedName>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 3322379055104
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <LocalizedDescription>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 3368398958592
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

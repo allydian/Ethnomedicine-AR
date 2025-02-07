@@ -19,14 +19,13 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 15554506752
-    m_Localized: '<b>Piper nigrum L.</b>, commonly known as black pepper, is a flowering
-      vine that produces small, round fruits called peppercorns, which are green
-      when unripe and turn red when fully mature. These peppercorns are harvested
-      and dried to produce black, white, or green pepper, depending on the processing
-      method.
+    m_Localized: 'A flowering vine that produces small, round fruits called peppercorns,
+      which are green when unripe and turn red when fully mature. These peppercorns
+      are harvested and dried to produce black, white, or green pepper, depending
+      on the processing method.
 
-      <b><i>When boiled in water, the liquid is consumed to treat
-      digestive issues, respiratory conditions, and improve circulation,</i></b>
+      <b><i>When boiled in water, the liquid is
+      consumed to treat digestive issues, respiratory conditions, and improve circulation,</i></b>
       as the pepper contains compounds that stimulate the digestive system and act
       as natural anti-inflammatories.'
     m_Metadata:
@@ -36,19 +35,16 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 18775732224
-    m_Localized: Cultivated tobacco
+    m_Localized: Tobacco
     m_Metadata:
       m_Items: []
   - m_Id: 1187849891840
-    m_Localized: 'Also known as <b>tobacco plant</b>.
+    m_Localized: 'Tall, leafy plant with large, broad leaves and small, tubular pink
+      or white flowers. Leaves are thick and sticky, covered with fine hairs.
 
-      Tall, leafy plant with
-      large, broad leaves and small, tubular pink or white flowers. Leaves are thick
-      and sticky, covered with fine hairs.
-
-      <b><i>For reducing swelling, relieving
-      pain, and treating insect bites or skin irritations</i></b> Crush dried tobacco
-      leaves and apply to affected area.'
+      <b><i>For
+      reducing swelling, relieving pain, and treating insect bites or skin irritations:</i></b>
+      crush dried tobacco leaves and apply to affected area.'
     m_Metadata:
       m_Items: []
   - m_Id: 1271463342080
@@ -56,15 +52,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3328626847744
-    m_Localized: 'Also known as <b>long</b>, <b>lung</b>, and <b>keladi kemoyang</b>.
+    m_Localized: 'Has large, glossy, heart-shaped leaves that grow on long, red stalks.
+      The leaves are typically dark green and have a smooth texture.
 
-      Has
-      large, glossy, heart-shaped leaves that grow on long, red stalks. The leaves
-      are typically dark green and have a smooth texture.
-
-      <b><i>For treating
-      fevers</i></b> The roots are cut, dried, then boiled. The resulting water is
-      then consumed.'
+      <b><i>For
+      treating fevers:</i></b> the roots are cut, dried, then boiled. The resulting
+      water is then consumed.'
     m_Metadata:
       m_Items: []
   - m_Id: 3400752099328
@@ -72,16 +65,14 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3420419190784
-    m_Localized: 'Also known as <b>halia merah</b>, and <b>lia bala</b>.
+    m_Localized: 'Features tall, slender stems with lush, dark green leaves and striking,
+      cone-shaped red flower bracts. The rhizome is also strikingly red.
 
-      Features
-      tall, slender stems with lush, dark green leaves and striking, cone-shaped
-      red flower bracts. The rhizome is also strikingly red.
-
-      <b><i>For aiding
-      digestion, boosting the immune system, providing relief from various ailments</i></b>
-      Add ginger slices and tea bags in water, and bring to a boil, then simmer for
-      10-20 minutes. Remove from heat, then add honey to taste, if desired.'
+      <b><i>For
+      aiding digestion, boosting the immune system, providing relief from various
+      ailments:</i></b> add ginger slices and tea bags in water, and bring to a boil,
+      then simmer for 10-20 minutes. Remove from heat, then add honey to taste, if
+      desired.'
     m_Metadata:
       m_Items: []
   - m_Id: 3435338330112
@@ -89,11 +80,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3456427290624
-    m_Localized: 'Also known as <b>paku besar</b>, and <b>paku sungai</b>.
-
-      <b><i>For
-      its anti-flammatory properties, and digestive health support</i></b> Boil the
-      young shoots before consumption.'
+    m_Localized: <b><i>For its anti-flammatory properties, and digestive health support:</i></b>
+      boil the young shoots before consumption.
     m_Metadata:
       m_Items: []
   references:

@@ -19,19 +19,34 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 12870152192
-    m_Localized: Nama BP
+    m_Localized: Lada hitam
     m_Metadata:
       m_Items: []
   - m_Id: 15554506752
-    m_Localized: Butir-butir BP
+    m_Localized: 'Pokok berbunga yang menjalar dan menghasilkan buah bulat kecil
+      yang dipanggil biji lada. Buahnya berwarna hijau apabila belum masak dan berubah
+      warna merah apabila matang sepenuhnya. Biji lada ini dituai dan dikeringkan
+      untuk menghasilkan lada hitam, putih atau hijau, bergantung kepada kaedah pemprosesan.
+
+      <b><i>Apabila
+      direbus dalam air, air rebusan itu diminum untuk merawat masalah pencernaan,
+      masalah pernafasan dan meningkatkan peredaran dalam badan,</i></b> kerana lada
+      mengandungi sebatian yang merangsang sistem pencernaan dan bertindak sebagai
+      anti-radang semula jadi.'
     m_Metadata:
       m_Items: []
   - m_Id: 18775732224
-    m_Localized: Nama tobacco
+    m_Localized: Tembakau
     m_Metadata:
       m_Items: []
   - m_Id: 1187849891840
-    m_Localized: Butir-butir tobacco
+    m_Localized: 'Tumbuhan yang tinggi, berdaun besar dan lebar, serta berbunga kecil
+      berwarna merah jambu atau putih berbentuk tiub. Daunnya tebal dan melekit,
+      dipenuhi dengan bulu halus.
+
+      <b><i>Bagi mengurangkan bengkak, melegakan
+      kesakitan, dan merawat gigitan serangga atau kerengsaan kulit:</i></b> hancurkan
+      daun tembakau kering dan sapukan pada kawasan yang terjejas.'
     m_Metadata:
       m_Items: []
   - m_Id: 1271463342080
@@ -39,7 +54,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3328626847744
-    m_Localized: Butir-butir keladi kemoyang
+    m_Localized: 'Mempunyai daun yang besar, berkilat, berbentuk hati yang tumbuh
+      pada tangkai merah yang panjang. Daun biasanya berwarna hijau gelap dan mempunyai
+      tekstur yang licin.
+
+      <b><i>Untuk merawat demam:</i></b> akar dipotong,
+      dikeringkan, kemudian direbus. Air yang terhasil kemudiannya diminum.'
     m_Metadata:
       m_Items: []
   - m_Id: 3400752099328
@@ -47,15 +67,23 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3435338330112
-    m_Localized: Paku
+    m_Localized: Paku sungai
     m_Metadata:
       m_Items: []
   - m_Id: 3420419190784
-    m_Localized: Butir-butir halia merah
+    m_Localized: 'Mempunyai batang yang tinggi dan halus, dengan daun hijau gelap
+      yang serta batang bunga merah berbentuk kon. Rizomnya juga sangat merah.
+
+      <b><i>Bagi
+      membantu penghadaman, meningkatkan sistem imun, memberikan kelegaan daripada
+      pelbagai penyakit:</i></b> masukkan hirisan halia merah dan uncang teh ke dalam
+      air, dan biarkan mendidih, kemudian reneh selama 10-20 minit. Pindahkan dari
+      api, kemudian tambah madu secukup rasa, jika dikehendaki.'
     m_Metadata:
       m_Items: []
   - m_Id: 3456427290624
-    m_Localized: Butir-butir paku
+    m_Localized: <b><i>Untuk sifat anti-radang, dan sokongan kesihatan pencernaan:</i></b>
+      rebus pucuk muda sebelum dimakan.
     m_Metadata:
       m_Items: []
   references:

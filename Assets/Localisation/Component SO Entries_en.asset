@@ -19,11 +19,23 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 1101813854208
-    m_Localized: Turmeric
+    m_Localized: Aloe vera flesh
     m_Metadata:
       m_Items: []
   - m_Id: 1140711829504
-    m_Localized: Turmeric_Desc
+    m_Localized: '<b>Color:</b> Transparent or slightly whitish.
+
+
+      <b>Texture:</b>
+      Gel-like, soft, and slippery.
+
+
+      <b>Consistency:</b> Thick, viscous, and
+      slightly sticky.
+
+
+      <b>Taste:</b> Mildly bitter with a slightly tangy
+      aftertaste.'
     m_Metadata:
       m_Items: []
   - m_Id: 9210531753984
@@ -35,9 +47,168 @@ MonoBehaviour:
       on how they are cut.\r\n\n<b>Size:</b> Varies, but usually 3\u201310 cm (1\u20134
       inches) in length and 0.5\u20132 cm (0.2\u20130.8 inches) thick.\r\n\n<b>Color:</b>
       Light brown to dark brown, sometimes with a slightly reddish hue.\r\n\n<b>Texture:</b>\r\n-
-      Hard and woody when fully dried.\r\n- Slightly rough or fibrous on the surface.\r\n\n<b>Fragrance:</b>
+      Hard and woody when fully dried.\r\n- Slightly rough or fibrous on the surface.\r\n<b>Fragrance:</b>
       Strong, earthy, and slightly spicy or camphor-like aroma.\r\n\n<b>Taste:</b>
       Bitter or slightly pungent, depending on preparation."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2380086718464
+    m_Localized: Aloe vera leaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2426815459328
+    m_Localized: Betel leaf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2478904520704
+    m_Localized: Betel nut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2537402478592
+    m_Localized: Black pepper seeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2631484911616
+    m_Localized: Vegetable fern leaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2787693375488
+    m_Localized: Red ginger flower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2897592528896
+    m_Localized: Red ginger leaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2978429349888
+    m_Localized: Mahkota Dewa fruit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3077742080000
+    m_Localized: Tobacco flower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3153650593792
+    m_Localized: Tobacco leaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3226832809984
+    m_Localized: Turmeric leaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3322379055104
+    m_Localized: Turmeric rhizome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2404656951296
+    m_Localized: '<b>Shape:</b> Long, narrow, and lance-shaped (tapering to a point).
+
+
+      <b>Color:</b>
+      Green to grayish-green, sometimes with white spots or streaks in younger plants.
+
+
+      <b>Texture:</b>
+      Smooth and waxy on the outer surface, with a slightly firm but flexible structure.
+
+
+      <b>Edges:</b>
+      Serrated (toothed) margins with small, soft, white spikes.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2431932510208
+    m_Localized: "<b>Shape:</b> Heart-shaped with a pointed tip.\n\n<b>Size:</b>
+      Typically 5\u201312 cm (2\u20135 inches) long and 3\u20138 cm (1\u20133 inches)
+      wide.\n\n<b>Fragrance:</b> Strong, spicy, and slightly peppery aroma when crushed.\n\n<b>Taste:</b>
+      Mildly bitter, slightly astringent, and pungent.\n\n<b>Growth Pattern:</b>
+      Grows as a climbing vine, often wrapping around trees or supports."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2517009772544
+    m_Localized: "<b>Shape:</b> Oval or round, similar to a small egg.\n\n<b>Size:</b>
+      Typically 3\u20135 cm (1\u20132 inches) in diameter.\n\n<b>Color:\n- Unripe
+      nut:</b> Green outer shell.\n<b>- Ripe nut:</b> Orange or yellowish-brown when
+      fully mature.\n\n<b>Internal Structure:</b> Contains a firm, reddish-brown
+      seed with white streaks or marbling inside.\n\n<b>Taste:</b> Bitter and slightly
+      astringent."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2599507537920
+    m_Localized: "<b>Size:</b> Small and spherical, typically about 3\u20135 mm in
+      diameter.\n\n<b>Color:</b> Dark brown to black when dried; green or pale when
+      fresh.\n\n<b>Texture:</b> When dried, it has a wrinkled and rough outer surface
+      with a hard, dry shell.\n\n<b>Shape:</b> Generally round, with slight variations
+      depending on the drying process."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2674833043456
+    m_Localized: "<b>Shape:</b> The leaves are pinnate (feather-like) with multiple
+      pairs of elongated, lance-shaped leaflets arranged along a central stem.\n\n<b>Size:</b>
+      Fronds can grow up to 1\u20132 meters in length, though young fronds (fiddleheads)
+      are smaller and more tender.\n\n<b>Color:</b> Bright green when young, darkening
+      as they mature.\n\n<b>Structure:</b> The fronds are arching, with coiled fiddleheads
+      at the tips when emerging."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2861274050560
+    m_Localized: "<b>Color:</b> Vibrant red, sometimes with shades of pink, forming
+      a striking inflorescence.\n\n<b>Shape:</b> The flowers are arranged in dense,
+      cone-shaped spikes (bracts).\n\n<b>Size:</b> Flower spikes can grow up to 15\u201330
+      cm long, with the entire plant reaching heights of 1\u20133 meters."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2936800882688
+    m_Localized: "<b>Shape:</b> Lance-shaped (long and narrow with pointed tips).\n\n<b>Size:</b>
+      Large, typically ranging from 30\u201350 cm in length and 5\u201315 cm in width.\n\n<b>Color:</b>
+      Glossy green on the upper surface; lighter green on the underside.\n\n<b>Texture:</b>
+      Smooth, with a slightly waxy feel.\n\n<b>Structure:</b> Arranged alternately
+      along tall, upright stems; leaves have prominent midribs and parallel veins."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3124219162624
+    m_Localized: "<b>Color:</b> Typically pale pink, white, or light purple.\n\n<b>Shape:</b>
+      Tubular flowers with a flared, star-like opening at the tip.\n\n<b>Size:</b>
+      Flowers measure about 2\u20134 cm in length, with the tubular part being slender.\n\n<b>Arrangement:</b>
+      Clustered in terminal inflorescences at the top of the plant."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3194754772992
+    m_Localized: '<b>Shape:</b> Broad, oval to lance-shaped, with a pointed tip and
+      a rounded or tapered base.
+
+
+      <b>Size:</b> Large, ranging from 30 to 60
+      cm in length and 15 to 25 cm in width, depending on the variety.
+
+
+      <b>Color:</b>
+      Bright green when fresh, with slight variations in shade; turns yellowish-brown
+      when dried.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3040966422528
+    m_Localized: "<b>Shape:</b> Round to oval, similar to a small apple.\n\n<b>Size:</b>
+      Typically 3\u20135 cm (1\u20132 inches) in diameter.\n\n<b>Color:</b> Bright
+      red when fully ripe, green when unripe.\n\n<b>Flesh:</b> Pale white, soft,
+      and spongy inside.\n\n<b>Seed:</b> Contains a single, hard, dark brown seed
+      that is toxic if consumed raw.\n\n<b>Taste:</b> Bitter when unprocessed."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3289931919360
+    m_Localized: "<b>Shape:</b> Broad, elongated, and lance-shaped (tapering at both
+      ends).\n\n<b>Size:</b> Large, typically 30\u201360 cm (12\u201324 inches) long
+      and 10\u201320 cm (4\u20138 inches) wide.\n\n<b>Color:</b> Bright green with
+      a smooth, glossy surface.\n\n<b>Fragrance:</b> Mildly aromatic with an earthy,
+      spicy scent."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3368398958592
+    m_Localized: "<b>Shape:</b> Knobby, irregular, and cylindrical with multiple
+      finger-like branches.\n\n<b>Size:</b> Typically 2\u20135 cm (1\u20132 inches)
+      thick and varies in length.\n\n<b>Color:\n- Outer skin:</b> Brownish to yellowish
+      with a rough, papery texture.\n<b>- Inner flesh:</b> Bright orange-yellow or
+      deep golden when cut.\n\n<b>Fragrance:</b> Strong, earthy, and slightly peppery
+      with a warm, spicy scent.\n\n<b>Taste:</b> Bitter, slightly pungent, and warm."
     m_Metadata:
       m_Items: []
   references:

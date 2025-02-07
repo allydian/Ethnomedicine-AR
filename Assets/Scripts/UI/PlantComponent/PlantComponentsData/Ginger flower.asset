@@ -12,13 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
   m_Name: Ginger flower
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Red ginger flower
-  <Description>k__BackingField: "<b>Color:</b> Vibrant red, sometimes with shades
-    of pink, forming a striking inflorescence.\n\n<b>Shape:</b> The flowers are arranged
-    in dense, cone-shaped spikes (bracts), with true flowers often small and less
-    noticeable.\n\n<b>Size:</b> Flower spikes can grow up to 15\u201330 cm long,
-    with the entire plant reaching heights of 1\u20133 meters.\n\n<b>Texture:</b>
-    The bracts are smooth and waxy to the touch, giving a glossy appearance.\n\n<b>Leaves:</b>
-    Large, lance-shaped green leaves surround the base, enhancing the flower's visual
-    appeal.\n\n<b>Structure:</b> The flower emerges from a tall, upright stalk, making
-    it a standout in its environment."
+  <LocalizedName>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 2787693375488
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <LocalizedDescription>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 2861274050560
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

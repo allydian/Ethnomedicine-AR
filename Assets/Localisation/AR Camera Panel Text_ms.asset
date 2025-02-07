@@ -22,6 +22,48 @@ MonoBehaviour:
     m_Localized: Tutup
     m_Metadata:
       m_Items: []
+  - m_Id: 10299043840
+    m_Localized: Amaran!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15252516864
+    m_Localized: 'Kanak-kanak di bawah umur 13 tahun dinasihatkan supaya berada di
+      bawah pengawasan orang dewasa sebelum menggunakan aplikasi <i>Herbal Heritage</i>.
+      Awasi orang lain apabila menggunakan <i>Herbal Heritage</i> dan berhati-hati
+      dengan persekitaran anda.
+
+      
+
+      Ibu bapa dan penjaga sila ambil
+      perhatian: semasa menggunakan Augmented Reality (AR), pengguna mempunyai kecenderungan
+      untuk bergerak bagi melihat model dari sudut yang berbeza.
+
+      
+
+      <b><u>Arahan</u></b>
+
+      
+
+      1.
+      Pastikan anda berada di dalam bilik yang terang bagi mengelakkan masalah dengan
+      pengimbasan AR.
+
+      2. Dalam buku <i>Herbal Heritage</i>, cari halaman
+      yang mempunyai simbol AR.
+
+      3. Menggunakan kamera AR, halakan ke arah
+      muka surat tersebut.
+
+      4. Anda boleh berinteraksi dengan model 3D dengan
+      memutar (menggunakan dua jari) atau menskalakannya.
+
+      5. Ketik butang
+      main di bawah video untuk menontonnya.
+
+      6. Klik pada ikon (?) untuk
+      <i>Bantuan</i>.'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
