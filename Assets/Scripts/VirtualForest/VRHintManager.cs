@@ -15,7 +15,7 @@ public class VRHintManager : MonoBehaviour, IPointerDownHandler
     /// <summary>
     /// Enum to represent different virtual reality locations where hints may be shown.
     /// </summary>
-    public enum VRLocation
+    /*public enum VRLocation
     {
         BNPI,   // Bako National Park I
         BNPII,  // Bako National Park II
@@ -23,6 +23,7 @@ public class VRHintManager : MonoBehaviour, IPointerDownHandler
     }
 
     public VRLocation location; // The current location in the VR environment where this hint manager is active.
+    */
     public GameObject plantInfoPanel; // The UI panel that displays the plant information.
     public Image plantImage; // The image component used to display the plant's image.
     public TMP_Text plantName; // The text component used to display the plant's name.
@@ -37,7 +38,7 @@ public class VRHintManager : MonoBehaviour, IPointerDownHandler
     void Start()
     {
         UpdateHintInfoPanel();
-        plantInfoPanel.SetActive(false);
+        //plantInfoPanel.SetActive(false);
 
         // Initialize the CheckAchievements script
         checkAchievements = FindObjectOfType<CheckAchievements>();
