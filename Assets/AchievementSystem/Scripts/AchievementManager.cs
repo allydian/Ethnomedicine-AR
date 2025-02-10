@@ -34,7 +34,7 @@ public class AchievementManager : MonoBehaviour
     private AudioSource AudioSource;
    
     [SerializeField] public List<AchievementState> States = new List<AchievementState>();                       //List of achievement states (achieved, progress and last notification)
-    [SerializeField] public List<AchievementInfromation> AchievementList = new List<AchievementInfromation>();  //List of all available achievements
+    [SerializeField] public List<AchievementInformation> AchievementList = new List<AchievementInformation>();  //List of all available achievements
 
     [Tooltip("If true, one achievement will be automatically unlocked once all others have been completed")]
     public bool UseFinalAchievement = false;

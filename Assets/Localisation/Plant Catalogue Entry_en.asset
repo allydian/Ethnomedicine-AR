@@ -84,6 +84,46 @@ MonoBehaviour:
       boil the young shoots before consumption.
     m_Metadata:
       m_Items: []
+  - m_Id: 3320741812432896
+    m_Localized: Aloe vera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320743800532992
+    m_Localized: Placeholder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320745549557760
+    m_Localized: Placeholder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320747227279360
+    m_Localized: Placeholder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320749227962368
+    m_Localized: God's crown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320750716940288
+    m_Localized: Placeholder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320752126226432
+    m_Localized: Betel leaf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320752877006848
+    m_Localized: Placeholder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320753522929664
+    m_Localized: Turmeric
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320754101743616
+    m_Localized: Placeholder
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

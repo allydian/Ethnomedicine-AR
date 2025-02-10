@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 using CustomEditorTools;
 
 [CustomEditor(typeof(AchievementManager))]
@@ -103,7 +105,7 @@ public class AchievementManagerEditor : Editor
 
         if (GUILayout.Button("Add"))
         {
-            MyTarget.AchievementList.Add(new AchievementInfromation());
+            MyTarget.AchievementList.Add(new AchievementInformation());
             MyTarget.States.Add(new AchievementState());
             MyTarget.SaveAchievementState();
             Hidden.Add(false);
@@ -140,7 +142,7 @@ public class AchievementManagerEditor : Editor
 
         if (i > 0 && GUILayout.Button(Resources.Load<Texture2D>("Up"), RowButton))
         {
-            AchievementInfromation temp = MyTarget.AchievementList[i];
+            AchievementInformation temp = MyTarget.AchievementList[i];
             MyTarget.AchievementList[i] = MyTarget.AchievementList[i - 1];
             MyTarget.AchievementList[i - 1] = temp;
 
@@ -152,7 +154,7 @@ public class AchievementManagerEditor : Editor
         }
         if (i < MyTarget.AchievementList.Count - 1 && GUILayout.Button(Resources.Load<Texture2D>("Down"), RowButton))
         {
-            AchievementInfromation temp = MyTarget.AchievementList[i];
+            AchievementInformation temp = MyTarget.AchievementList[i];
             MyTarget.AchievementList[i] = MyTarget.AchievementList[i + 1];
             MyTarget.AchievementList[i + 1] = temp;
 
@@ -180,7 +182,9 @@ public class AchievementManagerEditor : Editor
             GUILayout.Space(10);
             EditorGUILayout.PropertyField(Achievement.FindPropertyRelative("Key"));
             EditorGUILayout.PropertyField(Achievement.FindPropertyRelative("DisplayName"));
+            EditorGUILayout.PropertyField(Achievement.FindPropertyRelative("localizedTitleKey"));
             EditorGUILayout.PropertyField(Achievement.FindPropertyRelative("Description"));
+            EditorGUILayout.PropertyField(Achievement.FindPropertyRelative("localizedDescriptionKey"));
 
             GUILayout.Space(10);
             EditorGUILayout.PropertyField(Achievement.FindPropertyRelative("LockedIcon"));

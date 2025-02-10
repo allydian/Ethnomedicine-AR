@@ -17,8 +17,10 @@ public class UIAchievement : MonoBehaviour
     public Text SpoilerText;
     [HideInInspector]public AchievenmentStack AS;
 
-    public LocalizedString localizedTitle;
-    public LocalizedString localizedDescription;
+    private LocalizedString localizedTitle;
+    private LocalizedString localizedDescription;
+    //[SerializeField] private LocalizedString localizedTitle;
+    //[SerializeField] private LocalizedString localizedDescription;
     public LocalizedString localizedSpoilerMessage;
 
     /// <summary>
@@ -79,7 +81,7 @@ public class UIAchievement : MonoBehaviour
         }
     }*/
 
-    public void Set(AchievementInfromation Information, AchievementState State)
+    public void Set(AchievementInformation Information, AchievementState State)
     {
         if (Information.Spoiler && !State.Achieved)
         {
@@ -91,11 +93,22 @@ public class UIAchievement : MonoBehaviour
         else
         {
             // Use localized title and description
+            //localizedTitle.StringChanged += UpdateTitleText;
+            //localizedDescription.StringChanged += UpdateDescriptionText;
+            localizedTitle = Information.LocalizedTitleKey;
+            localizedDescription = Information.LocalizedDescriptionKey;
+
+            //localizedTitle.TableEntryReference = Information.LocalizedTitleKey; // Set the table and entry
+            //localizedDescription.TableEntryReference = Information.LocalizedDescriptionKey; // Set the table and entry
+ 
+            localizedTitle = Information.LocalizedTitleKey;
+            localizedDescription = Information.LocalizedDescriptionKey;
+
             localizedTitle.StringChanged += UpdateTitleText;
             localizedDescription.StringChanged += UpdateDescriptionText;
 
-            localizedTitle.TableEntryReference = Information.LocalizedTitleKey; // Set the table and entry
-            localizedDescription.TableEntryReference = Information.LocalizedDescriptionKey; // Set the table and entry
+            UpdateTitleText(localizedTitle.GetLocalizedString());
+            UpdateDescriptionText(localizedDescription.GetLocalizedString());
 
             if (Information.LockOverlay && !State.Achieved)
             {
@@ -148,6 +161,13 @@ public class UIAchievement : MonoBehaviour
     private void UpdateSpoilerText(string value)
     {
         SpoilerText.text = value;
+    }
+
+    private void OnDestroy()
+    {
+        if (localizedTitle != null) localizedTitle.StringChanged -= UpdateTitleText;
+        if (localizedDescription != null) localizedDescription.StringChanged -= UpdateDescriptionText;
+        if (localizedSpoilerMessage != null) localizedSpoilerMessage.StringChanged -= UpdateSpoilerText;
     }
 
     private IEnumerator Wait ()
