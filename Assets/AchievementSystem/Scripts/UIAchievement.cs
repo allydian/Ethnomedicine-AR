@@ -22,6 +22,8 @@ public class UIAchievement : MonoBehaviour
     //[SerializeField] private LocalizedString localizedTitle;
     //[SerializeField] private LocalizedString localizedDescription;
     public LocalizedString localizedSpoilerMessage;
+    public LocalizedString localizedAchievedText;
+    public LocalizedString localizedLockedText;
 
     /// <summary>
     /// Destroy object after a certain amount of time
@@ -128,7 +130,9 @@ public class UIAchievement : MonoBehaviour
 
                 if (State.Achieved)
                 {
-                    Percent.text = Information.ProgressGoal + Information.ProgressSuffix + " / " + Information.ProgressGoal + Information.ProgressSuffix + " (Achieved)";
+                    //Percent.text = Information.ProgressGoal + Information.ProgressSuffix + " / " + Information.ProgressGoal + Information.ProgressSuffix + " (Achieved)";
+                    localizedAchievedText.StringChanged += (value) => Percent.text = $"{Information.ProgressGoal}{Information.ProgressSuffix} / {Information.ProgressGoal}{Information.ProgressSuffix} ({value})";
+                    localizedAchievedText.GetLocalizedString();
                 }
                 else
                 {
@@ -139,8 +143,19 @@ public class UIAchievement : MonoBehaviour
             }
             else // Single Time
             {
+                //ProgressBar.fillAmount = State.Achieved ? 1 : 0;
+                //Percent.text = State.Achieved ? "(Achieved)" : "(Locked)";
                 ProgressBar.fillAmount = State.Achieved ? 1 : 0;
-                Percent.text = State.Achieved ? "(Achieved)" : "(Locked)";
+                if (State.Achieved)
+                {
+                    localizedAchievedText.StringChanged += (value) => Percent.text = value;
+                    localizedAchievedText.GetLocalizedString();
+                }
+                else
+                {
+                    localizedLockedText.StringChanged += (value) => Percent.text = value;
+                    localizedLockedText.GetLocalizedString();
+                }
             }
         }
     }

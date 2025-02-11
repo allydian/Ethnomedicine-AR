@@ -27,6 +27,14 @@ MonoBehaviour:
     m_Key: All
     m_Metadata:
       m_Items: []
+  - m_Id: 11806247764291584
+    m_Key: UnlockedAchievement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11806284267319296
+    m_Key: LockedAchievement
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
