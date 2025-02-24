@@ -73,4 +73,9 @@ public class ChangeScenes : MonoBehaviour
         SceneManager.LoadScene("BakoForest");
     }
 
+    public void ToBakoForest1()
+    {
+        SceneManager.LoadScene("BakoForest 1");
+    }
+
 }
