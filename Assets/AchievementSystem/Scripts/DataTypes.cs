@@ -1,11 +1,14 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization; // Add Localization namespace
+using UnityEngine.Localization.Components; // Add Localization Components namespace
+
 
 /// <summary>
 /// Storesinformation related to a single achievement
 /// </summary>
 [System.Serializable]
-public struct AchievementInfromation
+public class AchievementInformation
 {
     [Tooltip("Name used to unlock/set achievement progress")]
     [SerializeField] public string Key;
@@ -13,6 +16,14 @@ public struct AchievementInfromation
     [SerializeField] public string DisplayName;
     [Tooltip("Description for an achievement. Shown to the user on the UI.")]
     [SerializeField] public string Description;
+    [Tooltip("Localization key for the title (used for translations).")]
+    //[SerializeField] public LocalizedString LocalizedTitleKey;
+    [SerializeField] public LocalizedString localizedTitleKey;
+    public LocalizedString LocalizedTitleKey => localizedTitleKey;
+    [Tooltip("Localization key for the description (used for translations).")]
+    //[SerializeField] public LocalizedString LocalizedDescriptionKey;
+    [SerializeField] public LocalizedString localizedDescriptionKey;
+    public LocalizedString LocalizedDescriptionKey => localizedDescriptionKey;
     [Tooltip("The icon which will be displayed when the achievement is locked")]
     [SerializeField] public Sprite LockedIcon;
     [Tooltip("If true, the lock icon will be overlayed on top of the achieved version.")]

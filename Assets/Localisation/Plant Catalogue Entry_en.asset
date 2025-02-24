@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Plant Catalogue Entry_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: c956ee9963201eb41a7267c1e2d83059, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 15554506752
+    m_Localized: 'A flowering vine that produces small, round fruits called peppercorns,
+      which are green when unripe and turn red when fully mature. These peppercorns
+      are harvested and dried to produce black, white, or green pepper, depending
+      on the processing method.
+
+      <b><i>When boiled in water, the liquid is
+      consumed to treat digestive issues, respiratory conditions, and improve circulation,</i></b>
+      as the pepper contains compounds that stimulate the digestive system and act
+      as natural anti-inflammatories.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12870152192
+    m_Localized: Black pepper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18775732224
+    m_Localized: Tobacco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1187849891840
+    m_Localized: 'Tall, leafy plant with large, broad leaves and small, tubular pink
+      or white flowers. Leaves are thick and sticky, covered with fine hairs.
+
+      <b><i>For
+      reducing swelling, relieving pain, and treating insect bites or skin irritations:</i></b>
+      crush dried tobacco leaves and apply to affected area.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1271463342080
+    m_Localized: Heart-shaped homalomena
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3328626847744
+    m_Localized: 'Has large, glossy, heart-shaped leaves that grow on long, red stalks.
+      The leaves are typically dark green and have a smooth texture.
+
+      <b><i>For
+      treating fevers:</i></b> the roots are cut, dried, then boiled. The resulting
+      water is then consumed.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3400752099328
+    m_Localized: Red ginger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3420419190784
+    m_Localized: 'Features tall, slender stems with lush, dark green leaves and striking,
+      cone-shaped red flower bracts. The rhizome is also strikingly red.
+
+      <b><i>For
+      aiding digestion, boosting the immune system, providing relief from various
+      ailments:</i></b> add ginger slices and tea bags in water, and bring to a boil,
+      then simmer for 10-20 minutes. Remove from heat, then add honey to taste, if
+      desired.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3435338330112
+    m_Localized: Vegetable fern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3456427290624
+    m_Localized: <b><i>For its anti-flammatory properties, and digestive health support:</i></b>
+      boil the young shoots before consumption.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320741812432896
+    m_Localized: Aloe vera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320743800532992
+    m_Localized: The leaves have serrated edges and contain a clear, gel-like substance
+      inside. The gel from its leaves can be applied directly to burns, wounds, and
+      irritated skin to <b>reduce inflammation and promote healing</b>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320749227962368
+    m_Localized: God's crown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320750716940288
+    m_Localized: A small, round fruit that turns bright red when ripe, with smooth
+      skin and soft white flesh containing a hard, toxic seed. The plant's leaves,
+      fruit, and seeds are used in traditional medicine, known for their <b>anti-inflammatory,
+      antioxidant, and immune-boosting</b> properties. It is commonly used to help
+      manage <b>diabetes, hypertension, and skin conditions</b>, though the raw fruit
+      and seeds must be processed properly to avoid toxicity.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320752126226432
+    m_Localized: Betel leaf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320752877006848
+    m_Localized: 'A climbing vine with <b>smooth, glossy, heart-shaped green leaves</b>
+      that have a strong, spicy aroma. The leaves are widely used in traditional
+      medicine for their <b>antiseptic, anti-inflammatory, and stimulant</b> properties.
+      They are commonly chewed with betel nut to aid <b>digestion, freshen breath,
+      and boost energy</b>, while also being used in remedies for <b>coughs, wounds,
+      and infections</b> due to their antibacterial effects.
+
+
+
+
+
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320753522929664
+    m_Localized: Turmeric
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320754101743616
+    m_Localized: A herb with broad, lance-shaped green leaves and an underground
+      rhizome that is <b>knobby, cylindrical, and bright orange-yellow</b> inside.
+      Known for its <b>anti-inflammatory, antioxidant, and antimicrobial</b> properties,
+      turmeric is widely used in traditional medicine to support <b>digestion, boost
+      immunity, reduce joint pain, and promote wound healing</b>. Its active compound,
+      curcumin, has potential in managing <b>arthritis, skin conditions, and metabolic
+      disorders</b>.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization;
 
 /// <summary>
 /// This class acts as a controller for managing interactions between the plant catalog UI and the catalog data.
@@ -53,7 +54,8 @@ public class PlantCatalogueController : MonoBehaviour
 
         PlantSO plant = plantCatalogueItem.plant;
 
-        catalogueUI.UpdateDescription(plantIndex, plant.Image, plant.Name, plant.Description); // Update the description panel in the UI with the selected plant's details
+        //catalogueUI.UpdateDescription(plantIndex, plant.Image, plant.Name, plant.Description); // Update the description panel in the UI with the selected plant's details
+        catalogueUI.UpdateDescription(plantIndex, plant.Image, plant.LocalizedName, plant.LocalizedDescription); // Updated to use LocalizedString
 
         if (checkAchievements != null)
         {
@@ -90,7 +92,8 @@ public class PlantCatalogueController : MonoBehaviour
     {
         foreach (var plant in catalogueData.GetCurrentCatalogueState())
         {
-            catalogueUI.UpdateData(plant.Key, plant.Value.plant.Image, plant.Value.plant.Name); // Update the plant catalog UI with the plant's image and name for each catalog item
+            //catalogueUI.UpdateData(plant.Key, plant.Value.plant.Image, plant.Value.plant.Name); // Update the plant catalog UI with the plant's image and name for each catalog item
+             catalogueUI.UpdateData(plant.Key, plant.Value.plant.Image, plant.Value.plant.LocalizedName);
         }
     }
 }

@@ -26,6 +26,10 @@ MonoBehaviour:
     m_Localized: Sorry! You scanned the wrong answer. Try again!
     m_Metadata:
       m_Items: []
+  - m_Id: 5455966612942848
+    m_Localized: Well done! You have completed all questions.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

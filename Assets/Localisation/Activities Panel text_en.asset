@@ -26,6 +26,10 @@ MonoBehaviour:
     m_Localized: Explore our virtual forests
     m_Metadata:
       m_Items: []
+  - m_Id: 8258289705873408
+    m_Localized: Activities
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

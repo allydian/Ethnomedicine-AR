@@ -12,10 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
   m_Name: Mahkotadewa fruit
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Mahkota dewa fruit
-  <Description>k__BackingField: "<b>Shape:</b> Round to oval, similar to a small
-    apple.\n\n<b>Size:</b> Typically 3\u20135 cm (1\u20132 inches) in diameter.\n\n<b>Color:</b>
-    Bright red when fully ripe, green when unripe.\n\n<b>Texture:</b> Smooth and
-    shiny outer skin.\n\n<b>Flesh:</b> Pale white, soft, and spongy inside.\n\n<b>Seed:</b>
-    Contains a single, hard, dark brown seed that is toxic if consumed raw.\n\n<b>Fragrance:</b>
-    Mild or slightly bitter aroma.\n\n<b>Taste:</b> Bitter when unprocessed."
+  <LocalizedName>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 2978429349888
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <LocalizedDescription>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 3040966422528
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

@@ -16,7 +16,8 @@ MonoBehaviour:
     m_Code: ms
   m_SharedData: {fileID: 11400000, guid: 2f9f85162c2c3034ea897e6ae581068e, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 2724466898170806278
   m_TableData:
   - m_Id: 12492664832
     m_Localized: Kuiz
@@ -25,11 +26,16 @@ MonoBehaviour:
   - m_Id: 102858944512
     m_Localized: Tumbuhan perubatan
     m_Metadata:
-      m_Items: []
+      m_Items:
+      - rid: 2724466898170806278
   - m_Id: 137013161984
     m_Localized: Kad imbasan
     m_Metadata:
       m_Items: []
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 2724466898170806278
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00f0def217000000

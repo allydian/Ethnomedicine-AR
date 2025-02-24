@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.Localization;
 
 /// <summary>
 /// This class handles the display of a plant's description in the UI,
@@ -43,11 +44,30 @@ public class UIPlantDescription : MonoBehaviour
     /// Resets the plant description UI elements.
     /// Hides the plant image and clears the name and description text fields.
     /// </summary>
+    ///
+    /*
     public void SetDescription(Sprite sprite, string plantName, string plantDesc)
     {
         this.plantImage.gameObject.SetActive(true); // Enables UI element that displays plantImage
         this.plantImage.sprite = sprite; // Sets the plant's image sprite
         this.plantName.text = plantName; // Sets the plant's name
         this.plantDesc.text = plantDesc; // Sets the plant's description
+    }
+    */
+    public void SetDescription(Sprite sprite, LocalizedString name, LocalizedString description) // Updated to use LocalizedString
+    {
+        this.plantImage.gameObject.SetActive(true);
+        this.plantImage.sprite = sprite;
+
+        // Fetch localized strings asynchronously
+        name.GetLocalizedStringAsync().Completed += (operation) =>
+        {
+            this.plantName.text = operation.Result;
+        };
+
+        description.GetLocalizedStringAsync().Completed += (operation) =>
+        {
+            this.plantDesc.text = operation.Result;
+        };
     }
 }

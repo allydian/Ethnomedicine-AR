@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Plant Catalogue Entry_ms
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ms
+  m_SharedData: {fileID: 11400000, guid: c956ee9963201eb41a7267c1e2d83059, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 12870152192
+    m_Localized: Lada hitam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15554506752
+    m_Localized: 'Pokok berbunga yang menjalar dan menghasilkan buah bulat kecil
+      yang dipanggil biji lada. Buahnya berwarna hijau apabila belum masak dan berubah
+      warna merah apabila matang sepenuhnya. Biji lada ini dituai dan dikeringkan
+      untuk menghasilkan lada hitam, putih atau hijau, bergantung kepada kaedah pemprosesan.
+
+      <b><i>Apabila
+      direbus dalam air, air rebusan itu diminum untuk merawat masalah pencernaan,
+      masalah pernafasan dan meningkatkan peredaran dalam badan,</i></b> kerana lada
+      mengandungi sebatian yang merangsang sistem pencernaan dan bertindak sebagai
+      anti-radang semula jadi.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18775732224
+    m_Localized: Tembakau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1187849891840
+    m_Localized: 'Tumbuhan yang tinggi, berdaun besar dan lebar, serta berbunga kecil
+      berwarna merah jambu atau putih berbentuk tiub. Daunnya tebal dan melekit,
+      dipenuhi dengan bulu halus.
+
+      <b><i>Bagi mengurangkan bengkak, melegakan
+      kesakitan, dan merawat gigitan serangga atau kerengsaan kulit:</i></b> hancurkan
+      daun tembakau kering dan sapukan pada kawasan yang terjejas.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1271463342080
+    m_Localized: Keladi kemoyang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3328626847744
+    m_Localized: 'Mempunyai daun yang besar, berkilat, berbentuk hati yang tumbuh
+      pada tangkai merah yang panjang. Daun biasanya berwarna hijau gelap dan mempunyai
+      tekstur yang licin.
+
+      <b><i>Untuk merawat demam:</i></b> akar dipotong,
+      dikeringkan, kemudian direbus. Air yang terhasil kemudiannya diminum.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3400752099328
+    m_Localized: Halia merah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3435338330112
+    m_Localized: Paku sungai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3420419190784
+    m_Localized: 'Mempunyai batang yang tinggi dan halus, dengan daun hijau gelap
+      yang serta batang bunga merah berbentuk kon. Rizomnya juga sangat merah.
+
+      <b><i>Bagi
+      membantu penghadaman, meningkatkan sistem imun, memberikan kelegaan daripada
+      pelbagai penyakit:</i></b> masukkan hirisan halia merah dan uncang teh ke dalam
+      air, dan biarkan mendidih, kemudian reneh selama 10-20 minit. Pindahkan dari
+      api, kemudian tambah madu secukup rasa, jika dikehendaki.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3456427290624
+    m_Localized: <b><i>Untuk sifat anti-radang, dan sokongan kesihatan pencernaan:</i></b>
+      rebus pucuk muda sebelum dimakan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320741812432896
+    m_Localized: Lidah buaya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320743800532992
+    m_Localized: Daunnya mempunyai tepi bergerigi dan mengandungi bahan jernih seperti
+      gel di dalamnya. Gel daripada daunnya boleh disapu terus pada kulit melecur,
+      luka dan kulit iritasi untuk <b>mengurangkan keradangan dan menggalakkan penyembuhan</b>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320749227962368
+    m_Localized: Mahkota dewa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320750716940288
+    m_Localized: Buah kecil bulat yang berubah warna menjadi merah terang apabila
+      masak, dengan kulitnya yang licin, isinya putih lembut dan mengandungi biji
+      yang keras dan toksik. Daun, buah dan biji tumbuhan ini digunakan dalam perubatan
+      tradisional, yang terkenal dengan sifat <b>anti-radang, antioksidan, dan meningkatkan
+      imun</b>nya. Ia biasanya digunakan untuk membantu menguruskan <b>diabetes,
+      hipertensi dan masalah kulit</b>. Tetapi, buah mentah dan biji benih mesti
+      diproses dengan betul untuk mengelakkan ketoksikan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320752126226432
+    m_Localized: Sirih
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320752877006848
+    m_Localized: Pokok menjalar yang mempunyai <b>daun hijau licin, berkilat, berbentuk
+      hati</b> yang mempunyai aroma pedas yang kuat. Daunnya digunakan secara meluas
+      dalam perubatan tradisional untuk sifat <b>antiseptik, anti-radang, dan perangsang</b>nya.
+      Mereka biasanya dikunyah dengan pinang untuk membantu <b>pencernaan, menyegarkan
+      nafas dan meningkatkan tenaga</b>, manakala digunakan juga dalam ubat untuk
+      <b>batuk, luka dan jangkitan</b> disebabkan oleh kesan antibakterianya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320753522929664
+    m_Localized: Kunyit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3320754101743616
+    m_Localized: Herba yang mempunyai daun hijau lebar berbentuk tombak dan rizom
+      bawah tanah yang <b>berbonjol, silinder dan kuning jingga terang</b> di dalamnya.
+      Terkenal dengan sifat <b>anti-radang, antioksidan dan antimikrob</b>nya, kunyit
+      digunakan secara meluas dalam perubatan tradisional untuk menyokong <b>pencernaan,
+      meningkatkan imuniti, mengurangkan sakit sendi dan menggalakkan penyembuhan
+      luka</b>. Sebatian aktifnya, curcumin, berpotensinya dalam menguruskan <b>artritis,
+      keadaan kulit dan gangguan metabolik</b>.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

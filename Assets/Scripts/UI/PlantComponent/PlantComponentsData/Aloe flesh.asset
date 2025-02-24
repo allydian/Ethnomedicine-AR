@@ -12,17 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
   m_Name: Aloe flesh
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Aloe vera flesh
-  <Description>k__BackingField: '<b>Internal Structure:</b> Contains a clear, gel-like
-    substance rich in water, enzymes, and bioactive compounds.
-
-
-    <b>Consistency:</b>
-    Thick, viscous, and slightly sticky.
-
-
-    <b>Water Content:</b> Highly moist,
-    composed mostly of water.
-
-
-    <b>Odor:</b> Nearly odorless or slightly herbal.'
+  <LocalizedName>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 1101813854208
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <LocalizedDescription>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 1140711829504
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

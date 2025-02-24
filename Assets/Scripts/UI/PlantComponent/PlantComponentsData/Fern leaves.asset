@@ -12,12 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
   m_Name: Fern leaves
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Vegetable fern leaf
-  <Description>k__BackingField: "<b>Shape:</b> The leaves are pinnate (feather-like)
-    with multiple pairs of elongated, lance-shaped leaflets arranged along a central
-    stem.\n\n<b>Size:</b> Fronds can grow up to 1\u20132 meters in length, though
-    young fronds (fiddleheads) are smaller and more tender.\n\n<b>Color:</b> Bright
-    green when young, darkening as they mature.\n\n<b>Texture:</b> Soft and tender
-    when young; mature leaves are firmer and slightly fibrous.\n\n<b>Structure:</b>
-    The fronds are arching, with coiled fiddleheads at the tips when emerging.\n\n<b>Surface:</b>
-    Smooth with a slightly glossy appearance on the upper side and a duller underside."
+  <LocalizedName>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 2631484911616
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <LocalizedDescription>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 2674833043456
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

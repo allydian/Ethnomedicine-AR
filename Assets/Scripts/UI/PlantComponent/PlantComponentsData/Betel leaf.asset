@@ -12,11 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
   m_Name: Betel leaf
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Betel leaf
-  <Description>k__BackingField: "<b>Shape:</b> Heart-shaped with a pointed tip.\n\n<b>Size:</b>
-    Typically 5\u201312 cm (2\u20135 inches) long and 3\u20138 cm (1\u20133 inches)
-    wide.\n\n<b>Color:</b> Bright green when fresh, turning darker with age.\n\n<b>Texture:</b>
-    Smooth, glossy, and slightly leathery.\n\n<b>Fragrance:</b> Strong, spicy, and
-    slightly peppery aroma when crushed.\n\n<b>Taste:</b> Mildly bitter, slightly
-    astringent, and pungent.\n\n<b>Growth Pattern:</b> Grows as a climbing vine,
-    often wrapping around trees or supports."
+  <LocalizedName>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 2426815459328
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <LocalizedDescription>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 2431932510208
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

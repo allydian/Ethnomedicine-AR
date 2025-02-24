@@ -12,18 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 882f6a8eab5500649bcb46e4cb9cc616, type: 3}
   m_Name: Red ginger
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Red ginger
-  <Description>k__BackingField: 'Also known as <b>halia merah</b>, and <b>lia bala</b>.
-
-    Features
-    tall, slender stems with lush, dark green leaves and striking, cone-shaped red
-    flower bracts. The rhizome is also strikingly red.
-
-    <b><i>For aiding digestion,
-    boosting the immune system, providing relief from various ailments</i></b> Add
-    ginger slices and tea bags in water, and bring to a boil, then simmer for 10-20
-    minutes. Remove from heat, then add honey to taste, if desired.'
+  <LocalizedName>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:c956ee9963201eb41a7267c1e2d83059
+    m_TableEntryReference:
+      m_KeyId: 3400752099328
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <LocalizedDescription>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:c956ee9963201eb41a7267c1e2d83059
+    m_TableEntryReference:
+      m_KeyId: 3420419190784
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   <Image>k__BackingField: {fileID: 21300000, guid: 1db53d1d0dc569c448042582b9af617e,
     type: 3}
   <Model>k__BackingField: {fileID: 919132149155446097, guid: 11b6e48d09a001549b9b5c5f4f3672f7,
     type: 3}
+  references:
+    version: 2
+    RefIds: []

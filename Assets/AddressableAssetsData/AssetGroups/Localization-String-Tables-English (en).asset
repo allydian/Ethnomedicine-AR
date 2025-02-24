@@ -30,13 +30,13 @@ MonoBehaviour:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ff134b7b60657d241a03650f453e6bef
-    m_Address: Plant Catalogue & Details Panel Text_en
+    m_Address: Plant Catalogue Details Panel Text_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2d4845eea66ec9a46a413e495073e22b
-    m_Address: Virtual Forests Panel_en
+    m_Address: Virtual Forests List Panel_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -60,7 +60,7 @@ MonoBehaviour:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 357bca3b3be574447bd1a50c876db64e
-    m_Address: Achievements Panel_en
+    m_Address: Achievements Panel Text_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -78,7 +78,7 @@ MonoBehaviour:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6a6d897dc79048a48bfdd73d8034ec1b
-    m_Address: Plant Quiz Question Bank_en
+    m_Address: Medicinal Plants Quiz Question Bank_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -89,14 +89,32 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 191269e3abaa13b48919d58e0c04dbd8
-    m_Address: Quiz Exit Modal_en
+  - m_GUID: e4a4acace5472d74a9414bf84c5f414c
+    m_Address: Virtual Forest_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a3be1b0a27d98b840b2bc7cf861e793c
-    m_Address: Game Over_en
+  - m_GUID: 68bc0f59f48b4c54b82556bd8688afc0
+    m_Address: Plant Catalogue Entry_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3196c86bd1326024887c63486073721b
+    m_Address: Achievements List_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c542807a567c07a49af43d6651ddfba0
+    m_Address: AR Camera Panel Text_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcedc3a957849b94289674dc56fdae29
+    m_Address: Component SO Entries_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Localization; // Add this namespace
+using UnityEngine.Localization.Settings; // Add this namespace
 
 public class ARQuizManager : MonoBehaviour
 {
@@ -12,8 +14,12 @@ public class ARQuizManager : MonoBehaviour
     private int currentQuestionIndex = 0;
     private int progress = 0;
 
-    private const string CorrectFeedback = "Great! You got the right answer!";
-    private const string IncorrectFeedback = "Sorry! You scanned the wrong answer. Try again!";
+    //private const string CorrectFeedback = "Great! You got the right answer!";
+    //private const string IncorrectFeedback = "Sorry! You scanned the wrong answer. Try again!";
+    public LocalizedString correctFeedback;
+    public LocalizedString incorrectFeedback;
+    public LocalizedString completionMessage;
+
 
     void Start()
     {
@@ -33,12 +39,14 @@ public class ARQuizManager : MonoBehaviour
         {
             ARQuizQuestionSO currentQuestion = questions[currentQuestionIndex];
             questionText.color = Color.yellow;
-            questionText.text = currentQuestion.questionText;
+            //questionText.text = currentQuestion.questionText;
+             questionText.text = currentQuestion.localizedQuestionText.GetLocalizedString(); // Use localized text
         }
         else
         {
             questionText.color = Color.green;
-            questionText.text = "Well done! You have completed all questions.";
+            //questionText.text = "Well done! You have completed all questions.";
+            questionText.text = completionMessage.GetLocalizedString(); // Use localized text
         }
     }
 
@@ -64,12 +72,14 @@ public class ARQuizManager : MonoBehaviour
         if (isCorrect)
         {
             questionText.color = Color.green;
-            questionText.text = CorrectFeedback;
+            //questionText.text = CorrectFeedback;
+            questionText.text = correctFeedback.GetLocalizedString(); // Use localized text
         }
         else
         {
             questionText.color = Color.red;
-            questionText.text = IncorrectFeedback;
+            //questionText.text = IncorrectFeedback;
+            questionText.text = incorrectFeedback.GetLocalizedString(); // Use localized text
         }
 
         yield return new WaitForSeconds(2.0f);

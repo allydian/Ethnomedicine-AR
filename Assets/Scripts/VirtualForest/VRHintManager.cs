@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.Localization;
 
 /// <summary>
 /// VRHintManager is responsible for displaying plant information in a VR environment when the user interacts with specific points of interest.
@@ -14,7 +15,7 @@ public class VRHintManager : MonoBehaviour, IPointerDownHandler
     /// <summary>
     /// Enum to represent different virtual reality locations where hints may be shown.
     /// </summary>
-    public enum VRLocation
+    /*public enum VRLocation
     {
         BNPI,   // Bako National Park I
         BNPII,  // Bako National Park II
@@ -22,6 +23,7 @@ public class VRHintManager : MonoBehaviour, IPointerDownHandler
     }
 
     public VRLocation location; // The current location in the VR environment where this hint manager is active.
+    */
     public GameObject plantInfoPanel; // The UI panel that displays the plant information.
     public Image plantImage; // The image component used to display the plant's image.
     public TMP_Text plantName; // The text component used to display the plant's name.
@@ -36,7 +38,7 @@ public class VRHintManager : MonoBehaviour, IPointerDownHandler
     void Start()
     {
         UpdateHintInfoPanel();
-        plantInfoPanel.SetActive(false);
+        //plantInfoPanel.SetActive(false);
 
         // Initialize the CheckAchievements script
         checkAchievements = FindObjectOfType<CheckAchievements>();
@@ -65,10 +67,27 @@ public class VRHintManager : MonoBehaviour, IPointerDownHandler
     /// <summary>
     /// Updates the hint panel UI elements with the selected plant's image, name, and description.
     /// </summary>
+    /*
     public void UpdateHintInfoPanel()
     {
         plantImage.sprite = plantSO.Image;
         plantName.text = plantSO.Name;
         plantDesc.text = plantSO.Description;
+    }
+    */
+     public void UpdateHintInfoPanel()
+    {
+        plantImage.sprite = plantSO.Image;
+
+        // Fetch localized strings asynchronously
+        plantSO.LocalizedName.GetLocalizedStringAsync().Completed += (nameOperation) =>
+        {
+            plantName.text = nameOperation.Result;
+        };
+
+        plantSO.LocalizedDescription.GetLocalizedStringAsync().Completed += (descOperation) =>
+        {
+            plantDesc.text = descOperation.Result;
+        };
     }
 }

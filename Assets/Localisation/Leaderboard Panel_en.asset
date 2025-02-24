@@ -18,10 +18,6 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 1267873017856
-    m_Localized: Leaderboard
-    m_Metadata:
-      m_Items: []
   - m_Id: 1290916524032
     m_Localized: Rank
     m_Metadata:

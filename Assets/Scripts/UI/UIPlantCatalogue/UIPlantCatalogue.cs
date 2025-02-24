@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization;
 
 /// <summary>
 /// This class manages the UI for a plant catalog, including displaying plant items,
@@ -52,7 +53,16 @@ public class UIPlantCatalogue : MonoBehaviour
     /// <param name="plantIndex">The index of the plant item to update.</param>
     /// <param name="plantImage">The image of the plant.</param>
     /// <param name="plantCardName">The name of the plant.</param>
+    /*
     public void UpdateData(int plantIndex, Sprite plantImage, string plantCardName)
+     //ublic void UpdateData(int plantIndex, Sprite plantImage, LocalizedString plantCardName) // Updated to use LocalizedString
+    {
+        if (listOfPlantItems.Count > plantIndex)
+        {
+            listOfPlantItems[plantIndex].SetData(plantImage, plantCardName);
+        }
+    }*/
+    public void UpdateData(int plantIndex, Sprite plantImage, LocalizedString plantCardName) // Updated to use LocalizedString
     {
         if (listOfPlantItems.Count > plantIndex)
         {
@@ -109,7 +119,13 @@ public class UIPlantCatalogue : MonoBehaviour
     /// <param name="image">The image of the plant.</param>
     /// <param name="name">The name of the plant.</param>
     /// <param name="description">The description of the plant.</param>
+    /*
     internal void UpdateDescription(int plantIndex, Sprite image, string name, string description)
+    {
+        plantDescription.SetDescription(image, name, description);
+    }
+    */
+    internal void UpdateDescription(int plantIndex, Sprite image, LocalizedString name, LocalizedString description) // Updated to use LocalizedString
     {
         plantDescription.SetDescription(image, name, description);
     }

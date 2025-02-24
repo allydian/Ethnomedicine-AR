@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Virtual Forest_ms
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ms
+  m_SharedData: {fileID: 11400000, guid: 72155b9cacec1a8409a98b9c140b96b6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 151340904448
+    m_Localized: 'Kanak-kanak di bawah umur 13 tahun dinasihatkan supaya berada di
+      bawah pengawasan orang dewasa sebelum menggunakan aplikasi <i>Herbal Heritage</i>.
+      Awasi orang lain apabila menggunakan <i>Herbal Heritage</i> dan berhati-hati
+      dengan persekitaran anda.
+
+      
+
+      Ibu bapa dan penjaga sila ambil
+      perhatian: semasa menggunakan Virtual Reality (VR), pengguna mempunyai kecenderungan
+      untuk bergerak bagi melihat persekitaran maya dari sudut yang berbeza.
+
+      
+
+      <b><u>Arahan</u></b>
+
+      
+
+      1.
+      <b>(Untuk mod kayu bedik)</b> Gerakkan kamera menggunakan kayu bedik dan lihat
+      sekeliling untuk mencari tumbuhan perubatan maya.
+
+      <b>(Untuk mod giro)</b>
+      Gerakkan peranti anda secara fizikal dan lihat sekeliling untuk mencari tumbuhan
+      perubatan maya.
+
+      2. Klik pada tumbuhan untuk melihat penerangan.
+
+      3.
+      Cari <b>anak panah biru</b> dan klik padanya untuk pindah ke lokasi yang berbeza.
+
+      4.
+      Klik pada ikon (?) untuk <i>Bantuan</i>, dan ikon di bawah untuk menukar antara
+      <b>mod giro dan kayu bedik</b>.'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

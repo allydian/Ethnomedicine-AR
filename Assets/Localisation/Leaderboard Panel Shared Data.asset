@@ -15,10 +15,6 @@ MonoBehaviour:
   m_TableCollectionName: Leaderboard Panel
   m_TableCollectionNameGuidString: 99d651d5f89521640ba3b2c3eb6eb686
   m_Entries:
-  - m_Id: 1267873017856
-    m_Key: Leaderboard
-    m_Metadata:
-      m_Items: []
   - m_Id: 1290916524032
     m_Key: Rank
     m_Metadata:

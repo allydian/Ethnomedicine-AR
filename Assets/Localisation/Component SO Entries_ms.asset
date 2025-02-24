@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Component SO Entries_ms
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ms
+  m_SharedData: {fileID: 11400000, guid: 80d75398ce864994ca982eb64b6ee79b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1101813854208
+    m_Localized: Isi lidah buaya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1140711829504
+    m_Localized: '<b>Warna:</b> Lutsinar atau sedikit keputihan.
+
+      
+
+      <b>Tekstur:</b>
+      Seperti gel, lembut dan licin.
+
+      
+
+      <b>Kepekatan:</b> Tebal, likat
+      dan sedikit melekit.
+
+      
+
+      <b>Rasa:</b> Sedikit pahit dengan sedikit
+      masam.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2380086718464
+    m_Localized: Daun aloe vera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2426815459328
+    m_Localized: Daun sirih
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2478904520704
+    m_Localized: Pinang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2537402478592
+    m_Localized: Biji lada hitam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2631484911616
+    m_Localized: Daun paku sungai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2787693375488
+    m_Localized: Bunga halia merah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2897592528896
+    m_Localized: Daun halia merah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2978429349888
+    m_Localized: Buah Mahkota Dewa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3077742080000
+    m_Localized: Bunga tembakau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3153650593792
+    m_Localized: Daun tembakau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3226832809984
+    m_Localized: Daun kunyit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3322379055104
+    m_Localized: Rizom kunyit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9210531753984
+    m_Localized: Akar homalomena kering
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9244077797376
+    m_Localized: "<b>Bentuk:</b> Tidak sekata, kepingan berserabut atau kepingan
+      nipis, bergantung pada cara ia dipotong.\r\n\r\n<b>Saiz:</b> Berbeza-beza,
+      tetapi kebiasaannya 3\u201310 cm (1\u20134 inci) panjang dan 0.5\u20132 cm
+      (0.2\u20130.8 inci) tebal.\r\n\r\n<b>Warna:</b> Coklat muda hingga coklat gelap,
+      kadangkala dengan rona sedikit kemerah-merahan.\r\n\r\n<b>Tekstur:</b>\r\n-
+      Keras dan berkayu apabila dikeringkan sepenuhnya.\r\n- Sedikit kasar atau berserabut
+      pada permukaan.\r\n<b>Wangian:</b> Aroma yang kuat, bersahaja dan sedikit pedas
+      atau seperti kapur barus.\r\n\r\n<b>Rasa:</b> Pahit atau sedikit pedas, bergantung
+      pada penyediaan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2404656951296
+    m_Localized: '<b>Bentuk:</b> Panjang, meruncing dan berbentuk tombak.
+
+      
+
+      <b>Warna:</b>
+      Hijau ke hijau kekelabuan, kadangkala mempunyai bintik putih atau jalur pada
+      tumbuhan yang lebih muda.
+
+      
+
+      <b>Tekstur:</b> Licin dan berlilin
+      pada permukaan luar, dengan struktur yang sedikit padat tetapi fleksibel.
+
+      
+
+      <b>Tepi:</b>
+      Bergerigi putih, kecil, dan lembut.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2431932510208
+    m_Localized: "<b>Bentuk:</b> Berbentuk hati dengan hujung runcing.\r\n\r\n<b>Saiz:</b>
+      Kebiasaannya 5\u201312 cm (2\u20135 inci) panjang dan 3\u20138 cm (1\u20133
+      inci) lebar.\r\n\r\n<b>Wangian:</b> Aroma yang kuat dan pedas apabila dihancurkan.\r\n\r\n<b>Rasa:</b>
+      Sedikit pahit, sedikit pedar dan kuat.\r\n\r\n<b>Corak Pertumbuhan:</b> Tumbuh
+      sebagai pokok menjalar, selalunya melilit pokok atau penyokongnya."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2517009772544
+    m_Localized: "<b>Bentuk:</b> Bujur atau bulat, serupa dengan telur kecil.\r\n\r\n<b>Saiz:</b>
+      Kebiasaannya berdiameter 3\u20135 cm (1\u20132 inci).\r\n\r\n<b>Warna:\r\n-
+      Belum masak:</b> Kulit luar hijau.\r\n<b>- Sudah masak:</b> Jingga atau coklat
+      kekuningan apabila matang sepenuhnya.\r\n\r\n<b>Struktur Dalaman:</b> Mengandungi
+      biji benih pejal berwarna coklat kemerah-merahan dengan jalur putih atau bercorak
+      pusaran di dalamnya.\r\n\r\n<b>Rasa:</b> Pahit dan sedikit pedar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2599507537920
+    m_Localized: "<b>Saiz:</b> Kecil dan sfera, kebiasaannya dalam 3\u20135 mm diameter.\r\n\r\n<b>Warna:</b>
+      Coklat gelap ke hitam-hitaman apabila dikeringkan; hijau atau pucat apabila
+      segar.\r\n\r\n<b>Tekstur:</b> Apabila dikeringkan, ia mempunyai permukaan luar
+      yang berkedut dan kasar dengan tempurung yang keras dan kering.\r\n\r\n<b>Bentuk:</b>
+      Umumnya bulat, dengan sedikit variasi bergantung pada proses pengeringan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2674833043456
+    m_Localized: "<b>Bentuk:</b> Daunnya menyirip dengan berbilang pasang dedaun
+      memanjang berbentuk tombak tersusun di sepanjang batang tengah.\r\n\r\n<b>Saiz:</b>
+      Daun boleh membesar sehingga 1\u20132 meter panjang, namun pucuk pakunya bersaiz
+      lebih kecil dan lembut.\r\n\r\n<b>Warna:</b> Hijau terang semasa muda, menjadi
+      gelap apabila ia matang.\r\n\r\n<b>Struktur:</b> Daunnya melengkung, dengan
+      kepala pucuknya bergelung di hujung apabila ia tumbuh."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2861274050560
+    m_Localized: "<b>Warna:</b> Merah menyala, kadangkala berwarna merah jambu, membentuk
+      perbungaan yang menarik.\r\n\r\n<b>Bentuk:</b> Bunganya tersusun padat dan
+      berbentuk kon.\r\n\r\n<b>Saiz:</b> Bunga boleh membesar sehingga 15\u201330
+      cm panjang, dengan keseluruhan pokoknya mampu mencapai ketinggian 1\u20133
+      meter."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2936800882688
+    m_Localized: "<b>Bentuk:</b> Berbentuk runcing.\r\n\r\n<b>Saiz:</b> Besar, kebiasaannya
+      antara 30\u201350 cm panjang dan 5\u201315 cm lebar.\r\n\r\n<b>Warna:</b> Hijau
+      berkilat pada permukaan atas; hijau muda di bahagian bawah.\r\n\r\n<b>Tekstur:</b>
+      Licin, dengan rasa berlilin sedikit.\r\n\r\n<b>Struktur:</b> Tersusun berselang-seli
+      di sepanjang batang yang tinggi dan tegak; daunnya menonjol dan uratnya selari."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3040966422528
+    m_Localized: "<b>Bentuk:</b> Bulat ke bujur, serupa dengan epal kecil.\r\n\r\n<b>Saiz:</b>
+      Kebiasaannya berdiameter 3\u20135 cm (1\u20132 inci).\r\n\r\n<b>Warna:</b>
+      Merah terang apabila masak sepenuhnya, hijau apabila belum masak.\r\n\r\n<b>Isi:</b>
+      Putih pucat, lembut dan span di dalam.\r\n\r\n<b>Biji:</b> Mengandungi biji
+      tunggal, keras, berwarna coklat gelap yang beracun jika dimakan mentah.\r\n\r\n<b>Rasa:</b>
+      Pahit apabila tidak diproses."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3124219162624
+    m_Localized: "<b>Warna:</b> Kebiasaannya merah jambu pucat, putih atau ungu muda.\r\n\n<b>Bentuk:</b>
+      Bunga berbentuk tiub dengan bukaan yang berkilat seperti bintang di hujungnya.\r\r\n\n<b>Saiz:</b>
+      Bunga berukuran dalam 2\u20134 \u200B\u200Bcm panjang, dengan bahagian tiubnya
+      yang halus.\r\r\n\n<b>Susunan:</b> Berkelompok dalam perbungaan terminal di
+      bahagian atas tumbuhan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3194754772992
+    m_Localized: '<b>Bentuk:</b> Luas, bujur hingga berbentuk tirus, dengan hujungnya
+      runcing dan tapak yang bulat.
+
+      
+
+      <b>Saiz:</b> Besar, antara 30
+      - 60 cm panjang dan 15 - 25 cm lebar, bergantung pada variasi.
+
+      
+
+      <b>Warna:</b>
+      Hijau terang apabila segar, dengan sedikit variasi warna; berubah menjadi coklat
+      kekuningan apabila dikeringkan.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3289931919360
+    m_Localized: "<b>Bentuk:</b> Luas, memanjang dan berbentuk tirus.\r\n\r\n<b>Saiz:</b>
+      Besar, kebiasaannya 30\u201360 cm (12\u201324 inci) panjang dan 10\u201320
+      cm (4\u20138 inci) lebar.\r\n\r\n<b>Warna:</b> Hijau terang dengan permukaan
+      licin dan berkilat.\r\n\r\n<b>Wangian:</b> Sedikit aromatik dengan bau tanah
+      dan pedas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3368398958592
+    m_Localized: "<b>Bentuk:</b> Menonjol, tidak sekata dan silinder dengan berbilang
+      cabang berbentuk seperti jari.\r\n\r\n<b>Saiz:</b> Kebiasaannya 2\u20135 cm
+      (1\u20132 inci) tebal dan panjangnya berbeza-beza.\r\n\r\n<b>Warna:\r\n- Kulit
+      luar:</b> Keperangan hingga kekuningan dengan tekstur yang kasar dan seperti
+      kertas.\r\n<b>- Isi:</b> Kuning oren terang atau keemasan dalam apabila dipotong.\r\n\r\n<b>Wangian:</b>
+      Kuat, berbau sedikit pedas dan hangat.\r\n\r\n<b>Rasa:</b> Pahit, sedikit pedas
+      dan hangat."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

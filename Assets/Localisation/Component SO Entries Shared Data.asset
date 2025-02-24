@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Component SO Entries Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Component SO Entries
+  m_TableCollectionNameGuidString: 80d75398ce864994ca982eb64b6ee79b
+  m_Entries:
+  - m_Id: 1101813854208
+    m_Key: Name_AloeFlesh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1140711829504
+    m_Key: Desc_AloeFlesh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2380086718464
+    m_Key: Name_AloeLeaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2404656951296
+    m_Key: Desc_AloeLeaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2426815459328
+    m_Key: Name_BetelLeaf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2431932510208
+    m_Key: Desc_BetelLeaf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2478904520704
+    m_Key: Name_BetelNut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2517009772544
+    m_Key: Desc_BetelNut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2537402478592
+    m_Key: Name_BlackPepper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2599507537920
+    m_Key: Desc_BlackPepper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2631484911616
+    m_Key: Name_FernLeaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2674833043456
+    m_Key: Desc_FernLeaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2787693375488
+    m_Key: Name_GingerFlower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2861274050560
+    m_Key: Desc_GingerFlower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2897592528896
+    m_Key: Name_GingerLeaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2936800882688
+    m_Key: Desc_GingerLeaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2978429349888
+    m_Key: Name_MahkotadewaFruit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3040966422528
+    m_Key: Desc_MahkotadewaFruit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3077742080000
+    m_Key: Name_TobaccoFlower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3124219162624
+    m_Key: Desc_TobaccoFlower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3153650593792
+    m_Key: Name_TobaccoLeaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3194754772992
+    m_Key: Desc_TobaccoLeaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3226832809984
+    m_Key: Name_TurmericLeaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3289931919360
+    m_Key: Desc_TurmericLeaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3322379055104
+    m_Key: Name_TurmericRhizome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3368398958592
+    m_Key: Desc_TurmericRhizome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9210531753984
+    m_Key: Name_DriedLong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9244077797376
+    m_Key: Desc_DriedLong
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4252734074361217024
+  references:
+    version: 2
+    RefIds:
+    - rid: 4252734074361217024
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1738737440929

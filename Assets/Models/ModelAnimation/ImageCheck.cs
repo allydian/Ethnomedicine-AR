@@ -56,8 +56,12 @@ public class ImageCheck : MonoBehaviour
         //Trigger for sirih
         mAnimator.SetTrigger("SirTrigger");
         mAnimator.ResetTrigger("SirReverse");
+
+        //Trigger for long
+        mAnimator.SetTrigger("LongTrigger");
+        mAnimator.ResetTrigger("LongReverse");
     }
-    
+
     public void ArriveScaleDown()
     {
         //Trigger for red ginger
@@ -91,5 +95,9 @@ public class ImageCheck : MonoBehaviour
         //Trigger for sirih
         mAnimator.SetTrigger("SirReverse");
         mAnimator.ResetTrigger("SirTrigger");
+
+        //Trigger for Long
+        mAnimator.SetTrigger("LongReverse");
+        mAnimator.ResetTrigger("LongTrigger");
     }
 }

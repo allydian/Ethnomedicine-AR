@@ -18,10 +18,6 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 1267873017856
-    m_Localized: Carta kedudukan
-    m_Metadata:
-      m_Items: []
   - m_Id: 1290916524032
     m_Localized: Pangkat
     m_Metadata:

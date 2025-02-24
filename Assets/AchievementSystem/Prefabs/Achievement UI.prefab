@@ -235,6 +235,36 @@ MonoBehaviour:
   SpoilerOverlay: {fileID: 1692881069355201967}
   SpoilerText: {fileID: 4014383932675444876}
   AS: {fileID: 0}
+  localizedSpoilerMessage:
+    m_TableReference:
+      m_TableCollectionName: GUID:a08991bc45d54b64f89c28321fc9fb8f
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  localizedAchievedText:
+    m_TableReference:
+      m_TableCollectionName: GUID:a819fbb0567aaed41b35142f2d16f318
+    m_TableEntryReference:
+      m_KeyId: 11806247764291584
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  localizedLockedText:
+    m_TableReference:
+      m_TableCollectionName: GUID:a819fbb0567aaed41b35142f2d16f318
+    m_TableEntryReference:
+      m_KeyId: 11806284267319296
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!95 &9164191636813369973
 Animator:
   serializedVersion: 5
@@ -343,6 +373,36 @@ MonoBehaviour:
   SpoilerOverlay: {fileID: 0}
   SpoilerText: {fileID: 0}
   AS: {fileID: 0}
+  localizedSpoilerMessage:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  localizedAchievedText:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  localizedLockedText:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1222573805526380
 GameObject:
   m_ObjectHideFlags: 0

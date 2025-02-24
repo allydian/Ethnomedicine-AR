@@ -24,11 +24,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 309684269056
-    m_Key: YesDel
+    m_Key: Confirm
     m_Metadata:
       m_Items: []
   - m_Id: 349773426688
-    m_Key: NoDel
+    m_Key: Cancel
     m_Metadata:
       m_Items: []
   - m_Id: 669006098432
@@ -48,7 +48,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 10059515883520
-    m_Key: TotalScore
+    m_Key: Score
     m_Metadata:
       m_Items: []
   - m_Id: 10114272522240
@@ -57,6 +57,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 10143741702144
     m_Key: Leave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4103261000757248
+    m_Key: Timer
     m_Metadata:
       m_Items: []
   m_Metadata:

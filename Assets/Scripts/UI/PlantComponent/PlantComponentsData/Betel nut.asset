@@ -12,11 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330d020ac5cdc054d8f4b59df1d736cd, type: 3}
   m_Name: Betel nut
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Betel nut
-  <Description>k__BackingField: "<b>Shape:</b> Oval or round, similar to a small
-    egg.\n\n<b>Size:</b> Typically 3\u20135 cm (1\u20132 inches) in diameter.\n\n<b>Color:\n-
-    Unripe nut:</b> Green outer shell.\n<b>- Ripe nut:</b> Orange or yellowish-brown
-    when fully mature.\n\n<b>Texture:</b> Hard and woody when dried; fibrous and
-    slightly moist when fresh.\n\n<b>Internal Structure:</b> Contains a firm, reddish-brown
-    seed with white streaks or marbling inside.\n\n<b>Fragrance:</b> Mild, nutty
-    aroma.\n\n<b>Taste:</b> Bitter and slightly astringent, with a mild peppery flavor."
+  <LocalizedName>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 2478904520704
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <LocalizedDescription>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:80d75398ce864994ca982eb64b6ee79b
+    m_TableEntryReference:
+      m_KeyId: 2517009772544
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

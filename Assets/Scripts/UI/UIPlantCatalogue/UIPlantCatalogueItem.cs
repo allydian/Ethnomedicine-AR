@@ -7,6 +7,7 @@ using System;
 using Unity.VisualScripting;
 using UnityEngine.EventSystems;
 using System.Reflection;
+using UnityEngine.Localization;
 
 /// <summary>
 /// This class represents an individual plant item in the UI plant catalog.
@@ -49,11 +50,25 @@ public class UIPlantCatalogueItem : MonoBehaviour, IPointerDownHandler, IPointer
     /// </summary>
     /// <param name="sprite">The sprite to be used as the plant's image.</param>
     /// <param name="plantCardName">The name of the plant to be displayed.</param>
-    public void SetData(Sprite sprite, string plantCardName)
+    /*public void SetData(Sprite sprite, string plantCardName)
     {
         this.plantCardImage.gameObject.SetActive(true);
         this.plantCardImage.sprite = sprite;
         this.plantCardName.text = plantCardName +"";
+        empty = false;
+    }*/
+
+    public void SetData(Sprite sprite, LocalizedString plantCardName) // Updated to use LocalizedString
+    {
+        this.plantCardImage.gameObject.SetActive(true);
+        this.plantCardImage.sprite = sprite;
+
+        // Fetch localized string asynchronously
+        plantCardName.GetLocalizedStringAsync().Completed += (operation) =>
+        {
+            this.plantCardName.text = operation.Result;
+        };
+
         empty = false;
     }
 
