@@ -73,16 +73,6 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
-  - plant: {fileID: 11400000, guid: 0b78a6c17580d3e4b9e9d59d84178ebb, type: 2}
-    plantName:
-      m_TableReference:
-        m_TableCollectionName: GUID:c956ee9963201eb41a7267c1e2d83059
-      m_TableEntryReference:
-        m_KeyId: 3320745549557760
-        m_Key: 
-      m_FallbackState: 0
-      m_WaitForCompletion: 0
-      m_LocalVariables: []
   - plant: {fileID: 11400000, guid: 149b883bfeae7d949a1fa8eb5acb2749, type: 2}
     plantName:
       m_TableReference:
@@ -113,7 +103,7 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
-  <Size>k__BackingField: 5
+  <Size>k__BackingField: 9
   references:
     version: 2
     RefIds: []

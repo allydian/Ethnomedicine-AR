@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Quiz/MedicinalPlantsQuiz.unity
     guid: 59944372e9e3fd6468efb2f3a0023ddc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ViewPlantinAR.unity
     guid: c0c3ce1f382098f45929144efd696b9b
   - enabled: 1
