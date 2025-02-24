@@ -91,15 +91,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3320743800532992
-    m_Localized: Placeholder
-    m_Metadata:
-      m_Items: []
-  - m_Id: 3320745549557760
-    m_Localized: Placeholder
-    m_Metadata:
-      m_Items: []
-  - m_Id: 3320747227279360
-    m_Localized: Placeholder
+    m_Localized: Daunnya mempunyai tepi bergerigi dan mengandungi bahan jernih seperti
+      gel di dalamnya. Gel daripada daunnya boleh disapu terus pada kulit melecur,
+      luka dan kulit iritasi untuk <b>mengurangkan keradangan dan menggalakkan penyembuhan</b>.
     m_Metadata:
       m_Items: []
   - m_Id: 3320749227962368
@@ -107,7 +101,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3320750716940288
-    m_Localized: Placeholder
+    m_Localized: Buah kecil bulat yang berubah warna menjadi merah terang apabila
+      masak, dengan kulitnya yang licin, isinya putih lembut dan mengandungi biji
+      yang keras dan toksik. Daun, buah dan biji tumbuhan ini digunakan dalam perubatan
+      tradisional, yang terkenal dengan sifat <b>anti-radang, antioksidan, dan meningkatkan
+      imun</b>nya. Ia biasanya digunakan untuk membantu menguruskan <b>diabetes,
+      hipertensi dan masalah kulit</b>. Tetapi, buah mentah dan biji benih mesti
+      diproses dengan betul untuk mengelakkan ketoksikan.
     m_Metadata:
       m_Items: []
   - m_Id: 3320752126226432
@@ -115,7 +115,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3320752877006848
-    m_Localized: Placeholder
+    m_Localized: Pokok menjalar yang mempunyai <b>daun hijau licin, berkilat, berbentuk
+      hati</b> yang mempunyai aroma pedas yang kuat. Daunnya digunakan secara meluas
+      dalam perubatan tradisional untuk sifat <b>antiseptik, anti-radang, dan perangsang</b>nya.
+      Mereka biasanya dikunyah dengan pinang untuk membantu <b>pencernaan, menyegarkan
+      nafas dan meningkatkan tenaga</b>, manakala digunakan juga dalam ubat untuk
+      <b>batuk, luka dan jangkitan</b> disebabkan oleh kesan antibakterianya.
     m_Metadata:
       m_Items: []
   - m_Id: 3320753522929664
@@ -123,7 +128,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3320754101743616
-    m_Localized: Placeholder
+    m_Localized: Herba yang mempunyai daun hijau lebar berbentuk tombak dan rizom
+      bawah tanah yang <b>berbonjol, silinder dan kuning jingga terang</b> di dalamnya.
+      Terkenal dengan sifat <b>anti-radang, antioksidan dan antimikrob</b>nya, kunyit
+      digunakan secara meluas dalam perubatan tradisional untuk menyokong <b>pencernaan,
+      meningkatkan imuniti, mengurangkan sakit sendi dan menggalakkan penyembuhan
+      luka</b>. Sebatian aktifnya, curcumin, berpotensinya dalam menguruskan <b>artritis,
+      keadaan kulit dan gangguan metabolik</b>.
     m_Metadata:
       m_Items: []
   references:

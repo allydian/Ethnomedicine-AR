@@ -89,15 +89,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3320743800532992
-    m_Localized: Placeholder
-    m_Metadata:
-      m_Items: []
-  - m_Id: 3320745549557760
-    m_Localized: Placeholder
-    m_Metadata:
-      m_Items: []
-  - m_Id: 3320747227279360
-    m_Localized: Placeholder
+    m_Localized: The leaves have serrated edges and contain a clear, gel-like substance
+      inside. The gel from its leaves can be applied directly to burns, wounds, and
+      irritated skin to <b>reduce inflammation and promote healing</b>.
     m_Metadata:
       m_Items: []
   - m_Id: 3320749227962368
@@ -105,7 +99,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3320750716940288
-    m_Localized: Placeholder
+    m_Localized: A small, round fruit that turns bright red when ripe, with smooth
+      skin and soft white flesh containing a hard, toxic seed. The plant's leaves,
+      fruit, and seeds are used in traditional medicine, known for their <b>anti-inflammatory,
+      antioxidant, and immune-boosting</b> properties. It is commonly used to help
+      manage <b>diabetes, hypertension, and skin conditions</b>, though the raw fruit
+      and seeds must be processed properly to avoid toxicity.
     m_Metadata:
       m_Items: []
   - m_Id: 3320752126226432
@@ -113,7 +112,19 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3320752877006848
-    m_Localized: Placeholder
+    m_Localized: 'A climbing vine with <b>smooth, glossy, heart-shaped green leaves</b>
+      that have a strong, spicy aroma. The leaves are widely used in traditional
+      medicine for their <b>antiseptic, anti-inflammatory, and stimulant</b> properties.
+      They are commonly chewed with betel nut to aid <b>digestion, freshen breath,
+      and boost energy</b>, while also being used in remedies for <b>coughs, wounds,
+      and infections</b> due to their antibacterial effects.
+
+
+
+
+
+
+'
     m_Metadata:
       m_Items: []
   - m_Id: 3320753522929664
@@ -121,7 +132,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3320754101743616
-    m_Localized: Placeholder
+    m_Localized: A herb with broad, lance-shaped green leaves and an underground
+      rhizome that is <b>knobby, cylindrical, and bright orange-yellow</b> inside.
+      Known for its <b>anti-inflammatory, antioxidant, and antimicrobial</b> properties,
+      turmeric is widely used in traditional medicine to support <b>digestion, boost
+      immunity, reduce joint pain, and promote wound healing</b>. Its active compound,
+      curcumin, has potential in managing <b>arthritis, skin conditions, and metabolic
+      disorders</b>.
     m_Metadata:
       m_Items: []
   references:
