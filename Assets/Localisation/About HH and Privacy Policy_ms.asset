@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: About HH and Privacy Policy_ms
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ms
+  m_SharedData: {fileID: 11400000, guid: b98b466ae2c60a34db5fada3e881476e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 14577233920
+    m_Localized: '<i>Herbal Heritage<\i> adalah aplikasi XR yang membantu anda mempelajari
+      perubatan tradisional Kenyah dan Kayan sambil bersaing dengan pengguna lain
+      untuk kedudukan dan mengumpul pencapaian. Aplikasi ini dilengkapi dengan set
+      kad imbas dan buku kecil yang boleh diakses dalam talian atau dicetak dalam
+      salinan keras.
+
+      
+
+      Aplikasi dan bahan tambahannya dibangunkan
+      oleh Ally Dian dan Nurul Farizah di bawah seliaan Profesor Jane Labadin (Penyiasat
+      Utama) dan Dr Suriati Khartini Jali (penyelidik bersama penyelia utama). Kandungan
+      dalam semua aplikasi, set kad imbas dan buku kecil akan diperoleh daripada
+      pembawa pengetahuan dalam komuniti Sungai Asap dan disahkan oleh Dr Juna Liau
+      dan pasukannya. Kami ingin merakamkan ucapan terima kasih dan terima kasih
+      kepada mereka atas sokongan, pengetahuan, dan bimbingan mereka.
+
+      
+
+      <i>Herbal
+      Heritage</i> kini dalam peringkat pembuktian konsep, bermakna kandungan semasa
+      hanya mewakili contoh cara aplikasi dan bahan tambahannya boleh memberikan
+      pengalaman yang menyeronokkan dan menarik untuk pengguna dari latar belakang
+      yang berbeza untuk mempelajari perubatan tradisional Kenyah dan Kayan. Versi
+      aplikasi akan datang akan termasuk tumbuhan yang disahkan yang diketahui oleh
+      masyarakat untuk digunakan sebagai tumbuhan ubatan. Untuk sebarang isu yang
+      mungkin anda hadapi atau jika anda ingin mengemukakan kebimbangan, jangan teragak-agak
+      untuk menghubungi kami di ljane@unimas.my atau jskhartini@unimas.my.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42683265024
+    m_Localized: '<b>Syarat Penggunaan</b>
+
+      Terma dan syarat ini terpakai
+      pada aplikasi Warisan Herba (dengan ini dirujuk sebagai "Permohonan") untuk
+      peranti mudah alih yang dicipta oleh Universiti Malaysia Sarawak (dengan ini
+      dirujuk sebagai "Pembekal Perkhidmatan") sebagai perkhidmatan Percuma.
+
+      
+
+      Selepas
+      memuat turun atau menggunakan Aplikasi, anda secara automatik bersetuju dengan
+      syarat berikut. Adalah dinasihatkan agar anda membaca dan memahami syarat-syarat
+      ini dengan teliti sebelum menggunakan Aplikasi. Penyalinan tanpa kebenaran,
+      pengubahsuaian Aplikasi, mana-mana bahagian Aplikasi, atau tanda dagangan kami
+      adalah dilarang sama sekali. Sebarang percubaan untuk mengekstrak kod sumber
+      Aplikasi, menterjemah Aplikasi ke dalam bahasa lain, atau mencipta versi terbitan
+      adalah tidak dibenarkan. Semua tanda dagangan, hak cipta, hak pangkalan data
+      dan hak harta intelek lain yang berkaitan dengan Aplikasi kekal menjadi hak
+      milik Pembekal Perkhidmatan.
+
+      
+
+      Pembekal Perkhidmatan berdedikasi
+      untuk memastikan bahawa Aplikasi adalah berfaedah dan cekap yang mungkin. Oleh
+      itu, mereka berhak untuk mengubah suai Aplikasi atau mengenakan caj untuk perkhidmatan
+      mereka pada bila-bila masa dan atas sebarang sebab. Pembekal Perkhidmatan memberi
+      jaminan kepada anda bahawa sebarang caj untuk Aplikasi atau perkhidmatannya
+      akan dimaklumkan dengan jelas kepada anda.
+
+      
+
+      Aplikasi menyimpan
+      dan memproses data peribadi yang telah anda berikan kepada Pembekal Perkhidmatan
+      untuk menyediakan Perkhidmatan. Adalah menjadi tanggungjawab anda untuk mengekalkan
+      keselamatan telefon anda dan akses kepada Aplikasi. Pembekal Perkhidmatan amat
+      menasihatkan agar tidak melakukan jailbreak atau mengakar telefon anda, yang
+      melibatkan mengalih keluar sekatan dan pengehadan perisian yang dikenakan oleh
+      sistem pengendalian rasmi peranti anda. Tindakan sedemikian boleh mendedahkan
+      telefon anda kepada perisian hasad, virus, program berniat jahat, menjejaskan
+      ciri keselamatan telefon anda dan boleh mengakibatkan Aplikasi tidak berfungsi
+      dengan betul atau sama sekali.
+
+      
+
+      Sila ambil perhatian bahawa
+      Aplikasi menggunakan perkhidmatan pihak ketiga yang mempunyai Terma dan Syarat
+      mereka sendiri. Di bawah ialah pautan kepada Terma dan Syarat penyedia perkhidmatan
+      pihak ketiga yang digunakan oleh Aplikasi:
+
+      
+
+      Perkhidmatan Google
+      Play
+
+      
+
+      Harap maklum bahawa Pembekal Perkhidmatan tidak bertanggungjawab
+      untuk aspek tertentu. Sesetengah fungsi Aplikasi memerlukan sambungan internet
+      aktif, yang boleh berupa Wi-Fi atau disediakan oleh pembekal rangkaian mudah
+      alih anda. Pembekal Perkhidmatan tidak boleh bertanggungjawab jika Aplikasi
+      tidak berfungsi pada kapasiti penuh kerana kekurangan akses kepada Wi-Fi atau
+      jika anda telah kehabisan elaun data anda.
+
+      
+
+      Jika anda menggunakan
+      aplikasi di luar kawasan Wi-Fi, sila maklum bahawa syarat perjanjian pembekal
+      rangkaian mudah alih anda masih terpakai. Akibatnya, anda mungkin dikenakan
+      caj daripada pembekal mudah alih anda untuk penggunaan data semasa sambungan
+      ke aplikasi, atau caj pihak ketiga yang lain. Dengan menggunakan aplikasi,
+      anda menerima tanggungjawab untuk sebarang caj sedemikian, termasuk caj data
+      perayauan jika anda menggunakan aplikasi di luar wilayah asal anda (iaitu,
+      wilayah atau negara) tanpa melumpuhkan perayauan data. Jika anda bukan pembayar
+      bil untuk peranti yang anda gunakan aplikasi tersebut, mereka menganggap bahawa
+      anda telah mendapat kebenaran daripada pembayar bil.
+
+      
+
+      Begitu
+      juga, Pembekal Perkhidmatan tidak boleh sentiasa bertanggungjawab ke atas penggunaan
+      aplikasi anda. Sebagai contoh, adalah menjadi tanggungjawab anda untuk memastikan
+      peranti anda kekal dicas. Jika peranti anda kehabisan bateri dan anda tidak
+      dapat mengakses Perkhidmatan, Pembekal Perkhidmatan tidak boleh bertanggungjawab.
+
+      
+
+      Dari
+      segi tanggungjawab Pembekal Perkhidmatan untuk penggunaan aplikasi anda, adalah
+      penting untuk ambil perhatian bahawa semasa mereka berusaha untuk memastikan
+      ia dikemas kini dan tepat pada setiap masa, mereka bergantung pada pihak ketiga
+      untuk memberikan maklumat kepada mereka supaya mereka boleh menyediakannya
+      kepada anda. Pembekal Perkhidmatan tidak menerima liabiliti untuk sebarang
+      kerugian, langsung atau tidak langsung, yang anda alami akibat bergantung sepenuhnya
+      pada fungsi aplikasi ini.
+
+      
+
+      Pembekal Perkhidmatan mungkin ingin
+      mengemas kini aplikasi pada satu ketika. Aplikasi pada masa ini tersedia mengikut
+      keperluan untuk sistem pengendalian (dan untuk mana-mana sistem tambahan yang
+      mereka putuskan untuk melanjutkan ketersediaan aplikasi) mungkin berubah, dan
+      anda perlu memuat turun kemas kini jika anda mahu terus menggunakan aplikasi.
+      Pembekal Perkhidmatan tidak menjamin bahawa ia akan sentiasa mengemas kini
+      aplikasi supaya ia berkaitan dengan anda dan/atau serasi dengan versi sistem
+      pengendalian tertentu yang dipasang pada peranti anda. Walau bagaimanapun,
+      anda bersetuju untuk sentiasa menerima kemas kini aplikasi apabila ditawarkan
+      kepada anda. Pembekal Perkhidmatan juga mungkin ingin berhenti menyediakan
+      aplikasi dan boleh menamatkan penggunaannya pada bila-bila masa tanpa memberikan
+      notis penamatan kepada anda. Melainkan mereka memberitahu anda sebaliknya,
+      selepas sebarang penamatan, (a) hak dan lesen yang diberikan kepada anda dalam
+      syarat ini akan tamat; (b) anda mesti berhenti menggunakan aplikasi itu, dan
+      (jika perlu) memadamkannya daripada peranti anda.
+
+      
+
+      <b>Perubahan
+      kepada Syarat Penggunaan Ini</b>Pembekal Perkhidmatan boleh mengemas kini Terma
+      Penggunaan mereka secara berkala. Oleh itu, anda dinasihatkan untuk menyemak
+      halaman ini dengan kerap untuk sebarang perubahan. Pembekal Perkhidmatan akan
+      memberitahu anda tentang sebarang perubahan dengan menyiarkan Syarat Penggunaan
+      baharu pada halaman ini.
+
+      
+
+      Syarat penggunaan ini berkuat kuasa
+      mulai 2024-10-21
+
+      
+
+      <b>Hubungi Kami</b>
+
+      Jika anda mempunyai
+      sebarang soalan atau cadangan tentang Terma dan Syarat, sila jangan teragak-agak
+      untuk menghubungi Pembekal Perkhidmatan di ljane@unimas.my atau jskhartini@unimas.my'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
