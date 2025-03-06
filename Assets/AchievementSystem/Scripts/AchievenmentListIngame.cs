@@ -95,6 +95,12 @@ public class AchievenmentListIngame : MonoBehaviour
     /// </summary>
     public void ChangeFilter ()
     {
+
+        if (Filter == null)
+        {
+            Debug.LogError("Filter Dropdown is not assigned! If filter GameObject is not available, ignore.");
+            return;
+        }
         AddAchievements(Filter.options[Filter.value].text);
     }
 

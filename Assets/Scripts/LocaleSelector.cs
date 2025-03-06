@@ -8,7 +8,7 @@ public class LocaleSelector : MonoBehaviour
     private static LocaleSelector instance;
     private bool active = false;
 
-     private void Awake()
+    private void Awake()
     {
         if (instance == null)
         {
@@ -37,16 +37,6 @@ public class LocaleSelector : MonoBehaviour
             return;
         StartCoroutine(SetLocale(localeID));
     }
-
-    /*
-    IEnumerator SetLocale(int localeID)
-    {
-        yield return LocalizationSettings.InitializationOperation;
-        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
-        PlayerPrefs.SetInt("LocaleKey", localeID);
-        active = false;
-    }
-    */
 
     private IEnumerator SetLocale(int localeID)
     {

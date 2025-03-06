@@ -13,7 +13,7 @@ using UnityEngine.Localization;
 /// This class represents an individual plant item in the UI plant catalog.
 /// It handles displaying the plant's image and name, and triggers an event when clicked or tapped.
 /// </summary>
-public class UIPlantCatalogueItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+public class UIPlantCatalogueItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
 {
     /// <summary>
     /// The UI element used to display the plant's image & name in the card.
@@ -25,6 +25,11 @@ public class UIPlantCatalogueItem : MonoBehaviour, IPointerDownHandler, IPointer
     public event Action<UIPlantCatalogueItem> OnItemClicked; // Used to be subscribed to handle interactions with the plant catalog item.
     private bool empty; // When the item is empty, nothing is done.
 
+    private Vector2 pointerDownPosition;
+    private bool isDragging = false;
+    private const float dragThreshold = 10f; // Adjust this threshold as needed
+    private ScrollRect parentScrollRect; // Reference to the scroll view
+
     /// <summary>
     /// Called when the script instance is being loaded.
     /// Ensures that the catalog item is reset to its empty state upon initialization.
@@ -32,6 +37,7 @@ public class UIPlantCatalogueItem : MonoBehaviour, IPointerDownHandler, IPointer
     public void Awake()
     {
         ResetData();
+        parentScrollRect = GetComponentInParent<ScrollRect>(); // Get the parent scroll rect
     }
 
     /// <summary>
@@ -79,8 +85,39 @@ public class UIPlantCatalogueItem : MonoBehaviour, IPointerDownHandler, IPointer
     /// <param name="data">Pointer event data for the press or tap.</param>
     public void OnPointerDown(PointerEventData data)
     {
-        PointerEventData pointerData = (PointerEventData) data;
-        Debug.Log("Click");
+        //PointerEventData pointerData = (PointerEventData) data;
+        //Debug.Log("Click");
+        pointerDownPosition = data.position;
+        isDragging = false;
+    }
+
+    public void OnBeginDrag(PointerEventData data)
+    {
+        if (parentScrollRect != null)
+        {
+            parentScrollRect.OnBeginDrag(data); // Pass event to ScrollRect
+        }
+    }
+
+     public void OnDrag(PointerEventData data)
+    {
+        if (parentScrollRect != null)
+        {
+            parentScrollRect.OnDrag(data); // Pass event to ScrollRect
+        }
+
+        if (Vector2.Distance(pointerDownPosition, data.position) > dragThreshold)
+        {
+            isDragging = true; // Mark as dragging to prevent accidental clicks
+        }
+    }
+
+     public void OnEndDrag(PointerEventData data)
+    {
+        if (parentScrollRect != null)
+        {
+            parentScrollRect.OnEndDrag(data); // Pass event to ScrollRect
+        }
     }
 
     /// <summary>
@@ -90,5 +127,10 @@ public class UIPlantCatalogueItem : MonoBehaviour, IPointerDownHandler, IPointer
     /// </summary>
     /// <param name="data">Pointer event data for the release or lift.</param>
     public void OnPointerUp(PointerEventData data)
-    {   OnItemClicked?.Invoke(this);}
+    {   //OnItemClicked?.Invoke(this);
+        if (!isDragging) // Only trigger click if no significant dragging occurred
+        {
+            OnItemClicked?.Invoke(this);
+        }
+    }
 }
