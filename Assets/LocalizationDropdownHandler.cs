@@ -15,13 +15,6 @@ public class LocalizationDropdownHandler : MonoBehaviour
 
     private void Awake()
     {
-        confirmLocaleChange.SetActive(false);
-        /*
-        if (dropdown != null && localeSelector != null)
-        {
-            dropdown.onOptionSelected += localeSelector.ChangeLocale;
-        }
-        */
         if (dropdown != null)
         {
             dropdown.onOptionSelected += OnLocaleSelected;
@@ -45,6 +38,7 @@ public class LocalizationDropdownHandler : MonoBehaviour
     //All onwards are new
     private void OnLocaleSelected(int localeID)
     {
+        if (selectedLocaleID == localeID) return;
         selectedLocaleID = localeID;
         confirmLocaleChange.SetActive(true); // Show confirmation popup
     }
