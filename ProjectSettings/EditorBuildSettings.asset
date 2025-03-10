@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainPanels (Test).unity
     guid: dda03fad0e81ba74aa827d02918dbbf2
   - enabled: 1
@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ARcamera.unity
     guid: a44f2e02cc0f7e64b9581597b5bc2aa3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Virtual Forest/BakoForest.unity
     guid: 59f75b5569a6ec0419da589d6bf8b585
   - enabled: 1

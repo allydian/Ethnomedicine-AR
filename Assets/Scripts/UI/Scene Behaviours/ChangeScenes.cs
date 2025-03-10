@@ -16,11 +16,11 @@ public class ChangeScenes : MonoBehaviour
         AppPanelManager.instance.currentPanel = panelType;
         
         // Now load the main scene
-        SceneManager.LoadScene("MainPanels (Test)");
+        SceneManager.LoadScene("MainPanels (Test) 1");
     }
     public void ToMainPanels()
     {
-        SceneManager.LoadScene("MainPanels (Test)");
+        SceneManager.LoadScene("MainPanels (Test) 1");
     }
 
     // Loads the AR camera scene.
@@ -45,33 +45,6 @@ public class ChangeScenes : MonoBehaviour
     /// List of virtual forests 
     /// </summary>
     // Loads the first viewpoint of Bako National Park.
-    /*public void ToVFBakoNationalParkI()
-    {
-        SceneManager.LoadScene("Bako National Park I");
-    }
-
-    // Loads the second viewpoint of Bako National Park.
-    public void ToVFBakoNationalParkII()
-    {
-        SceneManager.LoadScene("Bako National Park II");
-    }
-
-    // Loads the third viewpoint of Bako National Park.
-    public void ToVFBakoNationalParkIII()
-    {
-        SceneManager.LoadScene("Bako National Park III");
-    }
-
-    // Loadsthe gyro version for all viewpoints in Bako.
-    public void ToBakoGyro()
-    {
-        SceneManager.LoadScene("BakoGyro");
-    }*/
-
-    public void ToBakoForest()
-    {
-        SceneManager.LoadScene("BakoForest");
-    }
 
     public void ToBakoForest1()
     {
