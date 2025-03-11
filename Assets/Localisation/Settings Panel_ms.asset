@@ -71,7 +71,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 20224788624502784
-    m_Localized: Perubahan bahasa akan ditetapkan selepas aplikasi dimulakan semula.
+    m_Localized: Penukaran bahasa akan ditetapkan selepas aplikasi ini dimulakan
+      semula.
     m_Metadata:
       m_Items: []
   references:

@@ -127,6 +127,78 @@ MonoBehaviour:
     m_Key: Desc_DriedLong
     m_Metadata:
       m_Items: []
+  - m_Id: 12317104680267776
+    m_Key: Name_aloeveragel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317144408715264
+    m_Key: Desc_aloeveragel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317145855750144
+    m_Key: Name_Betelleaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317146925297664
+    m_Key: Desc_betelleaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317148066148352
+    m_Key: Name_bpseeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317152797323264
+    m_Key: Desc_bpseeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317153736847360
+    m_Key: Name_fernshoots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317154378575872
+    m_Key: Desc_fernshoots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317156224069632
+    m_Key: Name_long
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317367512133632
+    m_Key: Desc_long
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317368350994432
+    m_Key: Name_mdfruit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317369089191936
+    m_Key: Desc_mdfruit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317369969995776
+    m_Key: Name_rgrhizome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317370905325568
+    m_Key: Desc_rgrhizome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317371605774336
+    m_Key: Name_tobaccoleaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317372612407296
+    m_Key: Desc_tobaccoleaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317373317050368
+    m_Key: Name_turmericrhizome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317374092996608
+    m_Key: Desc_turmericrhizome
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

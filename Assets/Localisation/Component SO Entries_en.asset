@@ -211,6 +211,90 @@ MonoBehaviour:
       with a warm, spicy scent.\n\n<b>Taste:</b> Bitter, slightly pungent, and warm."
     m_Metadata:
       m_Items: []
+  - m_Id: 12317104680267776
+    m_Localized: Aloe vera flesh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317145855750144
+    m_Localized: Betel leaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317148066148352
+    m_Localized: Black pepper seeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317153736847360
+    m_Localized: Vegetable fern shoots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317156224069632
+    m_Localized: Dried homalomena roots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317368350994432
+    m_Localized: God's Crown fruit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317369969995776
+    m_Localized: Red ginger rhizome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317371605774336
+    m_Localized: Tobacco leaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317373317050368
+    m_Localized: Turmeric rhizome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317374092996608
+    m_Localized: A powerful anti-inflammatory and antioxidant, turmeric helps with
+      joint pain, digestion, and immunity. It can be added to dishes or used as paste.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317372612407296
+    m_Localized: In traditional medicine, tobacco leaves are used externally as a
+      poultice for insect bites and wounds due to their antiseptic properties.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317370905325568
+    m_Localized: Red ginger has strong anti-inflammatory, antioxidant, and antimicrobial
+      properties. It helps with digestion, relieves pain, and boosts immunity. It
+      is commonly consumed as herbal tea.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317369089191936
+    m_Localized: This fruit is believed to have anti-cancer, anti-inflammatory, and
+      immune-boosting properties. It is commonly brewed as herbal tea.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317367512133632
+    m_Localized: The roots of this plant are cut, dried, and then boiled, with the
+      resulting water consumed as a traditional remedy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317154378575872
+    m_Localized: Rich in antioxidants and vitamins, vegetable fern supports digestion,
+      boosts immunity, and helps reduce inflammation. It is often consumed as a stir-fried
+      dish or added to soups.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317152797323264
+    m_Localized: Known for its digestive and anti-inflammatory benefits, black pepper
+      improves metabolism and relieves colds. It is commonly used as a spice or brewed
+      in warm water.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317146925297664
+    m_Localized: With antibacterial and anti-inflammatory properties, betel leaves
+      aid digestion and wound healing. They are chewed raw or boiled for herbal remedies.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317144408715264
+    m_Localized: Aloe vera soothes skin irritation, promotes wound healing, and aids
+      digestion. Its gel is applied to the skin or consumed as juice.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

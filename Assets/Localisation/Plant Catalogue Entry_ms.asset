@@ -54,12 +54,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3328626847744
-    m_Localized: 'Mempunyai daun yang besar, berkilat, berbentuk hati yang tumbuh
-      pada tangkai merah yang panjang. Daun biasanya berwarna hijau gelap dan mempunyai
-      tekstur yang licin.
+    m_Localized: 'Mempunyai daun yang besar dan berkilat yang tumbuh pada tangkai
+      merah yang panjang. Daun biasanya berwarna hijau gelap dan mempunyai tekstur
+      yang licin.
 
-      <b><i>Untuk merawat demam:</i></b> akar dipotong,
-      dikeringkan, kemudian direbus. Air yang terhasil kemudiannya diminum.'
+      <b><i>Untuk merawat demam:</i></b> akar dipotong, dikeringkan,
+      kemudian direbus. Air yang terhasil kemudiannya diminum.'
     m_Metadata:
       m_Items: []
   - m_Id: 3400752099328

@@ -25,20 +25,19 @@ MonoBehaviour:
   - m_Id: 1140711829504
     m_Localized: '<b>Warna:</b> Lutsinar atau sedikit keputihan.
 
-      
+
 
       <b>Tekstur:</b>
       Seperti gel, lembut dan licin.
 
-      
 
-      <b>Kepekatan:</b> Tebal, likat
-      dan sedikit melekit.
 
-      
+      <b>Kepekatan:</b> Tebal, likat dan
+      sedikit melekit.
 
-      <b>Rasa:</b> Sedikit pahit dengan sedikit
-      masam.'
+
+
+      <b>Rasa:</b> Sedikit pahit dengan sedikit masam.'
     m_Metadata:
       m_Items: []
   - m_Id: 2380086718464
@@ -108,18 +107,18 @@ MonoBehaviour:
   - m_Id: 2404656951296
     m_Localized: '<b>Bentuk:</b> Panjang, meruncing dan berbentuk tombak.
 
-      
+
 
       <b>Warna:</b>
       Hijau ke hijau kekelabuan, kadangkala mempunyai bintik putih atau jalur pada
       tumbuhan yang lebih muda.
 
-      
 
-      <b>Tekstur:</b> Licin dan berlilin
-      pada permukaan luar, dengan struktur yang sedikit padat tetapi fleksibel.
 
-      
+      <b>Tekstur:</b> Licin dan berlilin pada
+      permukaan luar, dengan struktur yang sedikit padat tetapi fleksibel.
+
+
 
       <b>Tepi:</b>
       Bergerigi putih, kecil, dan lembut.'
@@ -196,12 +195,12 @@ MonoBehaviour:
     m_Localized: '<b>Bentuk:</b> Luas, bujur hingga berbentuk tirus, dengan hujungnya
       runcing dan tapak yang bulat.
 
-      
 
-      <b>Saiz:</b> Besar, antara 30
-      - 60 cm panjang dan 15 - 25 cm lebar, bergantung pada variasi.
 
-      
+      <b>Saiz:</b> Besar, antara 30 - 60 cm
+      panjang dan 15 - 25 cm lebar, bergantung pada variasi.
+
+
 
       <b>Warna:</b>
       Hijau terang apabila segar, dengan sedikit variasi warna; berubah menjadi coklat
@@ -224,6 +223,91 @@ MonoBehaviour:
       kertas.\r\n<b>- Isi:</b> Kuning oren terang atau keemasan dalam apabila dipotong.\r\n\r\n<b>Wangian:</b>
       Kuat, berbau sedikit pedas dan hangat.\r\n\r\n<b>Rasa:</b> Pahit, sedikit pedas
       dan hangat."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317104680267776
+    m_Localized: Isi lidah buaya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317145855750144
+    m_Localized: Daun sirih
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317148066148352
+    m_Localized: Biji lada hitam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317153736847360
+    m_Localized: Pucuk paku sungai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317156224069632
+    m_Localized: Akar kering keladi kemoyang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317368350994432
+    m_Localized: Buah Mahkota Dewa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317369969995776
+    m_Localized: Rizom halia merah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317371605774336
+    m_Localized: Daun tembakau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317373317050368
+    m_Localized: Rizom kunyit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317374092996608
+    m_Localized: Kunyit mempunyai sifat anti-radang dan antioksidan yang kuat, membantu
+      sakit sendi, pencernaan, dan imuniti. Ia boleh ditambah dalam masakan atau
+      digunakan sebagai pes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317372612407296
+    m_Localized: Dalam perubatan tradisional, daun tembakau digunakan secara luaran
+      sebagai tuam untuk gigitan serangga dan luka kerana sifat antiseptiknya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317370905325568
+    m_Localized: Halia merah mempunyai sifat anti-radang, antioksidan, dan antimikrob
+      yang kuat. Ia membantu pencernaan, melegakan kesakitan, dan meningkatkan imuniti.
+      Ia sering diminum sebagai teh herba.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317369089191936
+    m_Localized: Buah ini dipercayai mempunyai sifat anti-kanser, anti-radang, dan
+      meningkatkan imuniti. Ia sering dibancuh sebagai teh herba.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317367512133632
+    m_Localized: "Akar tumbuhan ini dipotong, dikeringkan, dan kemudian direbus,
+      dengan air yang terhasil digunakan sebagai ubat tradisional.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317154378575872
+    m_Localized: Kaya dengan antioksidan dan vitamin, pucuk paku membantu pencernaan,
+      meningkatkan imuniti, dan mengurangkan keradangan. Ia sering dimakan sebagai
+      sayur goreng atau dimasukkan ke dalam sup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317152797323264
+    m_Localized: Dikenali kerana manfaat pencernaan dan anti-radang, lada hitam meningkatkan
+      metabolisme dan melegakan selesema. Ia sering digunakan sebagai rempah atau
+      dibancuh dengan air suam.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317146925297664
+    m_Localized: Dengan sifat antibakteria dan anti-radang, daun sirih membantu pencernaan
+      dan penyembuhan luka. Ia dikunyah mentah atau direbus untuk rawatan herba.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12317144408715264
+    m_Localized: Lidah buaya melegakan iritasi kulit, mempercepat penyembuhan luka,
+      dan membantu pencernaan. Gelnya disapu pada kulit atau diminum sebagai jus.
     m_Metadata:
       m_Items: []
   references:
