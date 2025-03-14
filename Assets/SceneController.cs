@@ -8,8 +8,9 @@ public class SceneController : MonoBehaviour
         ChangeScenes changeScenes = FindObjectOfType<ChangeScenes>();  // Find the ChangeScenes instance
         if (changeScenes != null)
         {
-            // Pass the PanelType.Home to ensure the Home panel is active
-            changeScenes.ToMainScene(AppPanelManager.PanelType.Home);
+            // Set the currentPanel to Home before changing the scene
+            AppPanelManager.instance.currentPanel = AppPanelManager.PanelType.Home;
+            changeScenes.ToMainScene(AppPanelManager.PanelType.Home); // Ensure the Home panel is active
         }
         else
         {
@@ -23,8 +24,9 @@ public class SceneController : MonoBehaviour
         ChangeScenes changeScenes = FindObjectOfType<ChangeScenes>();  // Find the ChangeScenes instance
         if (changeScenes != null)
         {
-            // Pass the PanelType.Quiz to ensure the VF list panel is active
-            changeScenes.ToMainScene(AppPanelManager.PanelType.Forest);
+            // Set the currentPanel to Forest before changing the scene
+            AppPanelManager.instance.currentPanel = AppPanelManager.PanelType.Forest;
+            changeScenes.ToMainScene(AppPanelManager.PanelType.Forest); // Ensure the Forest panel is active
         }
         else
         {
@@ -38,8 +40,9 @@ public class SceneController : MonoBehaviour
         ChangeScenes changeScenes = FindObjectOfType<ChangeScenes>();  // Find the ChangeScenes instance
         if (changeScenes != null)
         {
-            // Pass the PanelType.Quiz to ensure the Quiz list panel is active
-            changeScenes.ToMainScene(AppPanelManager.PanelType.Quiz);
+            // Set the currentPanel to Quiz before changing the scene
+            AppPanelManager.instance.currentPanel = AppPanelManager.PanelType.Quiz;
+            changeScenes.ToMainScene(AppPanelManager.PanelType.Quiz); // Ensure the Quiz panel is active
         }
         else
         {

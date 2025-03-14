@@ -23,6 +23,12 @@ public class MainSceneController : MonoBehaviour
                 quizListPanel.SetActive(false);
                 break;
 
+            case AppPanelManager.PanelType.Home:
+                homePanel.SetActive(true);
+                quizListPanel.SetActive(false);
+                forestListPanel.SetActive(false);
+                break;
+
             default:
                 homePanel.SetActive(true);
                 quizListPanel.SetActive(false);
