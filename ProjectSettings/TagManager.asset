@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Undefined
   - PointerSphere
+  - HintJoystick
+  - HintGyro
   layers:
   - Default
   - TransparentFX
