@@ -19,64 +19,125 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 2311961112576
-    m_Localized: I'm experiencing nausea.
+    m_Localized: What is the name of this plant?
     m_Metadata:
       m_Items: []
   - m_Id: 2314641272832
-    m_Localized: Boil ginger slices in water, then consume.
+    m_Localized: Ginger
     m_Metadata:
       m_Items: []
   - m_Id: 2317644394496
-    m_Localized: Boil pepper seeds in water, then consume.
+    m_Localized: Vegetable fern
     m_Metadata:
       m_Items: []
   - m_Id: 2333763104768
-    m_Localized: Boil ferns in water, then consume.
+    m_Localized: Tobacco
     m_Metadata:
       m_Items: []
   - m_Id: 2337147908096
-    m_Localized: Boil tobacco in water, then consume.
+    m_Localized: Black pepper
     m_Metadata:
       m_Items: []
   - m_Id: 2390566563840
-    m_Localized: I feel like I have a fever.
+    m_Localized: What do the Kenyah call this plant?
     m_Metadata:
       m_Items: []
   - m_Id: 2420262236160
-    m_Localized: Pound dried pepper seeds and consume.
+    m_Localized: Kelisel
     m_Metadata:
       m_Items: []
   - m_Id: 2438582956032
-    m_Localized: Pound fern, then boil in water.
+    m_Localized: Ginger
     m_Metadata:
       m_Items: []
   - m_Id: 2453615341568
-    m_Localized: Slice dried homalemona roots, boil it in water, then consume the
-      water.
+    m_Localized: Long
     m_Metadata:
       m_Items: []
   - m_Id: 2463362904064
-    m_Localized: Chew tobacco.
+    m_Localized: Luko bileng
     m_Metadata:
       m_Items: []
   - m_Id: 2477984247808
-    m_Localized: My chest hurts while coughing.
+    m_Localized: Fill in the blank based on the image. ____ the roots, slice them,
+      and boil in water to relieve fevers.
     m_Metadata:
       m_Items: []
   - m_Id: 2487845056512
-    m_Localized: Chew red ginger.
+    m_Localized: Pound
     m_Metadata:
       m_Items: []
   - m_Id: 2498439868416
-    m_Localized: Eat fern shoots.
+    m_Localized: Dry
     m_Metadata:
       m_Items: []
   - m_Id: 2509814820864
-    m_Localized: Consume pepper.
+    m_Localized: Dice
     m_Metadata:
       m_Items: []
   - m_Id: 2522469036032
-    m_Localized: Avoid tobacco.
+    m_Localized: Ground
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34226638201745408
+    m_Localized: Fill in the blanks based on the image.  the peppercorns, and ___
+      the water or bathe in it to relieve fatigue.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34226719843872768
+    m_Localized: Boil, consume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34226722255597568
+    m_Localized: Grind, boil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34226723971067904
+    m_Localized: Pound, consume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34226725850116096
+    m_Localized: Roast, consume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227147662880768
+    m_Localized: What is an identifiable part of this plant?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227149600649216
+    m_Localized: Thick, fleshy leaves in a rosette pattern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227150842163200
+    m_Localized: Tubular, pink to pale purple flowers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227192021839872
+    m_Localized: Broad, arrow-headed leaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227193326268416
+    m_Localized: Feathery, symmetrical leaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227655676981248
+    m_Localized: What is an identifiable smell of this plant?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227657048518656
+    m_Localized: Subtle, spicy scent when disturbed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227658394890240
+    m_Localized: Distinct, pungent aroma when crushed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227660001308672
+    m_Localized: Spicy, aromatic scent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227661641281536
+    m_Localized: Sharp, spicy scent
     m_Metadata:
       m_Items: []
   references:

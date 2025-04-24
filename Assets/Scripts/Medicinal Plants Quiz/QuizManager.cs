@@ -14,7 +14,7 @@ public class QuizManager : MonoBehaviour
 {
     [SerializeField] private QuizUI quizUI;  // Reference to the UI manager for quiz display.
     [SerializeField] private QuizDataSO quizData;  // Reference to ScriptableObject holding quiz data.
-    [SerializeField] private float timeLimit = 30f;  // Time limit for each quiz round.
+    [SerializeField] private float timeLimit = 60f;  // Time limit for each quiz round.
     // Localized strings for score and timer
     [SerializeField] private LocalizedString scoreLocalizedString; // Localized string for score text
     [SerializeField] private LocalizedString timerLocalizedString; // Localized string for timer text

@@ -19,64 +19,125 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 2311961112576
-    m_Localized: Saya sedang mengalami loya.
+    m_Localized: Apakah nama tumbuhan ini?
     m_Metadata:
       m_Items: []
   - m_Id: 2314641272832
-    m_Localized: Rebus hirisan halia dalam air, kemudian diminum.
+    m_Localized: Halia
     m_Metadata:
       m_Items: []
   - m_Id: 2317644394496
-    m_Localized: Rebus biji lada dalam air, kemudian diminum.
+    m_Localized: Paku
     m_Metadata:
       m_Items: []
   - m_Id: 2333763104768
-    m_Localized: Rebus daun paku dalam air, kemudian diminum.
+    m_Localized: Tembakau
     m_Metadata:
       m_Items: []
   - m_Id: 2337147908096
-    m_Localized: Rebus daun tembakau dalam air, kemudian diminum.
+    m_Localized: Lada hitam
     m_Metadata:
       m_Items: []
   - m_Id: 2390566563840
-    m_Localized: Saya rasa saya demam.
+    m_Localized: Apakah nama tumbuhan ini dalam bahasa Kenyah?
     m_Metadata:
       m_Items: []
   - m_Id: 2420262236160
-    m_Localized: Tumbuk biji lada kering dan makan.
+    m_Localized: Kelisel
     m_Metadata:
       m_Items: []
   - m_Id: 2438582956032
-    m_Localized: Tumbuk daun paku, kemudian rebus dalam air.
+    m_Localized: Halia
     m_Metadata:
       m_Items: []
   - m_Id: 2453615341568
-    m_Localized: Hiris akar homalemona kering, rebus dalam air, kemudian minum air
-      rebusannya.
+    m_Localized: Long
     m_Metadata:
       m_Items: []
   - m_Id: 2463362904064
-    m_Localized: Kunyah daun tembakau.
+    m_Localized: Luko bileng
     m_Metadata:
       m_Items: []
   - m_Id: 2477984247808
-    m_Localized: Dada saya sakit semasa batuk.
+    m_Localized: Isikan tempat kosong berdasarkan gambar. ___ akarnya, hiris, rebus
+      dalam air untuk melegakan demam.
     m_Metadata:
       m_Items: []
   - m_Id: 2487845056512
-    m_Localized: Kunyah halia merah.
+    m_Localized: Tumbuk
     m_Metadata:
       m_Items: []
   - m_Id: 2498439868416
-    m_Localized: Makan daun pucuk paku.
+    m_Localized: Kering
     m_Metadata:
       m_Items: []
   - m_Id: 2509814820864
-    m_Localized: Makan lada.
+    m_Localized: Dadu
     m_Metadata:
       m_Items: []
   - m_Id: 2522469036032
-    m_Localized: Elakkan tembakau.
+    m_Localized: Kisar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34226638201745408
+    m_Localized: Isikan tempat kosong berdasarkan gambar. lada, dan ___ air atau
+      mandi di dalamnya untuk menghilangkan keletihan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34226719843872768
+    m_Localized: Rebus, minum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34226722255597568
+    m_Localized: Kisar, rebus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34226723971067904
+    m_Localized: Tumbuk, minum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34226725850116096
+    m_Localized: Panggang, makan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227147662880768
+    m_Localized: Apakah bahagian yang boleh dikenal pasti pada tumbuhan ini?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227149600649216
+    m_Localized: Daun tebal dan berisi dalam corak roset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227150842163200
+    m_Localized: Bunga berbentuk tiub, merah jambu hingga ungu pucat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227192021839872
+    m_Localized: Daun yang luas dan berkepala anak panah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227193326268416
+    m_Localized: Daun simetri dan seakan bulu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227655676981248
+    m_Localized: Apakah bau yang boleh dikenal pasti bagi tumbuhan ini?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227657048518656
+    m_Localized: Bau halus dan pedas apabila diganggu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227658394890240
+    m_Localized: Aroma yang khas dan tajam apabila dihancurkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227660001308672
+    m_Localized: Bau pedas, aromatik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34227661641281536
+    m_Localized: Bau yang tajam, pedas
     m_Metadata:
       m_Items: []
   references:
