@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="p10-betel" size="500.000000 704.838684" />
+    <ImageTarget name="p9-gcrown" size="500.000000 704.838684" />
+    <ImageTarget name="p8-turmeric" size="500.000000 704.838684" />
+    <ImageTarget name="p7-aloevera" size="500.000000 704.838684" />
+    <ImageTarget name="p6-bpepper" size="500.000000 704.838684" />
+    <ImageTarget name="p5-tobacco" size="500.000000 704.838684" />
+    <ImageTarget name="p4-long" size="500.000000 704.838684" />
+    <ImageTarget name="p2-gingertea" size="500.000000 704.838684" />
+    <ImageTarget name="p3-vfern" size="500.000000 704.838684" />
+    <ImageTarget name="p1-ginger" size="500.000000 704.838684" />
+    <ImageTarget name="f9-betel" size="500.000000 500.000000" />
+    <ImageTarget name="f8-gcrown" size="500.000000 500.000000" />
+    <ImageTarget name="f7-turmeric" size="500.000000 500.000000" />
+    <ImageTarget name="f6-aloevera" size="500.000000 500.000000" />
+    <ImageTarget name="f5-bpepper" size="500.000000 500.000000" />
+    <ImageTarget name="f4-tobacco" size="500.000000 500.000000" />
+    <ImageTarget name="f3-long" size="500.000000 500.000000" />
+    <ImageTarget name="f2-vfern" size="500.000000 500.000000" />
+    <ImageTarget name="f1-ginger" size="500.000000 500.000000" />
+  </Tracking>
+</QCARConfig>
