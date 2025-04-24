@@ -19,36 +19,51 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 491771588608
-    m_Localized: The root of this plant is believed to aid digestion, boost the immune
-      system, and provide relief from various ailments such as nausea and arthritis.
+    m_Localized: This common kitchen spice is traditionally used to treat nausea
+      and stomach discomfort.
     m_Metadata:
       m_Items: []
   - m_Id: 538710044672
-    m_Localized: Boiling and consuming this plant benefits us with its anti-inflammatory
-      properties, digestive health support, and potential to detoxify the body, particularly
-      the liver.
+    m_Localized: This edible fern is believed to help treat diabetes and digestive
+      issues.
     m_Metadata:
       m_Items: []
   - m_Id: 596935372800
-    m_Localized: The roots of this plant are cut, dried, and then boiled, with the
-      resulting water consumed as a traditional remedy within the community.
+    m_Localized: The dried root of this plant is boiled and is used by locals to
+      treat fever and inflammation.
     m_Metadata:
       m_Items: []
   - m_Id: 666862809088
-    m_Localized: The leaves of this plant, when dried and crushed, are sometimes
-      applied as a poultice to reduce swelling, relieve pain, and treat insect bites
-      or skin irritations.
+    m_Localized: This plant's leaves are chewed to relieve toothache and applied
+      to repel insects.
     m_Metadata:
       m_Items: []
   - m_Id: 717118959616
-    m_Localized: When boiling the fruit of this plant in water, the liquid is consumed
-      to treat digestive issues, respiratory conditions, and improve circulation,
-      as it contains compounds that stimulate the digestive system and act as natural
-      anti-inflammatories.
+    m_Localized: This spicy plant helps with blood circulation and is also used in
+      bathing remedies.
     m_Metadata:
       m_Items: []
   - m_Id: 771825266688
     m_Localized: This is a dummy question.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34200483629428736
+    m_Localized: This succulent is famous for healing wounds and soothing skin ulcers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34200518748336128
+    m_Localized: This yellow rhizome is used for cooking and treating gastritis,
+      coughs, and skin problems.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34200542941081600
+    m_Localized: This medicinal fruit is boiled to treat kidney, heart, and tumor-related
+      issues.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34200565422551040
+    m_Localized: This leaf, often chewed, is used to treat coughs, throat pain, and
+      internal wounds.
     m_Metadata:
       m_Items: []
   references:

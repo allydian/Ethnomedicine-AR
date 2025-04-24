@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e50a89c8cf81a4cb4d48b886106dad, type: 3}
+  m_Name: AR Question 8
+  m_EditorClassIdentifier: 
+  localizedQuestionText:
+    m_TableReference:
+      m_TableCollectionName: GUID:23febd9ca33e63d499b2aa4ed357d2c7
+    m_TableEntryReference:
+      m_KeyId: 34200518748336128
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  answerType: 1
+  references:
+    version: 2
+    RefIds: []

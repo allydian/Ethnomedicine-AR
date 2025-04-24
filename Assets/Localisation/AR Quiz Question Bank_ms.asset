@@ -19,37 +19,52 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 491771588608
-    m_Localized: Akar tumbuhan ini dipercayai membantu penghadaman, meningkatkan
-      sistem imun, dan memberikan kelegaan daripada pelbagai penyakit seperti loya
-      dan arthritis.
+    m_Localized: Rempah dapur yang biasa ini secara tradisional digunakan untuk merawat
+      loya dan ketidakselesaan perut.
     m_Metadata:
       m_Items: []
   - m_Id: 538710044672
-    m_Localized: Merebus dan memakan tumbuhan ini memberi manfaat kepada kita dengan
-      sifat anti-radangnya, sokongan kesihatan pencernaan, dan potensi untuk menyahtoksik
-      badan, terutamanya hati.
+    m_Localized: Paku pakis yang boleh dimakan ini dipercayai membantu merawat kencing
+      manis dan masalah pencernaan.
     m_Metadata:
       m_Items: []
   - m_Id: 596935372800
-    m_Localized: Akar tumbuhan ini dipotong, dikeringkan, dan kemudian direbus, dengan
-      air yang terhasil digunakan sebagai ubat tradisional dalam kalangan masyarakat.
+    m_Localized: Akar kering tumbuhan ini direbus dan digunakan oleh penduduk tempatan
+      untuk merawat demam dan radang.
     m_Metadata:
       m_Items: []
   - m_Id: 666862809088
-    m_Localized: Daun tumbuhan ini, apabila dikeringkan dan dihancurkan, kadangkala
-      digunakan sebagai tuam untuk mengurangkan bengkak, melegakan kesakitan, dan
-      merawat gigitan serangga atau iritasi pada kulit.
+    m_Localized: Daun tumbuhan ini dikunyah untuk meredakan sakit gigi dan digunakan
+      untuk menghalau serangga.
     m_Metadata:
       m_Items: []
   - m_Id: 717118959616
-    m_Localized: Apabila merebus buah tumbuhan ini di dalam air, cecairnya diminum
-      untuk merawat masalah pencernaan, pernafasan, dan menambah baik peredaran dalam
-      badan, kerana ia mengandungi sebatian yang mampu merangsang sistem pencernaan
-      dan bertindak sebagai anti-radang semula jadi.
+    m_Localized: Tumbuhan pedas ini membantu peredaran darah dan turut digunakan
+      dalam mandian ubatan.
     m_Metadata:
       m_Items: []
   - m_Id: 771825266688
     m_Localized: Ini soalan tiruan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34200483629428736
+    m_Localized: Tumbuhan berair ini terkenal untuk menyembuhkan luka dan melegakan
+      ulser kulit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34200518748336128
+    m_Localized: Akar kuning keemasan ini digunakan dalam masakan dan untuk merawat
+      gastrik, batuk serta masalah kulit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34200542941081600
+    m_Localized: Buah ubatan ini direbus untuk merawat masalah berkaitan buah pinggang,
+      jantung, dan tumor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34200565422551040
+    m_Localized: Daun ini, yang sering dikunyah, digunakan untuk merawat batuk, sakit
+      tekak, dan luka dalaman.
     m_Metadata:
       m_Items: []
   references:
