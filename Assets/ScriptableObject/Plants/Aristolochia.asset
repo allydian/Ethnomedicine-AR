@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 882f6a8eab5500649bcb46e4cb9cc616, type: 3}
+  m_Name: Aristolochia
+  m_EditorClassIdentifier: 
+  <LocalizedName>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:c956ee9963201eb41a7267c1e2d83059
+    m_TableEntryReference:
+      m_KeyId: 29992449524953088
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <LocalizedDescription>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:c956ee9963201eb41a7267c1e2d83059
+    m_TableEntryReference:
+      m_KeyId: 29992449965355008
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <Image>k__BackingField: {fileID: 21300000, guid: efe281acb709ac74c933073fb9cb8cae,
+    type: 3}
+  <Model>k__BackingField: {fileID: 0}
+  references:
+    version: 2
+    RefIds: []

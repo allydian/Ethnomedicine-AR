@@ -23,16 +23,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 15554506752
-    m_Localized: 'Pokok berbunga yang menjalar dan menghasilkan buah bulat kecil
-      yang dipanggil biji lada. Buahnya berwarna hijau apabila belum masak dan berubah
-      warna merah apabila matang sepenuhnya. Biji lada ini dituai dan dikeringkan
-      untuk menghasilkan lada hitam, putih atau hijau, bergantung kepada kaedah pemprosesan.
-
-      <b><i>Apabila
-      direbus dalam air, air rebusan itu diminum untuk merawat masalah pencernaan,
-      masalah pernafasan dan meningkatkan peredaran dalam badan,</i></b> kerana lada
-      mengandungi sebatian yang merangsang sistem pencernaan dan bertindak sebagai
-      anti-radang semula jadi.'
+    m_Localized: "Pokok menjalar ini mudah dikenali melalui batangnya yang panjang
+      dan langsing yang melilit struktur sokongan. \n\nLada hitam disediakan dengan
+      pelbagai cara. Buah keringnya sering digunakan sebagai rempah untuk menambah
+      rasa dalam pelbagai hidangan. Secara perubatan, lada direbus dan air rebusannya
+      diminum sebagai minuman pemanas badan atau digunakan untuk mandi, terutamanya
+      selepas bersalin atau untuk melegakan keletihan. Kehangatan pedas air tersebut
+      dipercayai dapat menyegarkan badan dan merangsang peredaran darah."
     m_Metadata:
       m_Items: []
   - m_Id: 18775732224
@@ -40,13 +37,14 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1187849891840
-    m_Localized: 'Tumbuhan yang tinggi, berdaun besar dan lebar, serta berbunga kecil
-      berwarna merah jambu atau putih berbentuk tiub. Daunnya tebal dan melekit,
-      dipenuhi dengan bulu halus.
-
-      <b><i>Bagi mengurangkan bengkak, melegakan
-      kesakitan, dan merawat gigitan serangga atau kerengsaan kulit:</i></b> hancurkan
-      daun tembakau kering dan sapukan pada kawasan yang terjejas.'
+    m_Localized: "Tumbuhan ini dikenali melalui pertumbuhannya yang tinggi dan tegak\u2014sering
+      mencecah ketinggian sehingga dua meter. Ia mempunyai daun lebar, lembut, dan
+      berbulu halus yang mengeluarkan bau kuat apabila dihancurkan. Tembakau juga
+      mengeluarkan bunga berbentuk tiub berwarna merah jambu hingga ungu pucat yang
+      berkumpul di hujung batang. \n\nSecara tradisional, tembakau digunakan dengan
+      pelbagai cara untuk perubatan. Salah satu kaedah yang dikongsi oleh komuniti
+      adalah dengan menumbuk daun dan sapu ke kulit sebagai penghalau lintah dan
+      nyamuk secara semula jadi\u2014sangat berguna di kawasan hutan atau luar bandar."
     m_Metadata:
       m_Items: []
   - m_Id: 1271463342080
@@ -54,16 +52,18 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3328626847744
-    m_Localized: 'Mempunyai daun yang besar dan berkilat yang tumbuh pada tangkai
-      merah yang panjang. Daun biasanya berwarna hijau gelap dan mempunyai tekstur
-      yang licin.
-
-      <b><i>Untuk merawat demam:</i></b> akar dipotong, dikeringkan,
-      kemudian direbus. Air yang terhasil kemudiannya diminum.'
+    m_Localized: "Tumbuhan ini dikenali melalui daunnya yang lebar dan berbentuk
+      kepala anak panah, tumbuh pada tangkai tebal dan berisi. Daunnya berwarna hijau
+      tua, licin, dan berkilat di bawah naungan hutan. \n\nBahagian akar keladi kemoyang
+      merupakan bahagian yang paling bernilai. Untuk penyediaannya, akar dipotong,
+      dikeringkan di bawah cahaya matahari, dan kemudian direbus dalam air. Air rebusan
+      ini diminum sebagai minuman herba suam yang dipercayai mengekalkan khasiat
+      perubatan tumbuhan ini, dan sering disediakan sebagai penawar semula jadi ketika
+      sakit."
     m_Metadata:
       m_Items: []
   - m_Id: 3400752099328
-    m_Localized: Halia merah
+    m_Localized: Halia
     m_Metadata:
       m_Items: []
   - m_Id: 3435338330112
@@ -71,19 +71,22 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3420419190784
-    m_Localized: 'Mempunyai batang yang tinggi dan halus, dengan daun hijau gelap
-      yang serta batang bunga merah berbentuk kon. Rizomnya juga sangat merah.
-
-      <b><i>Bagi
-      membantu penghadaman, meningkatkan sistem imun, memberikan kelegaan daripada
-      pelbagai penyakit:</i></b> masukkan hirisan halia merah dan uncang teh ke dalam
-      air, dan biarkan mendidih, kemudian reneh selama 10-20 minit. Pindahkan dari
-      api, kemudian tambah madu secukup rasa, jika dikehendaki.'
+    m_Localized: "Halia mudah dikenali melalui rizomnya yang tebal dan berbonjol
+      yang tumbuh di bawah tanah dan merupakan bahagian yang paling digunakan. \n\nRizom
+      ditumbuk dan disapu pada kawasan yang sakit untuk melegakan kesakitan atau
+      radang. Ia juga merupakan rempah asas dalam masakan, digunakan secara segar
+      atau kering untuk menambah rasa dan kehangatan dalam hidangan. Untuk minuman
+      kesihatan, rizom dipotong, dikeringkan, dikisar, dan dicampur dengan air untuk
+      diminum\u2014cara ini dipercayai dapat meningkatkan tenaga dan kesihatan keseluruhan."
     m_Metadata:
       m_Items: []
   - m_Id: 3456427290624
-    m_Localized: <b><i>Untuk sifat anti-radang, dan sokongan kesihatan pencernaan:</i></b>
-      rebus pucuk muda sebelum dimakan.
+    m_Localized: "Tumbuhan ini mudah dikenali melalui pucuk mudanya yang kerinting\u2014sering
+      dikenali sebagai <i>\"fiddleheads\"</i>\u2014yang akan berkembang apabila matang.
+      Apabila matang, daun ini akan menjadi berumbai dengan risalah daun yang simetri.
+      \n\nBahagian yang boleh dimakan adalah pucuk mudanya. Menurut pengetahuan tradisional,
+      bukan sahaja pucuk ini dimakan, malah air rebusannya juga diminum kerana dipercayai
+      mempunyai manfaat kesihatan."
     m_Metadata:
       m_Items: []
   - m_Id: 3320741812432896
@@ -91,9 +94,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3320743800532992
-    m_Localized: Daunnya mempunyai tepi bergerigi dan mengandungi bahan jernih seperti
-      gel di dalamnya. Gel daripada daunnya boleh disapu terus pada kulit melecur,
-      luka dan kulit iritasi untuk <b>mengurangkan keradangan dan menggalakkan penyembuhan</b>.
+    m_Localized: "Aloe vera mudah dikenali melalui daunnya yang tebal dan berdaging
+      yang tumbuh dalam corak roset. Di dalam setiap daun terdapat gel jernih yang
+      akan keluar apabila dipotong. \n\nAloe vera biasanya digunakan dalam bentuk
+      mentah. Daunnya dibelah untuk mengeluarkan gel yang kemudian disapu terus pada
+      bahagian kulit yang terjejas. Kaedah penyediaan ini cepat dan berkesan, sering
+      digunakan untuk merawat luka bakar, luka kecil, gigitan serangga, atau kerengsaan
+      kulit."
     m_Metadata:
       m_Items: []
   - m_Id: 3320749227962368
@@ -101,13 +108,16 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3320750716940288
-    m_Localized: Buah kecil bulat yang berubah warna menjadi merah terang apabila
-      masak, dengan kulitnya yang licin, isinya putih lembut dan mengandungi biji
-      yang keras dan toksik. Daun, buah dan biji tumbuhan ini digunakan dalam perubatan
-      tradisional, yang terkenal dengan sifat <b>anti-radang, antioksidan, dan meningkatkan
-      imun</b>nya. Ia biasanya digunakan untuk membantu menguruskan <b>diabetes,
-      hipertensi dan masalah kulit</b>. Tetapi, buah mentah dan biji benih mesti
-      diproses dengan betul untuk mengelakkan ketoksikan.
+    m_Localized: 'Bahagian paling menonjol bagi Mahkota dewa ialah buahnya yang bulat
+      dan berwarna merah terang, menyerupai epal atau ceri kecil. Buah ini tumbuh
+      terus dari batang atau cabang dan sangat menarik perhatian, walaubagaimanapun,
+      ia tidak dimakan mentah kerana berpotensi memberi kesan yang toksik jika tidak
+      diproses.
+
+
+      Kulit luar buah ini dikupas dengan teliti, dikeringkan, dan
+      kemudian direbus dalam air. Ekstrak air rebusan ini diminum sebagai minuman
+      herba.'
     m_Metadata:
       m_Items: []
   - m_Id: 3320752126226432
@@ -115,12 +125,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3320752877006848
-    m_Localized: Pokok menjalar yang mempunyai <b>daun hijau licin, berkilat, berbentuk
-      hati</b> yang mempunyai aroma pedas yang kuat. Daunnya digunakan secara meluas
-      dalam perubatan tradisional untuk sifat <b>antiseptik, anti-radang, dan perangsang</b>nya.
-      Mereka biasanya dikunyah dengan pinang untuk membantu <b>pencernaan, menyegarkan
-      nafas dan meningkatkan tenaga</b>, manakala digunakan juga dalam ubat untuk
-      <b>batuk, luka dan jangkitan</b> disebabkan oleh kesan antibakterianya.
+    m_Localized: "Pokok menjalar malar hijau ini tergolong dalam keluarga lada dan
+      dikenali melalui daunnya yang licin, berkilat dan berbentuk hati yang mengeluarkan
+      aroma pedas apabila dihancurkan. \n\nDaunnya sering direbus dan airnya diminum
+      atau digunakan untuk mandi\u2014terutamanya dalam penjagaan selepas bersalin.
+      Daun segarnya juga dikunyah, sama ada sendiri atau bersama bahan lain seperti
+      pinang."
     m_Metadata:
       m_Items: []
   - m_Id: 3320753522929664
@@ -128,13 +138,189 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3320754101743616
-    m_Localized: Herba yang mempunyai daun hijau lebar berbentuk tombak dan rizom
-      bawah tanah yang <b>berbonjol, silinder dan kuning jingga terang</b> di dalamnya.
-      Terkenal dengan sifat <b>anti-radang, antioksidan dan antimikrob</b>nya, kunyit
-      digunakan secara meluas dalam perubatan tradisional untuk menyokong <b>pencernaan,
-      meningkatkan imuniti, mengurangkan sakit sendi dan menggalakkan penyembuhan
-      luka</b>. Sebatian aktifnya, curcumin, berpotensinya dalam menguruskan <b>artritis,
-      keadaan kulit dan gangguan metabolik</b>.
+    m_Localized: "Bahagian yang paling mudah dikenali pada tumbuhan kunyit terletak
+      di bawah tanah\u2014rizomnya yang berwarna jingga-kuning pekat. Apabila dipotong,
+      akarnya mengeluarkan pigmen kuning kuat yang mudah meninggalkan kesan. \n\nKunyit
+      boleh dikisar menjadi serbuk atau ditumbuk segar, kemudian direbus bersama
+      teh atau air dan diminum\u2014biasanya diberikan kepada wanita selepas bersalin
+      untuk pemulihan. Ia juga merupakan bahan popular dalam masakan harian, menambah
+      warna dan rasa dalam kari serta sup."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29986688417722368
+    m_Localized: Bawang Dayak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29986704024727552
+    m_Localized: "Tumbuhan ini mudah dikenali melalui akarnya yang membulat, kecil,
+      dan berwarna ungu kemerahan, menyerupai bawang merah kecil. Ia menghasilkan
+      daun hijau panjang dan langsing serta bunga berwarna putih atau merah jambu
+      pucat yang halus. \n\nUmbinya boleh dipotong dan dimasukkan ke dalam masakan
+      sebagai bahan perasa, memberikan rasa seakan bawang. Secara perubatan, salah
+      satu kaedah tempatan yang dikongsi adalah dengan memotong umbi, merebusnya
+      dan meminum air rebusan tersebut untuk membantu meredakan demam."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29991807095992320
+    m_Localized: Terung pipit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992081906790400
+    m_Localized: Durian Belanda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992449524953088
+    m_Localized: Aristolochia foveolata
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992745038835712
+    m_Localized: Jambu batu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992915495350272
+    m_Localized: Sengkubak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29991807704166400
+    m_Localized: "Pokok renek ini mudah dikenali melalui gugusan buah kecil berwarna
+      hijau seakan kacang pea yang tumbuh pada batang berduri. Daunnya lebar, sedikit
+      berlekuk, dan berbulu halus, manakala bunganya kecil, berbentuk bintang dan
+      berwarna putih. \n\nMenurut pelbagai kajian, terung pipit mempunyai manfaat
+      perubatan yang ketara. Buah, biji, dan daunnya secara tradisional digunakan
+      untuk merawat demam, batuk, sakit, luka, gangguan hati, dan kerosakan gigi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992082510770176
+    m_Localized: Tumbuhan ini mudah dikenali dengan daun besarnya yang berwarna hijau
+      gelap dan buahnya yang berbentuk hati. Buahnya mempunyai kulit berduri hijau
+      dan isi putih yang lembut serta berserat, sering digunakan dalam jus, pencuci
+      mulut dan <i>smoothie</i>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992274647642112
+    m_Localized: Sembung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992275314536448
+    m_Localized: "Tumbuhan renek ini mempunyai daun aromatik yang kuat dengan bau
+      seperti kapur barus apabila dihancurkan. \n\nSembung disediakan dalam pelbagai
+      cara bergantung kepada kegunaan. Daunnya boleh direbus dan airnya diminum sebagai
+      teh herba untuk kesihatan umum. Selain itu, daunnya juga boleh ditumbuk dan
+      dicampur dengan air untuk merawat demam atau sakit badan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992449965355008
+    m_Localized: "Ciri unik tumbuhan ini ialah bunganya yang berbentuk paip\u2014ciri
+      khas genus <i>Aristolochia</i>. \n\nAkar Aristolochia foveolata dipercayai
+      mempunyai pelbagai khasiat perubatan. Ia digunakan secara tradisional untuk
+      merawat sakit perut, sembelit, dan kerengsaan pundi hempedu. Selain itu, ia
+      dipercayai dapat menguatkan sistem imun, mengurangkan tahap asid urik (bermanfaat
+      untuk gout), dan menyahtoksin dari racun atau alkohol."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992745647009792
+    m_Localized: "Tumbuhan ini menghasilkan buah bulat atau bujur, dengan warna hijau
+      pucat hingga kuning apabila masak dan isi berwarna putih, merah jambu atau
+      merah bergantung kepada jenisnya. \n\nDaun jambu batu direbus dan airnya diminum
+      sebagai ubat herba. Air rebusan ini digunakan secara meluas untuk merawat pelbagai
+      penyakit dalaman. Buah yang masak dimakan segar, dijadikan jus atau pencuci
+      mulut."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992916103524352
+    m_Localized: "Tumbuhan ini ialah sejenis pemanjat berkayu (<i>\"liana\"</i>),
+      biasanya ditemui tumbuh di hutan tanah rendah dan kawasan hutan sekunder. \n\nIa
+      dikenali melalui daunnya yang tebal dan berkulit serta batang berkayu yang
+      melilit tumbuhan lain untuk sokongan. Dari segi penyediaan, sengkubak digunakan
+      terutamanya sebagai penambah rasa dalam masakan. Daun yang telah dikeringkan
+      dan ditumbuk ditambah ke dalam masakan seperti penambah perisa <i>\"MSG\"</i>
+      untuk menambah rasa, terutamanya dalam sup atau gulai."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996014171648000
+    m_Localized: Betik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996192291155968
+    m_Localized: Halia merah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996617916542976
+    m_Localized: Akar mengkunyit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996388840435712
+    m_Localized: Cekur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996857893646336
+    m_Localized: Serai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996014750461952
+    m_Localized: "Pokok betik mudah dikenali. Kebiasaannya ia tumbuh dengan batang
+      tunggal yang tidak bercabang dan boleh mencapai ketinggian sehingga 10 meter.
+      Buahnya besar, berbentuk bujur hingga menyerupai pir, dan berubah warna daripada
+      hijau ke kuning-oren apabila masak. \n\nSecara tradisional, daun muda dan matang
+      direbus dan airnya diminum untuk merawat penyakit seperti malaria dan demam
+      denggi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996192857387008
+    m_Localized: "Tumbuhan ini mudah dikenali melalui batang dan rizomnya yang berwarna
+      merah jambu kemerahan, berbeza daripada halia biasa yang berwarna kuning. Daunnya
+      panjang, tirus dan berwarna hijau berkilat, tumbuh secara berselang-seli di
+      sepanjang batang tinggi seperti buluh. \n\nHalia merah mempunyai pelbagai kegunaan
+      dalam masakan dan perubatan. Ia boleh dihiris atau diparut sebagai rempah dalam
+      masakan, memberikan rasa hangat dan pedas yang menyedapkan aroma makanan. Dalam
+      kalangan masyarakat tradisional, terutama di Borneo, rizomnya sering ditumbuk
+      dan disapu ke kulit untuk menghasilkan haba\u2014sebagai penawar bagi menggigil
+      semasa demam. Ia juga boleh direndam dalam air panas dan diminum sebagai teh
+      untuk melegakan sakit badan dan keletihan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996389410861056
+    m_Localized: "Tumbuhan ini mudah dikenali dengan daunnya yang lebar, bulat dan
+      licin berwarna hijau yang tumbuh rapat ke tanah. Daun-daun ini sering tumbuh
+      secara berpasangan atau dalam gugusan dari rizomnya. \n\nRizomnya ditumbuk,
+      direbus dan airnya diminum. Air rebusan ini sering diambil sebagai sebahagian
+      daripada rawatan selepas bersalin atau sebagai tonik kesihatan oleh wanita
+      untuk manfaat kesihatan reproduktif."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996619057393664
+    m_Localized: "Tumbuhan ini ialah sejenis pemanjat berkayu yang sering dilihat
+      melilit pokok di hutan tropika. Ia dikenali dengan bahagian dalam batangnya
+      yang berwarna kuning terang apabila dipotong\u2014warna kuning ini merupakan
+      salah satu ciri paling ketara. \n\nDari segi perubatan, akar mengkunyit terkenal
+      sebagai penawar untuk keracunan. Ia dipercayai membantu menyahtoksin dalam
+      badan, menjadikannya ubat penting di kawasan yang kurang akses kepada perubatan
+      moden."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996858464071680
+    m_Localized: "Serai ialah rumput aromatik tinggi yang boleh tumbuh sehingga satu
+      meter. Ia mempunyai daun panjang, tirus dan tajam di tepi, dengan aroma sitrus
+      yang ketara apabila dihancurkan. Bahagian bawah batangnya membengkak dan pucat,
+      yang paling biasa digunakan dalam masakan dan penyediaan ubat. \n\nBatangnya
+      ditumbuk dan direbus, dan airnya diminum sebagai minuman herba untuk kesihatan.
+      Serai juga merupakan bahan asas dalam masakan, terutamanya di Asia Tenggara,
+      kerana memberikan aroma sitrus kepada sup, kari dan rebusan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29997048013058048
+    m_Localized: Paku uban bukit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29997048512180224
+    m_Localized: "Paku ini mudah dikenali melalui daunnya yang panjang dan melengkung,
+      menyerupai bentuk tulang ikan. \n\nUntuk dimakan, pucuk muda direbus dan dimakan,
+      atau dijadikan ulam, terutamanya dalam komuniti luar bandar yang mengamalkan
+      pengambilan sayuran liar dalam diet tradisional. Dari segi perubatan, salah
+      satu kegunaan yang dikongsi melalui pengetahuan tempatan ialah peranannya dalam
+      memperbanyakkan susu ibu, dipercayai membantu penghasilan susu bagi ibu menyusu.
+      Walaupun kajian saintifik lanjut diperlukan, tumbuhan ini masih dihargai dalam
+      amalan tradisional yang diwarisi turun-temurun."
     m_Metadata:
       m_Items: []
   references:

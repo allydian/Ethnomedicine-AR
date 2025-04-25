@@ -16,7 +16,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:c956ee9963201eb41a7267c1e2d83059
     m_TableEntryReference:
-      m_KeyId: 3400752099328
+      m_KeyId: 29996192291155968
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -25,15 +25,14 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:c956ee9963201eb41a7267c1e2d83059
     m_TableEntryReference:
-      m_KeyId: 3420419190784
+      m_KeyId: 29996192857387008
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
-  <Image>k__BackingField: {fileID: 21300000, guid: 1db53d1d0dc569c448042582b9af617e,
+  <Image>k__BackingField: {fileID: 21300000, guid: efe281acb709ac74c933073fb9cb8cae,
     type: 3}
-  <Model>k__BackingField: {fileID: 919132149155446097, guid: 11b6e48d09a001549b9b5c5f4f3672f7,
-    type: 3}
+  <Model>k__BackingField: {fileID: 0}
   references:
     version: 2
     RefIds: []

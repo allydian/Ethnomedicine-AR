@@ -19,15 +19,13 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 15554506752
-    m_Localized: 'A flowering vine that produces small, round fruits called peppercorns,
-      which are green when unripe and turn red when fully mature. These peppercorns
-      are harvested and dried to produce black, white, or green pepper, depending
-      on the processing method.
-
-      <b><i>When boiled in water, the liquid is
-      consumed to treat digestive issues, respiratory conditions, and improve circulation,</i></b>
-      as the pepper contains compounds that stimulate the digestive system and act
-      as natural anti-inflammatories.'
+    m_Localized: "This climbing vine is easily identifiable by its long, slender
+      stems that wrap around supporting structures. \n\nBlack pepper is prepared
+      in multiple ways. Its dried fruits are frequently used as a spice to flavor
+      a wide variety of dishes. Medicinally, the peppercorns are boiled, and the
+      resulting water is either consumed as a warming drink or used for bathing,
+      particularly during postpartum recovery or to relieve fatigue. The spicy warmth
+      of the water is believed to invigorate the body and stimulate circulation."
     m_Metadata:
       m_Items: []
   - m_Id: 12870152192
@@ -39,12 +37,14 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1187849891840
-    m_Localized: 'Tall, leafy plant with large, broad leaves and small, tubular pink
-      or white flowers. Leaves are thick and sticky, covered with fine hairs.
-
-      <b><i>For
-      reducing swelling, relieving pain, and treating insect bites or skin irritations:</i></b>
-      crush dried tobacco leaves and apply to affected area.'
+    m_Localized: "The plant is identifiable by its tall, upright growth\u2014often
+      reaching heights of up to two meters. It has broad, soft, velvety leaves that
+      emit a distinct, pungent aroma when crushed. Tobacco plants also bear tubular,
+      pink to pale purple flowers clustered at the top. \n\nTraditionally, tobacco
+      is prepared in several ways for medicinal use. One common method shared by
+      the community is crushing the leaves and applying it to the skin to act as
+      a natural repellent against leeches and mosquitoes\u2014an especially useful
+      application in forested or rural settings."
     m_Metadata:
       m_Items: []
   - m_Id: 1271463342080
@@ -52,27 +52,31 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3328626847744
-    m_Localized: 'Has large and glossy leaves that grow on long, red stalks. The
-      leaves are typically dark green and have a smooth texture.
-
-      <b><i>For
-      treating fevers:</i></b> the roots are cut, dried, then boiled. The resulting
-      water is then consumed.'
+    m_Localized: "This plant can be recognized by its broad, arrowhead-shaped leaves,
+      which grow on thick, fleshy stalks. The leaves are deep green, smooth, and
+      have a glossy surface, giving them a distinct shine under the forest canopy.
+      \n\nThe roots of Homalomena sagittifolia are the most valued part. To prepare,
+      the roots are carefully cut, thoroughly dried under the sun, and then boiled
+      in water. The resulting herbal infusion is consumed as a warm drink. This method
+      is believed to retain the plant\u2019s medicinal properties and is often prepared
+      at home as a natural remedy during times of illness."
     m_Metadata:
       m_Items: []
   - m_Id: 3400752099328
-    m_Localized: Red ginger
+    m_Localized: Ginger
     m_Metadata:
       m_Items: []
   - m_Id: 3420419190784
-    m_Localized: 'Features tall, slender stems with lush, dark green leaves and striking,
-      cone-shaped red flower bracts. The rhizome is also strikingly red.
+    m_Localized: 'Ginger is easily identifiable by its thick, knotted rhizomes, which
+      grow underground and are the most used part of the plant.
 
-      <b><i>For
-      aiding digestion, boosting the immune system, providing relief from various
-      ailments:</i></b> add ginger slices and tea bags in water, and bring to a boil,
-      then simmer for 10-20 minutes. Remove from heat, then add honey to taste, if
-      desired.'
+
+      The rhizome
+      is pounded and applied to affected areas to alleviate pain or inflammation.
+      It is also a staple spice in cooking, used fresh or dried to add flavor and
+      warmth to dishes. For health-boosting drinks, the rhizome is cut, dried, blended,
+      and mixed with water to be consumed, a method believed to boost energy and
+      overall vitality.'
     m_Metadata:
       m_Items: []
   - m_Id: 3435338330112
@@ -80,8 +84,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3456427290624
-    m_Localized: <b><i>For its anti-flammatory properties, and digestive health support:</i></b>
-      boil the young shoots before consumption.
+    m_Localized: "This plant is easily identified by its tender, curly young fronds\u2014often
+      referred to as fiddleheads\u2014which unfurl as they mature. As the fronds
+      mature, they develop a feathery appearance with distinct, symmetrical leaflets.
+      \n\nThe edible parts of the vegetable fern are its young shoots. Interestingly,
+      traditional knowledge shared by indigenous communities includes not only eating
+      the shoots but also consuming the water used to boil them, which is believed
+      to retain beneficial properties."
     m_Metadata:
       m_Items: []
   - m_Id: 3320741812432896
@@ -89,9 +98,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3320743800532992
-    m_Localized: The leaves have serrated edges and contain a clear, gel-like substance
-      inside. The gel from its leaves can be applied directly to burns, wounds, and
-      irritated skin to <b>reduce inflammation and promote healing</b>.
+    m_Localized: "Aloe vera is easy to identify by its thick, fleshy leaves that
+      grow in a rosette pattern. Inside each leaf is a clear, mucilaginous gel that
+      oozes out when cut. aloe vera is primarily used in its raw form. \n\nThe leaves
+      are cut open to extract the gel, which is then applied directly to affected
+      areas of the skin. This preparation method is quick and effective, often used
+      for burns, cuts, insect bites, or skin irritation."
     m_Metadata:
       m_Items: []
   - m_Id: 3320749227962368
@@ -99,32 +111,25 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3320750716940288
-    m_Localized: A small, round fruit that turns bright red when ripe, with smooth
-      skin and soft white flesh containing a hard, toxic seed. The plant's leaves,
-      fruit, and seeds are used in traditional medicine, known for their <b>anti-inflammatory,
-      antioxidant, and immune-boosting</b> properties. It is commonly used to help
-      manage <b>diabetes, hypertension, and skin conditions</b>, though the raw fruit
-      and seeds must be processed properly to avoid toxicity.
+    m_Localized: "The most distinctive part of God's crown is its round, bright red
+      fruit, which resembles a small apple or cherry. These fruits grow directly
+      from the stem or branches and are visually captivating, though they are not
+      consumed raw due to their potent and sometimes toxic properties in unprocessed
+      form. \n\nThe fruit\u2019s outer skin is carefully removed, dried, and then
+      boiled in water. The resulting extract is consumed as a herbal drink."
     m_Metadata:
       m_Items: []
   - m_Id: 3320752126226432
-    m_Localized: Betel leaf
+    m_Localized: Betel
     m_Metadata:
       m_Items: []
   - m_Id: 3320752877006848
-    m_Localized: 'A climbing vine with <b>smooth, glossy, heart-shaped green leaves</b>
-      that have a strong, spicy aroma. The leaves are widely used in traditional
-      medicine for their <b>antiseptic, anti-inflammatory, and stimulant</b> properties.
-      They are commonly chewed with betel nut to aid <b>digestion, freshen breath,
-      and boost energy</b>, while also being used in remedies for <b>coughs, wounds,
-      and infections</b> due to their antibacterial effects.
-
-
-
-
-
-
-'
+    m_Localized: "This evergreen climbing vine is part of the pepper family and is
+      recognized by its smooth, glossy, heart-shaped leaves that emit a spicy, aromatic
+      scent when crushed. \n\nThe leaves are often boiled, and the infused water
+      is either consumed as a drink or used for bathing\u2014especially in postpartum
+      care. The fresh leaves are also chewed, either alone or with other ingredients
+      like areca nut."
     m_Metadata:
       m_Items: []
   - m_Id: 3320753522929664
@@ -132,13 +137,190 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3320754101743616
-    m_Localized: A herb with broad, lance-shaped green leaves and an underground
-      rhizome that is <b>knobby, cylindrical, and bright orange-yellow</b> inside.
-      Known for its <b>anti-inflammatory, antioxidant, and antimicrobial</b> properties,
-      turmeric is widely used in traditional medicine to support <b>digestion, boost
-      immunity, reduce joint pain, and promote wound healing</b>. Its active compound,
-      curcumin, has potential in managing <b>arthritis, skin conditions, and metabolic
-      disorders</b>.
+    m_Localized: "The most identifiable part of turmeric plant lies underground\u2014its
+      deep orange-yellow rhizome. When sliced, the root releases a strong yellow
+      pigment that easily stains. \n\nTurmeric can be powdered or pounded fresh,
+      then boiled with tea or water and consumed\u2014commonly given to women after
+      childbirth for recovery. It is also a popular ingredient in everyday cooking,
+      adding color and flavor to curries and soups."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29986688417722368
+    m_Localized: Dayak onion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29986704024727552
+    m_Localized: "This plant is easily recognized by its bulbous root, which is small,
+      reddish-purple, and similar in appearance to a shallot or small red onion.
+      It produces long, slender green leaves and a delicate white or pale pink flower.
+      The bulb can be sliced and added to dishes as a flavorful ingredient, offering
+      a mild onion-like taste. \n\nMedicinally, a local method shared involves cutting
+      the bulb, boiling it, and drinking the resulting water to help reduce fever."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29991807704166400
+    m_Localized: "This hardy shrub is easily identifiable by its clusters of small
+      green pea-sized fruits, which grow on thorny stems. The leaves are broad, somewhat
+      lobed, and slightly hairy, while the plant also produces small, star-shaped
+      white flowers. \n\nAccording to various studies, Turkey berry possesses notable
+      medicinal benefits. Its fruits, seeds, and leaves have been traditionally used
+      to treat a wide range of ailments such as fever, cough, pain, wounds, liver
+      disorders, and tooth decay."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29991807095992320
+    m_Localized: Turkey berry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992081906790400
+    m_Localized: Soursop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992082510770176
+    m_Localized: "This plant is easy to identify by its large, dark green leaves
+      and its distinctive, heart-shaped fruit. The fruit has a spiky green skin and
+      soft, white, fibrous flesh inside that\u2019s often used in juices, desserts,
+      and smoothies."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992274647642112
+    m_Localized: Ngai camphor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992275314536448
+    m_Localized: "This plant is a soft, woody shrub with strongly aromatic leaves
+      that give off a distinct camphor-like scent when crushed. \n\nNgai camphor
+      is prepared in a variety of ways depending on the intended use. The leaves
+      can be boiled and the water consumed as a herbal tea to promote general wellness.
+      Alternatively, the leaves are sometimes crushed and mixed with water, then
+      drunk to treat conditions like fever or body aches."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992449965355008
+    m_Localized: "One of its notable traits is its uniquely shaped flowers, which
+      often appear tubular or pipe-like \u2014 a characteristic feature of the Aristolochia
+      genus. \n\nThe root of Aristolochia foveolata is believed to have a wide range
+      of medicinal benefits. It is traditionally used to alleviate abdominal pain,
+      relieve constipation, and reduce gallbladder irritation. Furthermore, it is
+      thought to boost the immune system, reduce uric acid levels (helpful for gout),
+      and even neutralize toxins from poisons or alcohol consumption."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992449524953088
+    m_Localized: Aristolochia foveolata
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992745647009792
+    m_Localized: "The plant produces round or oval fruits, which vary in color from
+      pale green to yellow when ripe and can have white, pink, or red pulp depending
+      on the variety. \n\nGuava leaves are boiled and the water is consumed as a
+      herbal remedy. This decoction is widely used to treat various internal ailments.
+      The ripe fruits are eaten fresh, juiced, or made into desserts."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992745038835712
+    m_Localized: Guava
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992916103524352
+    m_Localized: "This plant is a type of woody climber (liana), typically found
+      growing in lowland rainforests and secondary forest areas. It is identifiable
+      by its thick, leathery leaves and woody stem that twines around nearby vegetation
+      for support. \n\nIn terms of preparation, Pycnarrhena cauliflora is used primarily
+      as a flavor enhancer in cooking. The dried, pounded leaves are added to dishes
+      much like monosodium glutamate (MSG) to boost savory taste, especially in soups
+      or stews."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29992915495350272
+    m_Localized: Pycnarrhena cauliflora
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996014171648000
+    m_Localized: Papaya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996014750461952
+    m_Localized: "The papaya plant is easy to recognize. It typically grows as a
+      single-stemmed, unbranched tree reaching up to 10 meters tall. The fruits are
+      large, oval to pear-shaped, and vary in color from green to yellow-orange when
+      ripe. \n\nTraditionally, both the young and mature leaves are boiled and the
+      water is consumed to treat ailments such as malaria and dengue fever."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996192291155968
+    m_Localized: Red ginger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996192857387008
+    m_Localized: "This plant is easily recognizable by its vivid reddish-pink stems
+      and rhizomes, which set it apart from the more commonly known yellow ginger.
+      The leaves are long, narrow, and glossy green, often growing in alternating
+      patterns along the tall, reed-like stalks. \n\nRed ginger has versatile uses
+      in both culinary and medicinal practices. It can be sliced or grated and used
+      as a spice in dishes, imparting a warm, peppery flavor that enhances the aroma
+      and taste of various cuisines. Among traditional communities, especially in
+      parts of Borneo, the rhizome is often pounded and applied directly to the skin
+      to produce heat\u2014an effective remedy to combat chills during a fever. Additionally,
+      it can be steeped in hot water to make a tea that is consumed to relieve body
+      aches and fatigue."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996388840435712
+    m_Localized: Aromatic ginger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996389410861056
+    m_Localized: "It is easily identifiable by its broad, rounded, and smooth green
+      leaves that lie flat against the ground. The leaves often grow in pairs or
+      clusters from a rhizome. \n\nThe rhizome is pounded, boiled, and the water
+      is consumed. This decoction is often taken as part of a postpartum care regimen
+      or as a health tonic by women for various reproductive health benefits."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996617916542976
+    m_Localized: False calumba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996619057393664
+    m_Localized: "This plant is a woody climber that can often be seen twining around
+      trees in tropical forests. It is identifiable by its bright yellow inner bark,
+      which becomes visible when the stem is cut or broken\u2014this vibrant yellow
+      hue is one of its most distinctive traits. \n\nMedicinally, false calumba is
+      primarily known for its use in treating poisoning. The plant is believed to
+      help neutralize toxins in the body, making it a crucial remedy in communities
+      where access to modern medicine may be limited."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996857893646336
+    m_Localized: Lemongrass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29996858464071680
+    m_Localized: "Lemongrass is a tall, aromatic grass that can grow up to one meter
+      in height. It has long, slender, and blade-like green leaves with sharp edges
+      and a distinct lemony scent when crushed. The base of the stem is bulbous and
+      pale, which is the part most commonly used in cooking and medicinal preparations.
+      \n\nThe stem is pounded and then boiled, with the water consumed as a herbal
+      drink to promote wellness. It is also a staple ingredient in cooking, especially
+      in Southeast Asian cuisine, where it adds a fragrant, citrusy note to soups,
+      curries, and stews."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29997048512180224
+    m_Localized: "This fern is easy to recognize by its long, arching fronds, which
+      resemble the shape of a fishbone. \n\nFor consumption, the young shoots of
+      the fishbone fern are boiled and eaten, or alternatively, they may be enjoyed
+      fresh as a salad, especially in rural communities where wild greens are part
+      of the traditional diet. Medicinally, one of the uses shared within local knowledge
+      is its role in promoting lactation, as it is believed to help increase breast
+      milk production in nursing mothers. While more scientific studies could further
+      validate this use, the plant continues to hold value in traditional practices
+      passed down through generations."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29997048013058048
+    m_Localized: Fishbone fern
     m_Metadata:
       m_Items: []
   references:
