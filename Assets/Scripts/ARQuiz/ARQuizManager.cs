@@ -29,6 +29,7 @@ public class ARQuizManager : MonoBehaviour
             return;
         }
 
+        ShuffleQuestions(); // Shuffle the question list
         UpdateQuestion();
         UpdateProgress();
     }
@@ -40,7 +41,7 @@ public class ARQuizManager : MonoBehaviour
             ARQuizQuestionSO currentQuestion = questions[currentQuestionIndex];
             questionText.color = Color.yellow;
             //questionText.text = currentQuestion.questionText;
-             questionText.text = currentQuestion.localizedQuestionText.GetLocalizedString(); // Use localized text
+            questionText.text = currentQuestion.localizedQuestionText.GetLocalizedString(); // Use localized text
         }
         else
         {
@@ -100,5 +101,16 @@ public class ARQuizManager : MonoBehaviour
     private void UpdateProgress()
     {
         progressText.text = $"{progress}/{questions.Count}";
+    }
+
+    private void ShuffleQuestions()
+    {
+        for (int i = 0; i < questions.Count; i++)
+        {
+            ARQuizQuestionSO temp = questions[i];
+            int randomIndex = Random.Range(i, questions.Count);
+            questions[i] = questions[randomIndex];
+            questions[randomIndex] = temp;
+        }
     }
 }

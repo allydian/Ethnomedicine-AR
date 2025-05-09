@@ -32,36 +32,76 @@ MonoBehaviour:
       Awasi orang lain apabila menggunakan <i>Herbal Heritage</i> dan berhati-hati
       dengan persekitaran anda.
 
-      
 
-      Ibu bapa dan penjaga sila ambil
-      perhatian: semasa menggunakan Augmented Reality (AR), pengguna mempunyai kecenderungan
+
+      Ibu bapa dan penjaga sila ambil perhatian:
+      semasa menggunakan Augmented Reality (AR), pengguna mempunyai kecenderungan
       untuk bergerak bagi melihat model dari sudut yang berbeza.
 
-      
+
 
       <b><u>Arahan</u></b>
 
-      
+
 
       1.
       Pastikan anda berada di dalam bilik yang terang bagi mengelakkan masalah dengan
       pengimbasan AR.
 
-      2. Dalam buku <i>Herbal Heritage</i>, cari halaman
-      yang mempunyai simbol AR.
+      2. Dalam buku <i>Herbal Heritage</i>, cari halaman yang
+      mempunyai simbol AR.
 
-      3. Menggunakan kamera AR, halakan ke arah
-      muka surat tersebut.
+      3. Menggunakan kamera AR, halakan ke arah muka
+      surat tersebut.
 
-      4. Anda boleh berinteraksi dengan model 3D dengan
-      memutar (menggunakan dua jari) atau menskalakannya.
+      4. Anda boleh berinteraksi dengan model 3D dengan memutar
+      (menggunakan dua jari) atau menskalakannya.
 
-      5. Ketik butang
-      main di bawah video untuk menontonnya.
+      5. Ketik butang main di
+      bawah video untuk menontonnya.
 
-      6. Klik pada ikon (?) untuk
-      <i>Bantuan</i>.'
+      6. Klik pada ikon (?) untuk <i>Bantuan</i>.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34132847000350720
+    m_Localized: 'Kanak-kanak di bawah umur 13 tahun dinasihatkan supaya berada di
+      bawah pengawasan orang dewasa sebelum menggunakan aplikasi <i>Herbal Heritage</i>.
+      Awasi orang lain apabila menggunakan <i>Herbal Heritage</i> dan berhati-hati
+      dengan persekitaran anda.
+
+
+
+      Ibu bapa dan penjaga sila ambil perhatian:
+      semasa menggunakan Augmented Reality (AR), pengguna mempunyai kecenderungan
+      untuk bergerak bagi mengimbas imej sasaran dari sudut yang berbeza.
+
+
+
+      <b><u>Arahan</u></b>
+
+
+
+      1.
+      Pastikan anda berada di dalam bilik yang terang bagi mengelakkan masalah dengan
+      pengimbasan AR.
+
+      2. Baca soalan dengan teliti dan cari jawapan di antara
+      set kad imbasan.
+
+      3. Menggunakan kamera AR, halakan ke arah kad imbas
+      (pastikan anda mengimbasnya satu persatu untuk mengelakkan mengimbas berbilang
+      kad imbas secara tidak sengaja).
+
+      4. Jika anda mengimbas jawapan yang
+      betul, teks hijau yang menyatakan bahawa jawapan itu betul akan dipaparkan
+      dan kemudian anda boleh menjawab soalan seterusnya.
+
+      5. Walaubagaimanapun,
+      jika anda mengimbas jawapan yang salah, teks merah yang menyatakan bahawa jawapan
+      itu salah akan muncul sebaliknya. Anda perlu terus mencari jawapan yang betul
+      untuk teruskan menjawab.
+
+      6. Klik pada ikon (?) untuk <i>Bantuan</i>.'
     m_Metadata:
       m_Items: []
   references:
