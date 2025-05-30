@@ -200,7 +200,8 @@ public class QuizManager : MonoBehaviour
     private async void GameEnd()
     {
         gameStatus = GameStatus.Next; // Set game state to Next
-        quizUI.GameOverPanel.SetActive(true); // Show the game over panel.
+        //quizUI.GameOverPanel.SetActive(true); // Show the game over panel.
+        LeanTween.moveY(quizUI.GameOverPanel, 1170f, 0.5f).setDelay(0.2f).setEase(LeanTweenType.easeOutExpo);
 
         finalScoreText.text = "Total score: " + scoreCount; // Display the total score in the final score text field.
 

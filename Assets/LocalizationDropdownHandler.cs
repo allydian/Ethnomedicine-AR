@@ -6,6 +6,7 @@ public class LocalizationDropdownHandler : MonoBehaviour
     [SerializeField] private AdvancedDropdown dropdown;
     [SerializeField] private LocaleSelector localeSelector;
     [SerializeField] private GameObject confirmLocaleChange;
+    UITweenManager UITweenManager;
 
     private int selectedLocaleID; //New
 

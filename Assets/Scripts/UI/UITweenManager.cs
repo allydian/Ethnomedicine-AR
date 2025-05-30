@@ -21,7 +21,7 @@ public class UITweenManager : MonoBehaviour
     //Slides settings panel to the right
     public void settingsPanelSlideOut(GameObject settingsPanel)
     {
-        LeanTween.moveX(settingsPanel, 540f, 0.2f).setDelay(.5f).setEase(LeanTweenType.easeInOutCirc);
+        LeanTween.moveX(settingsPanel, 540f, 0.2f).setDelay(.1f).setEase(LeanTweenType.easeInOutCirc);
         //mainCanvas.SetActive(false);
     }
 
@@ -29,7 +29,7 @@ public class UITweenManager : MonoBehaviour
     public void settingsPanelSlideBackIn(GameObject settingsPanel)
     {
         //mainCanvas.SetActive(true);
-        LeanTween.moveX(settingsPanel, -545f, 0.2f).setDelay(.5f).setEase(LeanTweenType.easeInOutCirc);
+        LeanTween.moveX(settingsPanel, -545f, 0.2f).setDelay(.1f).setEase(LeanTweenType.easeInOutCirc);
     }
 
     //Modal scales to 1f when activated
@@ -50,14 +50,17 @@ public class UITweenManager : MonoBehaviour
     }
 
     //Modal scales to 1f when activated
-    public void settingsmodalScaleUp(GameObject modalToPopUp)
+    public void settingsModalScaleUp(GameObject modalToPopUp)
     {
         modalToPopUp.SetActive(true);
-        LeanTween.scale(modalToPopUp, new Vector3(1f, 1f, 0f), .6f).setDelay(.3f).setEase(LeanTweenType.easeOutElastic);
+        //LeanTween.scale(modalToPopUp, new Vector3(1f, 1f, 0f), .6f).setDelay(.3f).setEase(LeanTweenType.easeOutElastic);
+        // Assuming the first child is the modal to animate
+        GameObject modal = modalToPopUp.transform.GetChild(0).gameObject;
+        LeanTween.scale(modal, new Vector3(1f, 1f, 0f), .6f).setDelay(.3f).setEase(LeanTweenType.easeOutElastic);
     }
 
     //Modal scales down to 0f when deactivated
-    public void settingsmodalScaleDown(GameObject modalWrapper)
+    public void settingsModalScaleDown(GameObject modalWrapper)
     {
         // Assuming the first child is the modal to animate
         GameObject modal = modalWrapper.transform.GetChild(0).gameObject;
