@@ -11,11 +11,14 @@ using System.Linq;
 using Unity.VisualScripting;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 
 public class CloudSaveManager : MonoBehaviour
 {
     public TMP_Text userNameText;  // Assign this in the Inspector
     public TMP_Text userIdText;    // Assign this in the Inspector
+    public LocalizedString nameNotFoundLocalized;
 
     private LeaderboardManager leaderboardManager;
 
@@ -65,7 +68,16 @@ public class CloudSaveManager : MonoBehaviour
         if (leaderboardManager != null)
         {
             string displayName = await leaderboardManager.GetDisplayName(userId);
-            userNameText.text = !string.IsNullOrEmpty(displayName) ? displayName : "Name not found";
+            if (!string.IsNullOrEmpty(displayName))
+        {
+            userNameText.text = displayName;
+        }
+        else
+        {
+            // Localize "Name not found"
+            nameNotFoundLocalized.StringChanged += value => userNameText.text = value;
+            nameNotFoundLocalized.RefreshString(); // triggers the event
+        }
         }
         else
         {

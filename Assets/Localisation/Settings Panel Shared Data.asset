@@ -16,7 +16,7 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: c5663796a93b20c4eb6d79f21f8b27c1
   m_Entries:
   - m_Id: 8776511488
-    m_Key: Username
+    m_Key: UrankedUserName
     m_Metadata:
       m_Items: []
   - m_Id: 13172142080

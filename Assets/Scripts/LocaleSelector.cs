@@ -65,11 +65,15 @@ public class LocaleSelector : MonoBehaviour
         }
 
         yield return null; // Wait one frame to apply localization
-        ForceUpdateUI(); // Refresh UI elements
+                           //ForceUpdateUI(); // Refresh UI elements
+        
+        Debug.Log("Locale changed. Quitting application to apply changes on next launch.");
+
+        Application.Quit();
         
         active = false;
     }
-
+/*
     private void ForceUpdateUI()
     {
         var localizedTextElements = FindObjectsOfType<UnityEngine.Localization.Components.LocalizeStringEvent>(true);
@@ -80,4 +84,5 @@ public class LocaleSelector : MonoBehaviour
             localizedStringEvent.RefreshString();
         }
     }
+    */
 }

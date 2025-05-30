@@ -21,9 +21,9 @@ public class LeaderboardManager : MonoBehaviour
     private string leaderboardID = "Medicinal-Plants-Leaderboard";  // Leaderboard ID from Unity Dashboard
     
     private CloudSaveManager cloudSaveManager;  // Reference to CloudSaveManager
-    
 
-    private async void Start()
+
+    private void Start()
     {
         cloudSaveManager = FindObjectOfType<CloudSaveManager>();
 
