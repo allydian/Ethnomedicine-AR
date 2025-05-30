@@ -6,7 +6,8 @@ public class LocalizationDropdownHandler : MonoBehaviour
     [SerializeField] private AdvancedDropdown dropdown;
     [SerializeField] private LocaleSelector localeSelector;
     [SerializeField] private GameObject confirmLocaleChange;
-    UITweenManager UITweenManager;
+
+    public UITweenManager UITweenManager;
 
     private int selectedLocaleID; //New
 
@@ -43,6 +44,7 @@ public class LocalizationDropdownHandler : MonoBehaviour
         if (selectedLocaleID == localeID) return;
         selectedLocaleID = localeID;
         confirmLocaleChange.SetActive(true); // Show confirmation popup
+        UITweenManager.settingsModalScaleUp(confirmLocaleChange);
     }
 
     public void ConfirmLocaleChange()
@@ -50,6 +52,7 @@ public class LocalizationDropdownHandler : MonoBehaviour
         if (localeSelector != null)
         {
             localeSelector.ChangeLocale(selectedLocaleID);
+            Debug.Log("Locale changed.");
         }
         confirmLocaleChange.SetActive(false); // Hide confirmation popup after confirming
     }
