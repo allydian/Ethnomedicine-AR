@@ -1,35 +1,56 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class UITweenManager : MonoBehaviour
 {
-    [SerializeField] GameObject settingsPanel, gameOverPanel, gameOverPanelContent, mainCanvas;
-    private GameObject pressedBtn;
-    //public GameObject modalToPopUp;
+    [Header("UI References")]
+    [SerializeField] GameObject settingsPanel;
+    [SerializeField] GameObject gameOverPanelContent;
+    [SerializeField] GameObject mainCanvas;
+    [SerializeField] GameObject gameOverPanel;
     private RectTransform rectTransSettingsPanel;
-    private Vector2 originalAnchoredPosSettingsPanel;
+    private Vector2 openPosition;
+    private Vector2 closedPosition;
+
+    void Start()
+    {
+        if (settingsPanel != null)
+        {
+            rectTransSettingsPanel = settingsPanel.GetComponent<RectTransform>();
+
+            // Save the current anchored position as the open (visible) position
+            openPosition = rectTransSettingsPanel.anchoredPosition;
+
+            // Compute closed position (e.g. off-screen to the left)
+            closedPosition = new Vector2(-rectTransSettingsPanel.rect.width, openPosition.y);
+
+            // Start hidden
+            rectTransSettingsPanel.anchoredPosition = closedPosition;
+        }
+    }
 
     //Scales button down when pressed, and scales button up when released
     public void buttonPressed(GameObject pressedBtn)
     {
-        LeanTween.scale(pressedBtn.gameObject, Vector3.one * 0.9f, 0.1f).setEase(LeanTweenType.easeOutQuad).setOnComplete(() => {
+        LeanTween.scale(pressedBtn.gameObject, Vector3.one * 0.9f, 0.1f).setEase(LeanTweenType.easeOutQuad).setOnComplete(() =>
+        {
             LeanTween.scale(pressedBtn.gameObject, Vector3.one, 0.1f).setEase(LeanTweenType.easeOutBounce);
         });
     }
 
     //Slides settings panel to the right
-    public void settingsPanelSlideOut(GameObject settingsPanel)
+    public void OpenSettings(GameObject settingsPanel)
     {
-        LeanTween.moveX(settingsPanel, 540f, 0.2f).setDelay(.1f).setEase(LeanTweenType.easeInOutCirc);
-        //mainCanvas.SetActive(false);
+          LeanTween.move(rectTransSettingsPanel, openPosition, 0.2f)
+            .setDelay(0.1f)
+            .setEase(LeanTweenType.easeInOutCirc);
     }
 
     //Slides settings panel to the left/Return to irignal position
-    public void settingsPanelSlideBackIn(GameObject settingsPanel)
+    public void HideSettings(GameObject settingsPanel)
     {
-        //mainCanvas.SetActive(true);
-        LeanTween.moveX(settingsPanel, -545f, 0.2f).setDelay(.1f).setEase(LeanTweenType.easeInOutCirc);
+        LeanTween.move(rectTransSettingsPanel, closedPosition, 0.2f)
+            .setDelay(0.1f)
+            .setEase(LeanTweenType.easeInOutCirc);
     }
 
     //Modal scales to 1f when activated
@@ -66,11 +87,5 @@ public class UITweenManager : MonoBehaviour
         GameObject modal = modalWrapper.transform.GetChild(0).gameObject;
 
         LeanTween.scale(modal, Vector3.zero, 0.3f).setEase(LeanTweenType.easeInBack).setOnComplete(() => { modalWrapper.SetActive(false); });
-    }
-
-    //Panel moves up
-    public void quizDone(GameObject gameOverPanelContent, GameObject gameOverPanel)
-    {
-        LeanTween.moveY(gameOverPanel, 448.5f, 0.6f).setEase(LeanTweenType.easeOutExpo);
     }
 }

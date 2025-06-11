@@ -71,6 +71,10 @@ MonoBehaviour:
     m_Key: SwitchLanguageWarning
     m_Metadata:
       m_Items: []
+  - m_Id: 54611719307063296
+    m_Key: LocalePleaseWaitLoad
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

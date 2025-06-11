@@ -1,4 +1,3 @@
-//Optimise further by centralising all user authentication-dependent items on a separate script (UserAuthManager.cs)
 using Unity.Services.Authentication;
 using Unity.Services.CloudSave;
 using Unity.Services.Core;

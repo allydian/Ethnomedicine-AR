@@ -27,6 +27,8 @@ public class QuizManager : MonoBehaviour
     private int livesRemaining = 3;  // Tracks remaining lives for the player.
     private int correctAnswerCount = 0;  // Tracks number of correct answers.
     private float currentTime;  // The current time left for the quiz round.
+    private RectTransform gameOverPanelRT;
+    private float hiddenYPos; // Stores off-screen Y position
 
     public TMP_Text finalScoreText;  // Reference to the final score text in the game over panel.
     public TMP_Text correctAnswersText;  // Reference to the correct answers text in the game over panel.
@@ -81,6 +83,14 @@ public class QuizManager : MonoBehaviour
         {
             Debug.LogError("CheckAchievements script not found!");
         }
+
+            gameOverPanelRT = quizUI.GameOverPanel.GetComponent<RectTransform>();
+    
+            // Calculate off-screen position (below the screen)
+            hiddenYPos = -Screen.height;
+
+        // Initialize panel position (hidden)
+        gameOverPanelRT.anchoredPosition = new Vector2(0, hiddenYPos);
 
         SelectQuestion();
         gameStatus = GameStatus.Playing;
@@ -200,8 +210,8 @@ public class QuizManager : MonoBehaviour
     private async void GameEnd()
     {
         gameStatus = GameStatus.Next; // Set game state to Next
-        //quizUI.GameOverPanel.SetActive(true); // Show the game over panel.
-        LeanTween.moveY(quizUI.GameOverPanel, 1170f, 0.5f).setDelay(0.2f).setEase(LeanTweenType.easeOutExpo);
+                                      //quizUI.GameOverPanel.SetActive(true); // Show the game over panel.
+        LeanTween.moveY(gameOverPanelRT, 0f, 0.5f).setDelay(0.2f).setEase(LeanTweenType.easeOutExpo);
 
         finalScoreText.text = "Total score: " + scoreCount; // Display the total score in the final score text field.
 

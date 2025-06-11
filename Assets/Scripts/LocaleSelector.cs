@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
+using UnityEngine.SceneManagement;
 
 public class LocaleSelector : MonoBehaviour
 {
     private static LocaleSelector instance;
     private bool active = false;
+    private string loadingSceneName = "LocalisationLoad";
 
     private void Awake()
     {
@@ -23,25 +25,51 @@ public class LocaleSelector : MonoBehaviour
         }
     }
 
+/*
     private void Start()
     {
         int ID = PlayerPrefs.GetInt("LocaleKey", 0);
         ChangeLocale(ID);
     }
+    */
 
     //private bool active = false;
 
     public void ChangeLocale(int localeID)
     {
         //if (active == true)
-        if (active)
-            return;
-        StartCoroutine(SetLocale(localeID));
+        //if (active)
+        //    return;
+        //StartCoroutine(SetLocale(localeID));
+        if (active) return;
+        StartCoroutine(ChangeLocaleWithLoadingScreen(localeID));
+    }
+    
+    private IEnumerator ChangeLocaleWithLoadingScreen(int localeID)
+    {
+        active = true;
+        
+        // Load the loading scene additively
+        yield return SceneManager.LoadSceneAsync(loadingSceneName, LoadSceneMode.Additive);
+        
+        // Get reference to the loading scene's root objects if needed
+        Scene loadingScene = SceneManager.GetSceneByName(loadingSceneName);
+        
+        // Perform the locale change
+        yield return StartCoroutine(SetLocale(localeID));
+        
+        // Wait a minimum time to ensure loading animation is visible (optional)
+        yield return new WaitForSeconds(1f);
+        
+        // Unload the loading scene
+        yield return SceneManager.UnloadSceneAsync(loadingSceneName);
+        
+        active = false;
     }
 
     private IEnumerator SetLocale(int localeID)
     {
-        active = true;
+        //active = true;
         yield return LocalizationSettings.InitializationOperation;
 
         // Find only TextMeshPro elements with a LocalizeStringEvent
@@ -64,13 +92,12 @@ public class LocaleSelector : MonoBehaviour
             PlayerPrefs.Save(); // Ensures the data is saved immediately
         }
 
-        yield return null; // Wait one frame to apply localization
+
         ForceUpdateUI(); // Refresh UI elements
-        
+
         //Debug.Log("Locale changed. Quitting application to apply changes on next launch.");
 
-        //Application.Quit();
-        
+
         active = false;
     }
 

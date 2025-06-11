@@ -71,7 +71,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 20224788624502784
-    m_Localized: The application will restart to apply changes.
+    m_Localized: Language can be changed later.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54611719307063296
+    m_Localized: Please wait...
     m_Metadata:
       m_Items: []
   references:
