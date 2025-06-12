@@ -1,4 +1,5 @@
 using UnityEngine;
+using EasyTransition;
 
 public class SceneController : MonoBehaviour
 {
