@@ -139,7 +139,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 0.0.4
+  bundleVersion: 1
   preloadedAssets:
   - {fileID: 11400000, guid: 831cb09ec8eec1e4886ef5b17512238b, type: 2}
   metroInputSource: 0
@@ -169,9 +169,9 @@ PlayerSettings:
     iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 2
   AndroidMinSdkVersion: 26
-  AndroidTargetSdkVersion: 33
+  AndroidTargetSdkVersion: 34
   AndroidPreferredInstallLocation: 0
   aotOptions: 
   stripEngineCode: 1
@@ -263,8 +263,8 @@ PlayerSettings:
   AndroidTargetDevices: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: '{inproject}: user.keystore'
+  AndroidKeyaliasName: herbalheritage
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
@@ -272,7 +272,7 @@ PlayerSettings:
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
-  androidUseCustomKeystore: 0
+  androidUseCustomKeystore: 1
   m_AndroidBanners:
   - width: 320
     height: 180
