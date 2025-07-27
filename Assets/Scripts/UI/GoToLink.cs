@@ -6,7 +6,7 @@ public class Link : MonoBehaviour
 {
     public void GotoLinkEBook()
     {
-        Application.OpenURL("https://heyzine.com/flip-book/b32c7e703b.html");
+        Application.OpenURL("https://heyzine.com/flip-book/9c24d13eea.html");
     }
     public void GotoLinkHalia()
     {
